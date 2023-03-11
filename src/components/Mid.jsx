@@ -52,19 +52,21 @@ export default function Mid() {
         </div>
         <div className="h-full w-1/2  flex flex-col sm:w-full">
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl sm:text-2xl">
+            <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
               🢀 Autoshow
             </h1>
             {/* <img src={img2} className="h-44 w-44" /> */}
           </div>
           <div className="h-1/3 flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl sm:text-2xl">
+            <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
               🢀 Arcade
             </h1>
             {/* <img src={img3} className="h-44 w-44" /> */}
           </div>
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl sm:text-2xl">🢀 Expo</h1>
+            <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
+              🢀 Expo
+            </h1>
             {/* <img src={img1} className="h-44 w-44" /> */}
           </div>
         </div>

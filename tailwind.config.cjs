@@ -9,6 +9,9 @@ module.exports = {
         sphere: "#0BDBFE",
       },
       screens: { sm: { max: "576px" } },
+      inset: {
+        circlebottom: "-24rem",
+      },
     },
   },
   plugins: [],

@@ -13,18 +13,18 @@ export default function Footer() {
       <div className="h-screen flex flex-col items-center gap-36 sm:gap-10">
         <div className="w-full">
           <div className="  flex justify-evenly ">
-            <div className="w-1/2  flex justify-evenly pt-16 sm:w-full sm:flex-col sm:items-center">
-              <div className="flex flex-col gap-2 w-56 sm:pb-10">
+            <div className="w-1/2  flex justify-evenly pt-16 sm:w-full sm:flex-col sm:items-center items-start">
+              <div className="flex flex-col gap-2 w-56 sm:pb-10 ">
                 <h1 className="drummer text-3xl text-white">SPONSORS</h1>
-                <h1 className="quicksand font-semibold text-xl text-blue">
+                <h1 className="quicksand font-semibold text-xl text-blue h-[168px]">
                   They made this possible. View the kind-hearted mega minds that
                   contributed to this event.
                 </h1>
                 <img className="" src={view1} />
               </div>
-              <div className="flex flex-col gap-2 w-56">
+              <div className="flex flex-col gap-2 w-56 ">
                 <h1 className="drummer text-3xl text-white">OUR TEAM</h1>
-                <h1 className="quicksand font-semibold text-xl text-blue">
+                <h1 className="quicksand font-semibold text-xl text-blue h-[168px]">
                   Meet the team who worked behind the platform and the success
                   of the events.
                 </h1>
@@ -40,7 +40,7 @@ export default function Footer() {
           <img src={logo} className="h-12 w-12" />
           <h1 className="drummer text-white text-lg sm:text-md">SRESHTHA</h1>
         </div>
-        <div className="w-1/2 flex flex-col gap-10 items-end">
+        <div className="w-1/2 flex flex-col gap-10 items-end mr-20">
           <div className="flex  gap-7 justify-center sm:hidden">
             <img src={spotify} alt={"Spotify"} className="w-10 h-10" />
             <img src={facebook} alt={"Facebook"} className="w-10 h-10" />

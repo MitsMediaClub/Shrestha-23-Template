@@ -5,10 +5,11 @@ import img2 from "../assets/Intro-img-2.svg";
 import img3 from "../assets/Intro-img-3.svg";
 import she_eve_arrow from "../assets/she-eve-arrow.svg";
 import { Link } from "react-router-dom";
+import circles from "../assets/Circles.svg";
 
 export default function Intro() {
   return (
-    <div className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96">
+    <div className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96 z-1">
       <div className="w-1/2 sm:w-full sm:h-80">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full">
           <div className="flex gap-5 justify-center items-center">
@@ -17,7 +18,7 @@ export default function Intro() {
             </h1>
             <h1 className="drummer text-white text-7xl sm:text-5xl">TECH</h1>
           </div>
-          <div className="flex gap-5 items-center ">
+          <div className="flex gap-5 items-center sm:gap-2">
             <h1 className="text-white text-7xl drummer sm:text-5xl">UP</h1>
             <img
               src={logo}
@@ -67,14 +68,19 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex items-center justify-end sm:hidden">
+      <div className="w-1/2 flex items-center justify-end sm:hidden relative ">
         <Link to="/about">
           <img
             src={she_eve_arrow}
             alt={"Link to Schedules and Events"}
-            className="w-56 h-56"
+            className="w-56 h-56 z-1 mr-20"
           />
         </Link>
+        <img
+          src={circles}
+          alt=""
+          className="absolute bottom-circlebottom right-0 z-0 w-[500px]"
+        />
       </div>
     </div>
   );

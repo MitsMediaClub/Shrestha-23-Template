@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg";
 
 export default function Navbar() {
   return (
-    <div className="h-20 flex gap-10 justify-between items-center border-b-2 px-10 sm:hidden ">
+    <div className="h-20 flex gap-10 justify-between items-center border-b-2 mr-20 sm:hidden ">
       <h1 className="text-white freedom text-2xl">Workshops</h1>
       <h1 className="text-white freedom text-2xl">Lectures</h1>
       <h1 className="text-white freedom text-2xl">Games</h1>
