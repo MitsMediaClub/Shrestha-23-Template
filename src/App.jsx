@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Footer from "./components/Footer";
 import Mid from "./components/Mid";
-import Schedule from "./components/Schedule";
+import About from "./components/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -21,11 +21,11 @@ function App() {
           }
         />
         <Route
-          path="/schedule"
+          path="/about"
           element={
             <div className="h-screen flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial">
               <Navbar />
-              <Schedule />
+              <About />
             </div>
           }
         />

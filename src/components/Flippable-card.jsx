@@ -6,7 +6,7 @@ import { useState } from "react";
 function FlippableCard() {
   const [showFront, setShowFront] = useState(true);
   return (
-    <div className="h-full w-[400px]">
+    <div className="h-full w-[300px]">
       <CSSTransition in={showFront} timeout={300} classNames="flip">
         <Card
           onClick={() => {

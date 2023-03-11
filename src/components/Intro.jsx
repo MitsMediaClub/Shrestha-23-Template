@@ -58,7 +58,7 @@ export default function Intro() {
         </div>
       </div>
       <div className="w-1/2 flex items-center justify-end">
-        <Link to="/schedule">
+        <Link to="/about">
           <img
             src={she_eve_arrow}
             alt={"Link to Schedules and Events"}

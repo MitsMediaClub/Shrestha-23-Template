@@ -45,7 +45,9 @@ body,
   background: radial-gradient(#1a5793, #062249);
 }
 
-/* Ball */
+/* Balls */
 .left {
   background-image: "url('./assets/Mid/left.svg')";
 }
+
+/* Events */
