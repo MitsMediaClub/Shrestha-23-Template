@@ -68,12 +68,12 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex items-center justify-end sm:hidden relative ">
+      <div className="w-1/2 flex items-center justify-start sm:hidden relative ">
         <Link to="/about">
           <img
             src={she_eve_arrow}
             alt={"Link to Schedules and Events"}
-            className="w-56 h-56 z-1 mr-20"
+            className="w-56 h-56 z-2 mr-20"
           />
         </Link>
         <img
