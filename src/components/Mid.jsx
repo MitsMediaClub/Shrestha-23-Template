@@ -7,16 +7,16 @@ import left from "../assets/Mid/left.svg";
 
 export default function Mid() {
   return (
-    <div className="h-screen  flex flex-col">
-      <div className="flex justify-center gap-2">
+    <div className="h-screen  flex flex-col scrollbar sm:h-96">
+      <div className="flex justify-center gap-2 sm:hidden">
         <div>
           <img src={arrowl} className="h-16 w-56" />
         </div>
         <div className="flex flex-col">
-          <h1 className="text-white text-6xl drummer">
+          <h1 className="text-white text-6xl drummer sm:text-2xl">
             SEE WHAT WE &nbsp; &nbsp; &nbsp;
           </h1>
-          <h1 className="text-white text-6xl drummer">
+          <h1 className="text-white text-6xl drummer sm:text-2xl">
             &nbsp; &nbsp; &nbsp; HAVE FOR YOU
           </h1>
         </div>
@@ -24,22 +24,48 @@ export default function Mid() {
           <img src={arrowr} className="h-48 w-56" />
         </div>
       </div>
+
+      {/* Mobile Version */}
+
+      <div className="flex justify-center gap-2 hidden sm:block">
+        <div>
+          <img src={arrowl} className="h-16 w-56" />
+        </div>
+        <div className="flex flex-col">
+          <h1 className="text-white text-6xl drummer sm:text-2xl">
+            SEE WHAT WE &nbsp; &nbsp; &nbsp;
+          </h1>
+          <h1 className="text-white text-6xl drummer sm:text-2xl">
+            &nbsp; &nbsp; &nbsp; HAVE FOR YOU
+          </h1>
+        </div>
+        <div className="flex justify-end">
+          <img src={arrowr} className="h-16 w-56" />
+        </div>
+      </div>
+
+      {/* Mobile Version End*/}
+
       <div className="flex h-full">
-        <div className="h-full w-1/2 bg-left">
+        <div className="h-full w-1/2  sm:hidden">
           <img src={left} className="h-[500px]" />
         </div>
-        <div className="h-full w-1/2  flex flex-col">
+        <div className="h-full w-1/2  flex flex-col sm:w-full">
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl">🢀 Autoshow</h1>
-            <img src={img2} className="h-44 w-44" />
+            <h1 className="text-white drummer text-5xl sm:text-2xl">
+              🢀 Autoshow
+            </h1>
+            {/* <img src={img2} className="h-44 w-44" /> */}
           </div>
           <div className="h-1/3 flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl">🢀 Arace</h1>
-            <img src={img3} className="h-44 w-44" />
+            <h1 className="text-white drummer text-5xl sm:text-2xl">
+              🢀 Arcade
+            </h1>
+            {/* <img src={img3} className="h-44 w-44" /> */}
           </div>
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
-            <h1 className="text-white drummer text-5xl">🢀 Expo</h1>
-            <img src={img1} className="h-44 w-44" />
+            <h1 className="text-white drummer text-5xl sm:text-2xl">🢀 Expo</h1>
+            {/* <img src={img1} className="h-44 w-44" /> */}
           </div>
         </div>
       </div>

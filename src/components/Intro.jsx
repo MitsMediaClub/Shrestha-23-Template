@@ -8,39 +8,49 @@ import { Link } from "react-router-dom";
 
 export default function Intro() {
   return (
-    <div className="flex pt-28 h-screen ">
-      <div className="w-1/2">
-        <div className="flex flex-col gap-2 justify-center w-max">
-          <div className="flex gap-5 items-center">
-            <h1 className="quicksand text-xl text-light-blue">
+    <div className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96">
+      <div className="w-1/2 sm:w-full sm:h-80">
+        <div className="flex flex-col gap-2 justify-center w-max sm:w-full">
+          <div className="flex gap-5 justify-center items-center">
+            <h1 className="quicksand text-xl text-light-blue sm:text-sm">
               31 March - 1'st April
             </h1>
-            <h1 className="drummer text-white text-7xl">TECH</h1>
+            <h1 className="drummer text-white text-7xl sm:text-5xl">TECH</h1>
           </div>
-          <div className="flex gap-5 items-center">
-            <h1 className="text-white text-7xl drummer">UP</h1>
-            <img src={logo} alt={"Nothing Important"} className="h-16 w-16" />
-            <h1 className="text-white text-7xl drummer">YOUR</h1>
+          <div className="flex gap-5 items-center ">
+            <h1 className="text-white text-7xl drummer sm:text-5xl">UP</h1>
+            <img
+              src={logo}
+              alt={"Nothing Important"}
+              className="h-16 w-16 sm:h-10 sm:w-10"
+            />
+            <h1 className="text-white text-7xl  drummer sm:text-5xl">YOUR</h1>
           </div>
-          <div className="flex gap-5 items-center border-b-2">
-            <h1 className="text-white text-7xl drummer">TALENTS</h1>
+          <div className="flex gap-5 items-center border-b-2 sm:pb-5">
+            <h1 className="text-white text-7xl drummer sm:text-5xl">TALENTS</h1>
           </div>
 
-          <div className="flex gap-2 justify-end items-center">
-            <div className="w-36">
-              <hr />
+          <div className="flex gap-2 justify-end items-center sm:justify-between">
+            <div className="w-36 sm:hidden">
+              <hr className="sm:hidden" />
             </div>
-            <img src={arrowm} className="h-12 w-12" />
+            <img src={arrowm} className="h-12 w-12 sm:hidden" />
             <div className="w-56">
-              <h1 className="text-md quicksand text-end text-blue">
-                We’re taking tech events to a{" "}
-                <span className="underline text-white">whole next level.</span>{" "}
+              <h1 className="text-md quicksand text-end text-blue sm:text-start">
+                We're taking tech events to a{" "}
+                <span className="underline text-white">whole new level.</span>{" "}
                 Participate and get rewards!
               </h1>
             </div>
+            <Link to="/about">
+              <img
+                src={she_eve_arrow}
+                className="sm:h-28 sm:w-28 hidden sm:block"
+              />
+            </Link>
           </div>
 
-          <div className="flex gap-2 justify-between items-center">
+          <div className="flex gap-2 justify-between items-center sm:hidden">
             <div className="flex flex-col items-center">
               <img src={img1} alt={"Workshops"} className=" w-32" />
               <h1 className="text-white text-lg freedom">Workshops </h1>
@@ -57,7 +67,7 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex items-center justify-end">
+      <div className="w-1/2 flex items-center justify-end sm:hidden">
         <Link to="/about">
           <img
             src={she_eve_arrow}
@@ -66,7 +76,6 @@ export default function Intro() {
           />
         </Link>
       </div>
-      <div></div>
     </div>
   );
 }

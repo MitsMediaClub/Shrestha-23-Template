@@ -12,7 +12,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial">
+            <div className="flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial sm:px-5 sm:w-full sm:overflow-x-hidden sm:scrollbar">
               <Navbar />
               <Intro />
               <Mid />

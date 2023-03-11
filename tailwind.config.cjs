@@ -8,6 +8,7 @@ module.exports = {
         blue: "#53BCDF",
         sphere: "#0BDBFE",
       },
+      screens: { sm: { max: "576px" } },
     },
   },
   plugins: [],
