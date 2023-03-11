@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Mid from "./components/Mid";
 import About from "./components/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="flex flex-col bg-blue-400  pl-20 overflow-y-auto pb-12 radial sm:px-5 sm:w-full sm:overflow-x-hidden sm:scrollbar">
+            <div className="flex flex-col bg-blue-400  pb-0 overflow-y-auto pb-0 radial sm:px-0 sm:w-full sm:overflow-x-hidden sm:scrollbar scrollbar overflow-x-hidden relative">
               <Navbar />
               <Intro />
               <Mid />
@@ -32,8 +33,9 @@ function App() {
         <Route
           path="/schedule"
           element={
-            <div className="flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial sm:px-5 sm:w-full sm:overflow-x-hidden sm:scrollbar">
+            <div className="flex flex-col bg-blue-400  overflow-y-auto pb-0 radial sm:px-5 sm:w-full sm:overflow-x-hidden sm:scrollbar">
               <Navbar />
+              <Events />
             </div>
           }
         />

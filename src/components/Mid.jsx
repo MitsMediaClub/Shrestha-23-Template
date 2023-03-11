@@ -27,7 +27,7 @@ export default function Mid() {
 
       {/* Mobile Version */}
 
-      <div className="flex justify-center gap-2 hidden sm:block">
+      <div className="flex justify-center gap-2 hidden sm:block ">
         <div>
           <img src={arrowl} className="h-16 w-56" />
         </div>
@@ -46,9 +46,9 @@ export default function Mid() {
 
       {/* Mobile Version End*/}
 
-      <div className="flex h-full">
-        <div className="h-full w-1/2  sm:hidden">
-          <img src={left} className="h-[500px]" />
+      <div className="flex h-full sm:relative">
+        <div className="h-full w-1/2  sm:w-full sm:absolute">
+          <img src={left} className="h-[500px] sm:h-full sm:w-1/2 " />
         </div>
         <div className="h-full w-1/2  flex flex-col sm:w-full">
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">

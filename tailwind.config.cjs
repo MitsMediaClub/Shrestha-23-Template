@@ -11,6 +11,7 @@ module.exports = {
       screens: { sm: { max: "576px" } },
       inset: {
         circlebottom: "-24rem",
+        circleright: "-4rem",
       },
     },
   },
