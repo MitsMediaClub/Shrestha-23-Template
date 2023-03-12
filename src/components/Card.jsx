@@ -23,16 +23,17 @@ class Card extends React.Component {
         flipDirection="horizontal"
       >
         <div
-          className="h-[400px] w-[300px] relative card1 mt-5"
+          className="h-[400px] w-[300px] relative card1 mt-5 flex items-center"
           onClick={this.handleClick}
         >
           <h1 className="no absolute left-4 top-2 drummer text-white font-bold">
             001
           </h1>
-          <h1 className="name absolute top-48 left-7 drummer text-white font-bold text-3xl">
-            EVOLVE
-          </h1>
-          <div className="absolute bottom-20 flex flex-col gap-1 left-14 items-center">
+          {/* absolute bottom-24 left-6 */}
+          <div className=" flex flex-col gap-1  items-start justify-center p-5">
+            <h1 className="name drummer text-white font-bold text-3xl">
+              {this.props.name || "Default"}
+            </h1>
             <h1 className="date drummer text-white  text-md">02/05/23</h1>
             <h1 className="time quicksand text-white  text-sm">11AM TO 12PM</h1>
             <h1 className="location quicksand text-white  text-sm">

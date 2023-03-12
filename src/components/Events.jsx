@@ -49,7 +49,7 @@ export default function Events() {
       </div>
       <div className="flex w-full pt-20 sm:hidden">
         <div className="ml-44 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto">
-          <Card />
+          <Card name={"EVOLVE"} />
           <Card />
           <Card />
           <Card />
