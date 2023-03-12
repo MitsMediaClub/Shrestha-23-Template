@@ -43,7 +43,7 @@ export default function Intro() {
                 Participate and get rewards!
               </h1>
             </div>
-            <Link to="/about">
+            <Link to="/schedule">
               <img
                 src={she_eve_arrow}
                 className="sm:h-28 sm:w-28 hidden sm:block"

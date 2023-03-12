@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactCardFlip from "react-card-flip";
+import flip from "../assets/Events/Flip.svg";
 
 class Card extends React.Component {
   constructor() {
@@ -40,13 +41,7 @@ class Card extends React.Component {
           </div>
         </div>
 
-        <div
-          className="h-[400px] w-[300px] relative card1back mt-5 "
-          onClick={this.handleClick}
-        >
-          <h1 className="no absolute right-20 top-2 drummer text-white font-bold ">
-            001
-          </h1>
+        <div className="h-[400px] w-[300px] relative card1back mt-5 ">
           <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand">
             Rev up your engines and join us for a thrilling car event featuring
             classic cars, exotic vehicles, and high-speed racing action.
@@ -57,6 +52,12 @@ class Card extends React.Component {
           >
             Register
           </button>
+          <img
+            src={flip}
+            alt="Use to flip"
+            className="w-6 h-6 absolute right-20 top-2"
+            onClick={this.handleClick}
+          />
         </div>
       </ReactCardFlip>
     );

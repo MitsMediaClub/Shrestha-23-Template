@@ -49,7 +49,7 @@ export default function Footer() {
             <img src={twitch} alt={"Twitch"} className="w-10 h-10" />
             <img src={dribble} alt={"Dribbble"} className="w-10 h-10" />
           </div>
-          <h1 className="quicksand text-white">
+          <h1 className="quicksand text-white sm:pl-3">
             2023 MITS. All rights reserved.
           </h1>
         </div>

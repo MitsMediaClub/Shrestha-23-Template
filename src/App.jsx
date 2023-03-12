@@ -24,16 +24,18 @@ function App() {
         <Route
           path="/about"
           element={
-            <div className="h-screen flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial">
+            <div className="h-screen flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial sm:px-0 sm:pb-5">
               <Navbar />
-              <About />
+              <div className="flex items-center">
+                <About />
+              </div>
             </div>
           }
         />
         <Route
           path="/schedule"
           element={
-            <div className="flex flex-col bg-blue-400  overflow-y-auto pb-0 radial sm:px-5 sm:w-full sm:overflow-x-hidden sm:scrollbar">
+            <div className="h-full flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar">
               <Navbar />
               <Events />
             </div>
