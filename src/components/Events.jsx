@@ -8,6 +8,7 @@ import facebook from "../assets/Footer/Facebook.svg";
 import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
+import flipb from "../assets/Events/FlipBlack.svg";
 
 export default function Events() {
   return (
@@ -49,7 +50,7 @@ export default function Events() {
       </div>
       <div className="flex w-full pt-20 sm:hidden">
         <div className="ml-44 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto">
-          <Card name={"EVOLVE"} />
+          <Card name={"EVOLVE"} flip={flipb} />
           <Card />
           <Card />
           <Card />

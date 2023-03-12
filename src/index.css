@@ -27,6 +27,11 @@ body,
   src: url(./assets/fonts/Drummer.ttf);
 }
 
+@font-face {
+  font-family: hiragana;
+  src: url(./assets/fonts/Hiragana.ttf);
+}
+
 .freedom {
   font-family: freedom;
 }
@@ -39,10 +44,14 @@ body,
   font-family: drummer;
 }
 
+.hiragana {
+  font-family: hiragana;
+}
+
 /* Gradient */
 
 .radial {
-  background: radial-gradient(#1a5793, #062249);
+  background: #00111c;
 }
 
 /* Balls */
@@ -86,3 +95,9 @@ body::-webkit-scrollbar {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.hide {
+  display: none;
+}
+
+/* Font Transition */

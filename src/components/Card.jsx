@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactCardFlip from "react-card-flip";
+import { Link } from "react-router-dom";
 import flip from "../assets/Events/Flip.svg";
 
 class Card extends React.Component {
@@ -32,7 +33,7 @@ class Card extends React.Component {
           {/* absolute bottom-24 left-6 */}
           <div className=" flex flex-col gap-1  items-start justify-center p-5">
             <h1 className="name drummer text-white font-bold text-3xl">
-              {this.props.name || "Default"}
+              {this.props.name || ""}
             </h1>
             <h1 className="date drummer text-white  text-md">02/05/23</h1>
             <h1 className="time quicksand text-white  text-sm">11AM TO 12PM</h1>
@@ -47,14 +48,13 @@ class Card extends React.Component {
             Rev up your engines and join us for a thrilling car event featuring
             classic cars, exotic vehicles, and high-speed racing action.
           </h1>
-          <button
-            onClick={() => console.log("Registered!")}
-            className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black"
-          >
-            Register
-          </button>
+          <Link to="https://www.yepdesk.com/embed/buy-tickets/6409eaef46e0fb0001528d14/private/fukr1g285i%22%3E">
+            <button className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black">
+              Register
+            </button>
+          </Link>
           <img
-            src={flip}
+            src={this.props.flip || flip}
             alt="Use to flip"
             className="w-6 h-6 absolute right-20 top-2"
             onClick={this.handleClick}

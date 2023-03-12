@@ -6,17 +6,32 @@ import img3 from "../assets/Intro-img-3.svg";
 import she_eve_arrow from "../assets/she-eve-arrow.svg";
 import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
+import GlitchedWriter from "glitched-writer";
+import { useEffect } from "react";
 
 export default function Intro() {
+  const writer = new GlitchedWriter(".transtext", "nier");
+
+  useEffect(() => {
+    writer.queueWrite(".phrases", 1200, 1000);
+  }, []);
   return (
     <div className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96 z-1 ">
+      <div className="phrases hidden">
+        <p>TECH</p>
+        <p>TECH</p>
+        <p>TECH</p>
+        <p>TECH</p>
+      </div>
       <div className="w-1/2 sm:w-full sm:h-80">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
           <div className="flex gap-5 justify-center items-center sm:px-5">
-            <h1 className="quicksand text-xl text-light-blue sm:text-sm">
-              31 March - 1'st April
+            <h1 className=" quicksand text-xl text-light-blue sm:text-sm">
+              31 March-1'st April
             </h1>
-            <h1 className="drummer text-white text-7xl sm:text-5xl">TECH</h1>
+            <h1 className="transtext drummer text-white text-7xl sm:text-5xl trans">
+              TECH
+            </h1>
           </div>
           <div className="flex gap-5 items-center sm:gap-2 sm:px-5">
             <h1 className="text-white text-7xl drummer sm:text-5xl">UP</h1>
