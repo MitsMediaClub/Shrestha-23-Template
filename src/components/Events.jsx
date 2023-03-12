@@ -6,10 +6,11 @@ import twitch from "../assets/Footer/Twitch.svg";
 import dribble from "../assets/Footer/Dribbble.svg";
 import facebook from "../assets/Footer/Facebook.svg";
 import circle from "../assets/Footer/Bcircle.svg";
+import Card from "./Card";
 
 export default function Events() {
   return (
-    <div className="pt-28 h-screen  flex flex-col gap-10">
+    <div className="pt-28 h-screen flex flex-col gap-10">
       <div className="flex w-full ">
         <div className="w-1/2 flex flex-col gap-10 ml-20">
           <h1 className="text-7xl text-white drummer">SHRESHTA</h1>
@@ -28,6 +29,18 @@ export default function Events() {
               introduce the future to you.
             </h1>
           </div>
+        </div>
+      </div>
+      <div className="flex w-full  ">
+        <div className="ml-44 flex flex-wrap">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
       {/* <div className=" h-max flex justify-between sm:flex-col sm:items-start sm:justify-center relative">

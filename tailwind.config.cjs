@@ -12,6 +12,7 @@ module.exports = {
       inset: {
         circlebottom: "-24rem",
         circleright: "-4rem",
+        locasep: "4.5rem",
       },
     },
   },
