@@ -7,55 +7,80 @@ import she_eve_arrow from "../assets/she-eve-arrow.svg";
 import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
 import GlitchedWriter from "glitched-writer";
-import { useEffect } from "react";
+import { wait } from "glitched-writer";
+import { useEffect, useState } from "react";
+import { write, queueWrite } from "glitched-writer";
 
 export default function Intro() {
-  const writer = new GlitchedWriter(".transtext", "nier");
+  // const writer = new GlitchedWriter(".transtext", "nier");
 
-  useEffect(() => {
-    writer.queueWrite(".phrases", 1200, 1000);
-  }, []);
+  // const trans = async () => {
+  //   const res = await writer.write("Welcome");
+
+  //   console.log(`Finished writing: ${res.string}`);
+  //   console.log("All the writer data:", res);
+
+  //   await wait(1200); // additional simple promise to wait some time
+
+  //   await writer.write("...to Glitch City!");
+  // };
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     trans();
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, []);
+
+  // const [transt,setTranst] = useState();
+
   return (
-    <div className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96 z-1 ">
-      <div className="phrases hidden">
-        <p>TECH</p>
-        <p>TECH</p>
-        <p>TECH</p>
-        <p>TECH</p>
-      </div>
+    <div
+      className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96 z-1 "
+      onLoad={async () => {
+        write("31 March-1'st April", ".transtext1", "nier");
+        write(
+          "We're taking tech events to a whole new level. Participate and get rewards!",
+          ".transtext2",
+          "nier"
+        );
+      }}
+    >
       <div className="w-1/2 sm:w-full sm:h-80">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
-          <div className="flex gap-5 justify-center items-center sm:px-5">
-            <h1 className=" quicksand text-xl text-light-blue sm:text-sm">
+          <div className="flex gap-5 justify-end items-center sm:px-5 w-full">
+            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-bold">
               31 March-1'st April
             </h1>
-            <h1 className="transtext drummer text-white text-7xl sm:text-5xl trans">
+            <h1 className="drummer text-white text-7xl sm:text-5xl trans">
               TECH
             </h1>
           </div>
           <div className="flex gap-5 items-center sm:gap-2 sm:px-5">
-            <h1 className="text-white text-7xl drummer sm:text-5xl">UP</h1>
+            <h1 className=" text-white text-7xl drummer sm:text-5xl">UP</h1>
             <img
               src={logo}
               alt={"Nothing Important"}
               className="h-16 w-16 sm:h-10 sm:w-10"
             />
-            <h1 className="text-white text-7xl  drummer sm:text-5xl">YOUR</h1>
+            <h1 className=" text-white text-7xl  drummer sm:text-5xl">YOUR</h1>
           </div>
           <div className="flex gap-5 items-center border-b-2 sm:pb-5 sm:mx-5 ">
-            <h1 className="text-white text-7xl drummer sm:text-5xl">TALENTS</h1>
+            <h1 className=" text-white text-7xl drummer sm:text-5xl">
+              TALENTS
+            </h1>
           </div>
 
-          <div className="flex gap-2 justify-end items-center sm:justify-between sm:px-5">
+          <div className="flex gap-2 justify-end items-center sm:justify-between sm:px-5 w-full h-[100px]">
             <div className="w-36 sm:hidden">
               <hr className="sm:hidden" />
             </div>
             <img src={arrowm} className="h-12 w-12 sm:hidden" />
-            <div className="w-56">
-              <h1 className="text-md quicksand text-end text-blue sm:text-start">
+            <div className="w-56 ">
+              <h1 className="transtext2 text-md quicksand text-end text-blue sm:text-start font-bold">
                 We're taking tech events to a{" "}
-                <span className="underline text-white">whole new level.</span>{" "}
-                Participate and get rewards!
+                <span className="">whole new level.</span> Participate and get
+                rewards!
               </h1>
             </div>
             <Link to="/schedule">
