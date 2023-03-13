@@ -19,7 +19,9 @@ export default function Navbar() {
         <h1 className="text-white freedom text-2xl">Lectures</h1>
         <h1 className="text-white freedom text-2xl">Games</h1>
         <img src={logo} alt="Tech Logo" className="h-44 w-44" />
-        <h1 className="text-white freedom text-2xl">Support</h1>
+        <Link to="mailto:support@shreshta.tech">
+          <h1 className="text-white freedom text-2xl">Support</h1>
+        </Link>
         <Link to="/about">
           <h1 className="text-white freedom text-2xl">About Us</h1>
         </Link>
@@ -47,7 +49,9 @@ export default function Navbar() {
         <h1 className="text-white freedom text-2xl">Lectures</h1>
         <h1 className="text-white freedom text-2xl">Games</h1>
         <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
-        <h1 className="text-white freedom text-2xl">Support</h1>
+        <Link to="mailto:support@shreshta.tech">
+          <h1 className="text-white freedom text-2xl">Support</h1>
+        </Link>
         <Link to="/about">
           <h1 className="text-white freedom text-2xl">About Us</h1>
         </Link>
