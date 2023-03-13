@@ -15,9 +15,6 @@ import { motion } from "framer-motion";
 export default function Events() {
   return (
     <motion.div
-      initial={{ x: "100vw" }}
-      animate={{ x: 0 }}
-      transition={{ type: "spring", stiffness: 220 }}
       className="pt-28 h-screen sm:pt-10"
       onLoad={() => {
         write(
