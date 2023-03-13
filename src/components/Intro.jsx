@@ -10,6 +10,7 @@ import GlitchedWriter from "glitched-writer";
 import { wait } from "glitched-writer";
 import { useEffect, useState } from "react";
 import { write, queueWrite } from "glitched-writer";
+import { motion } from "framer-motion";
 
 export default function Intro() {
   // const writer = new GlitchedWriter(".transtext", "nier");
@@ -46,12 +47,15 @@ export default function Intro() {
         );
       }}
     >
-      <div className="w-1/2 sm:w-full sm:h-80">
+      <motion.div
+        initial={{ x: "-100vw" }}
+        animate={{ x: 0 }}
+        transition={{ type: "tween", duration: 1.5 }}
+        className="w-1/2 sm:w-full sm:h-80"
+      >
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
           <div className="flex gap-5 justify-end items-center sm:px-5 w-full">
-            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-bold">
-              31 March-1'st April
-            </h1>
+            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-bold"></h1>
             <h1 className="drummer text-white text-7xl sm:text-5xl trans">
               TECH
             </h1>
@@ -77,14 +81,13 @@ export default function Intro() {
             </div>
             <img src={arrowm} className="h-12 w-12 sm:hidden" />
             <div className="w-56 ">
-              <h1 className="transtext2 text-md quicksand text-end text-blue sm:text-start font-bold">
-                We're taking tech events to a{" "}
-                <span className="">whole new level.</span> Participate and get
-                rewards!
-              </h1>
+              <h1 className="transtext2 text-md quicksand text-end text-blue sm:text-start font-bold"></h1>
             </div>
             <Link to="/schedule">
-              <img
+              <motion.img
+                whileHover={{
+                  scale: 1.3,
+                }}
                 src={she_eve_arrow}
                 className="sm:h-28 sm:w-28 hidden sm:block"
               />
@@ -107,10 +110,13 @@ export default function Intro() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className="w-1/2 flex items-center justify-start sm:hidden relative ">
         <Link to="/schedule">
-          <img
+          <motion.img
+            whileHover={{
+              scale: 1.1,
+            }}
             src={she_eve_arrow}
             alt={"Link to Schedules and Events"}
             className="w-56 h-56 z-2 mr-20"

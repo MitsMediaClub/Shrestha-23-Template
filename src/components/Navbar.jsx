@@ -1,16 +1,13 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
+  const [show, setShow] = useState(false);
   const iconRef = useRef();
   const navRef = useRef();
-
-  const useNav = () => {
-    navRef.current.classList.toggle("hide");
-    console.log("Works?");
-  };
 
   return (
     <>
@@ -31,34 +28,79 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Version */}
-      <div className="hidden h-10 border-b-2 mt-5 sm:block">
+      <div className="hidden h-10 border-b-2 mt-5 pb-5 sm:block">
         <div
-          className=" flex justify-start items-center  hidden sm:block px-5 w-max "
+          className=" flex justify-start items-center  hidden sm:block px-5 w-max"
           ref={iconRef}
-          onClick={() => useNav()}
+          onClick={() => setShow(!show)}
         >
           <SortRoundedIcon className="text-white" />
         </div>
       </div>
 
-      <div
-        className="  trans h-80 w-screen flex flex-col items-center justify-center hide"
-        ref={navRef}
-      >
-        <h1 className="text-white freedom text-2xl">Workshops</h1>
-        <h1 className="text-white freedom text-2xl">Lectures</h1>
-        <h1 className="text-white freedom text-2xl">Games</h1>
-        <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
-        <Link to="mailto:support@shreshta.tech">
-          <h1 className="text-white freedom text-2xl">Support</h1>
-        </Link>
-        <Link to="/about">
-          <h1 className="text-white freedom text-2xl">About Us</h1>
-        </Link>
-        <Link to="/">
-          <h1 className="text-white freedom text-2xl">Home</h1>
-        </Link>
-      </div>
+      {show && (
+        <motion.div
+          className={` h-[700px] w-screen flex flex-col items-center pt-16 mt-10 gap-5`}
+          ref={navRef}
+        >
+          <motion.h1
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.5 }}
+            className="text-white freedom text-5xl uppercase"
+          >
+            Workshops
+          </motion.h1>
+          <motion.h1
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="text-white freedom text-5xl uppercase"
+          >
+            Lectures
+          </motion.h1>
+          <motion.h1
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="text-white freedom text-5xl uppercase"
+          >
+            Games
+          </motion.h1>
+          <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
+          <Link to="mailto:support@shreshta.tech">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="text-white freedom text-5xl uppercase"
+            >
+              Support
+            </motion.h1>
+          </Link>
+          <Link to="/about">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              className="text-white freedom text-5xl uppercase"
+            >
+              About Us
+            </motion.h1>
+          </Link>
+          <Link to="/">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              className="text-white freedom text-5xl uppercase"
+            >
+              Home
+            </motion.h1>
+          </Link>
+        </motion.div>
+      )}
+
       {/* Mobile Version End*/}
     </>
   );

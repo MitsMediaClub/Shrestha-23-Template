@@ -9,10 +9,24 @@ import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
 import flipb from "../assets/Events/FlipBlack.svg";
+import { write, queueWrite } from "glitched-writer";
+import { motion } from "framer-motion";
 
 export default function Events() {
   return (
-    <div className="pt-28 h-screen sm:pt-10">
+    <motion.div
+      initial={{ x: "100vw" }}
+      animate={{ x: 0 }}
+      transition={{ type: "spring", stiffness: 220 }}
+      className="pt-28 h-screen sm:pt-10"
+      onLoad={() => {
+        write(
+          "Shreshta is a cutlural techical event whose main purpose is to introduce the future to you.",
+          ".transtext1",
+          "neo"
+        );
+      }}
+    >
       <div className="h-auto flex w-full sm:flex-col">
         <div className="w-1/2 flex flex-col gap-10 ml-20 sm:gap-2 sm:ml-0 sm:w-full sm:px-5">
           <h1 className="text-7xl text-white drummer sm:text-3xl ">SHRESHTA</h1>
@@ -33,45 +47,170 @@ export default function Events() {
           </div>
         </div>
         {/* Mobile Version */}
-        <div className="hidden sm:block sm:flex sm:pt-10 sm:gap-5 sm:border-t-2 sm:pb-5 sm:mx-5">
+        <div className="h-44 hidden sm:block sm:flex sm:pt-10 sm:gap-5 sm:border-t-2 sm:pb-5 sm:mx-5">
           <img
             src={startcard}
             alt="a card with Shreshta's logo on it"
             className="w-28"
           />
           <div className="w-56">
-            <h1 className="text-lg text-blue quicksand font-bold">
-              Shreshta is a cutlural techical event whose main purpose is to
-              introduce the future to you.
-            </h1>
+            <h1 className="transtext1 text-lg text-blue quicksand font-bold"></h1>
           </div>
         </div>
         {/* Mobile Version End*/}
       </div>
       <div className="flex w-full pt-20 sm:hidden">
-        <div className="ml-44 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto">
-          <Card name={"EVOLVE"} flip={flipb} />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <div className="ml-10 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto justify-center">
+          <Card
+            no={"001"}
+            name={"Adaptune"}
+            flip={flipb}
+            time={"9AM-10AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"002"}
+            name={"Step N Synchro"}
+            flip={flipb}
+            time={"10AM-11AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"003"}
+            name={"Duet Song"}
+            flip={flipb}
+            time={"11AM-12AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"004"}
+            name={"Music Song"}
+            flip={flipb}
+            time={"1PM-5PM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"005"}
+            name={"Stand Up Comedy"}
+            flip={flipb}
+            time={"9AM-10AM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"006"}
+            name={"Mime"}
+            flip={flipb}
+            time={"10AM-12PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"007"}
+            name={"Movie Spoof"}
+            flip={flipb}
+            time={"12PM-1PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"008"}
+            name={"Group Dance"}
+            flip={flipb}
+            time={"1PM-3PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"009"}
+            name={"Theme Show"}
+            flip={flipb}
+            time={"3PM-5PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
         </div>
       </div>
 
       {/* Mobile Version */}
       <div className="hidden sm:block sm:overflow-x-auto sm:h-[500px] sm:px-5">
         <div className="ml-44 flex  sm:ml-0 sm:overscroll-x-auto ">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card
+            no={"001"}
+            name={"Adaptune"}
+            flip={flipb}
+            time={"9AM-10AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"002"}
+            name={"Step N Synchro"}
+            flip={flipb}
+            time={"10AM-11AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"003"}
+            name={"Duet Song"}
+            flip={flipb}
+            time={"11AM-12AM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"004"}
+            name={"Music Song"}
+            flip={flipb}
+            time={"1PM-5PM"}
+            date={"31/3/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"005"}
+            name={"Stand Up Comedy"}
+            flip={flipb}
+            time={"9AM-10AM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"006"}
+            name={"Mime"}
+            flip={flipb}
+            time={"10AM-12PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"007"}
+            name={"Movie Spoof"}
+            flip={flipb}
+            time={"12PM-1PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"008"}
+            name={"Group Dance"}
+            flip={flipb}
+            time={"1PM-3PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
+          <Card
+            no={"009"}
+            name={"Theme Show"}
+            flip={flipb}
+            time={"3PM-5PM"}
+            date={"1/4/23"}
+            location={"Main Stage"}
+          />
         </div>
       </div>
       {/* Mobile Version End*/}
@@ -99,6 +238,6 @@ export default function Events() {
           className="h-44 w-44 sm:w-24 sm:h-24 absolute bottom-[410px] left-[675px]"
         />
       </div>
-    </div>
+    </motion.div>
   );
 }

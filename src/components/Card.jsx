@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ReactCardFlip from "react-card-flip";
 import { Link } from "react-router-dom";
 import flip from "../assets/Events/Flip.svg";
+import { motion } from "framer-motion";
 
 class Card extends React.Component {
   constructor() {
@@ -23,25 +24,30 @@ class Card extends React.Component {
         isFlipped={this.state.isFlipped}
         flipDirection="horizontal"
       >
-        <div
-          className="h-[400px] w-[300px] relative card1 mt-5 flex items-center"
+        <motion.div
+          whileHover={{ textShadow: "3px 3px 8px rgb(0,0,0)" }}
+          className="h-[400px] w-[300px] relative card1 mt-10 flex items-center"
           onClick={this.handleClick}
         >
           <h1 className="no absolute left-4 top-2 drummer text-white font-bold">
-            001
+            {this.props.no}
           </h1>
           {/* absolute bottom-24 left-6 */}
           <div className=" flex flex-col gap-1  items-start justify-center p-5">
-            <h1 className="name drummer text-white font-bold text-3xl">
+            <h1 className="w-1/2 name drummer text-white font-bold text-2xl">
               {this.props.name || ""}
             </h1>
-            <h1 className="date drummer text-white  text-md">02/05/23</h1>
-            <h1 className="time quicksand text-white  text-sm">11AM TO 12PM</h1>
+            <h1 className="date drummer text-white  text-md">
+              {this.props.date}
+            </h1>
+            <h1 className="time quicksand text-white  text-sm">
+              {this.props.time}
+            </h1>
             <h1 className="location quicksand text-white  text-sm">
-              Osama Ground
+              {this.props.location}
             </h1>
           </div>
-        </div>
+        </motion.div>
 
         <div className="h-[400px] w-[300px] relative card1back mt-5 ">
           <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand">
@@ -49,9 +55,16 @@ class Card extends React.Component {
             classic cars, exotic vehicles, and high-speed racing action.
           </h1>
           <Link to="https://www.yepdesk.com/embed/buy-tickets/6409eaef46e0fb0001528d14/private/fukr1g285i%22%3E">
-            <button className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black">
+            <motion.button
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(255,255,255)",
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+              className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black"
+            >
               Register
-            </button>
+            </motion.button>
           </Link>
           <img
             src={this.props.flip || flip}
