@@ -5,6 +5,7 @@ import Mid from "./components/Mid";
 import About from "./components/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Events from "./components/Events";
+import Description from "./components/Description";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/desc/:no" element={<Description />} />
       </Routes>
     </BrowserRouter>
   );

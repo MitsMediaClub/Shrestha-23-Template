@@ -10,9 +10,12 @@ import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { write, queueWrite } from "glitched-writer";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Events() {
+  const [culture, setCulture] = useState(true);
+  const [tech, setTech] = useState(false);
   return (
     <motion.div
       className="pt-28 h-screen sm:pt-10"
@@ -58,81 +61,196 @@ export default function Events() {
         </div>
         {/* Mobile Version End*/}
       </div>
-      <div className="flex w-full pt-20 sm:hidden">
-        <div className="ml-10 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto justify-center">
-          <Card
-            no={"001"}
-            name={"Adaptune"}
-            flip={flipb}
-            time={"9AM-10AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"002"}
-            name={"Step N Synchro"}
-            flip={flipb}
-            time={"10AM-11AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"003"}
-            name={"Duet Song"}
-            flip={flipb}
-            time={"11AM-12AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"004"}
-            name={"Music Song"}
-            flip={flipb}
-            time={"1PM-5PM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"005"}
-            name={"Stand Up Comedy"}
-            flip={flipb}
-            time={"9AM-10AM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"006"}
-            name={"Mime"}
-            flip={flipb}
-            time={"10AM-12PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"007"}
-            name={"Movie Spoof"}
-            flip={flipb}
-            time={"12PM-1PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"008"}
-            name={"Group Dance"}
-            flip={flipb}
-            time={"1PM-3PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"009"}
-            name={"Theme Show"}
-            flip={flipb}
-            time={"3PM-5PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
+      <div className="w-full pt-20 sm:hidden">
+        <div className="h-16 flex justify-center">
+          <button
+            onClick={() => {
+              setCulture(true);
+              setTech(false);
+            }}
+            className=" text-3xl p-3 stw w-2/6 drummer border-b-2"
+          >
+            <span className="text-white">Cultural</span>
+          </button>
+          <button
+            onClick={() => {
+              setCulture(false);
+              setTech(true);
+            }}
+            className="text-white text-3xl p-3 drummer w-2/6 border-b-2"
+          >
+            Tech
+          </button>
         </div>
+        <AnimatePresence>
+          {culture && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className="ml-10 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto justify-center"
+            >
+              <Card
+                no={"001"}
+                name={"Adaptune"}
+                flip={flipb}
+                time={"9AM-10AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"002"}
+                name={"Step N Synchro"}
+                flip={flipb}
+                time={"10AM-11AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"003"}
+                name={"Duet Song"}
+                flip={flipb}
+                time={"11AM-12AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"004"}
+                name={"Music Song"}
+                flip={flipb}
+                time={"1PM-5PM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"005"}
+                name={"Stand Up Comedy"}
+                flip={flipb}
+                time={"9AM-10AM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"006"}
+                name={"Mime"}
+                flip={flipb}
+                time={"10AM-12PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"007"}
+                name={"Movie Spoof"}
+                flip={flipb}
+                time={"12PM-1PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"008"}
+                name={"Group Dance"}
+                flip={flipb}
+                time={"1PM-3PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"009"}
+                name={"Theme Show"}
+                flip={flipb}
+                time={"3PM-5PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <AnimatePresence>
+          {tech && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              className="ml-10 flex flex-wrap sm:ml-0 sm:flex-nowrap sm:overscroll-x-auto justify-center"
+            >
+              <Card
+                no={"001"}
+                name={"TEST"}
+                flip={flipb}
+                time={"9AM-10AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"002"}
+                name={"Step N Synchro"}
+                flip={flipb}
+                time={"10AM-11AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"003"}
+                name={"Duet Song"}
+                flip={flipb}
+                time={"11AM-12AM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"004"}
+                name={"Music Song"}
+                flip={flipb}
+                time={"1PM-5PM"}
+                date={"31/3/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"005"}
+                name={"Stand Up Comedy"}
+                flip={flipb}
+                time={"9AM-10AM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"006"}
+                name={"Mime"}
+                flip={flipb}
+                time={"10AM-12PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"007"}
+                name={"Movie Spoof"}
+                flip={flipb}
+                time={"12PM-1PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"008"}
+                name={"Group Dance"}
+                flip={flipb}
+                time={"1PM-3PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+              <Card
+                no={"009"}
+                name={"Theme Show"}
+                flip={flipb}
+                time={"3PM-5PM"}
+                date={"1/4/23"}
+                location={"Main Stage"}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       {/* Mobile Version */}
