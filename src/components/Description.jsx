@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 const Links = [
   [
-    "https://images.pexels.com/photos/15903178/pexels-photo-15903178.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    "https://images.pexels.com/photos/6908071/pexels-photo-6908071.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    "https://images.pexels.com/photos/14435483/pexels-photo-14435483.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    "/src/assets/Description/Adaptune/1.png",
+    "/src/assets/Description/Adaptune/2.png",
+    "/src/assets/Description/Adaptune/3.png",
   ],
   [],
   [],
@@ -16,10 +16,10 @@ const Description = () => {
   const imageList = Links[no];
   const [one, two, three] = imageList;
   return (
-    <div>
-      <img src={one} alt="" />
-      <img src={two} alt="" />
-      <img src={three} alt="" />
+    <div className="h-full flex  flex-col items-center gap-5 overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+      <img src={one} alt="" className="w-1/2 " />
+      <img src={two} alt="" className="w-1/2 " />
+      <img src={three} alt="" className="w-1/2 " />
     </div>
   );
 };

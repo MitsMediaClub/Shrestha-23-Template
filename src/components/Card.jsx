@@ -56,7 +56,8 @@ class Card extends React.Component {
         <div className="h-[400px] w-[300px] relative cardback mt-5 ">
           <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand pr-10">
             Rev up your engines and join us for a thrilling car event featuring
-            classic cars, exotic vehicles, and high-speed racing action.
+            classic cars, exotic vehicles
+            <span className="text-blue quicksand underline "> ...more</span>
           </h1>
           <Link to={this.props.link}>
             <motion.button

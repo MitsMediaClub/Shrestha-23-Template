@@ -8,6 +8,10 @@ import job from "../assets/Mid/Job Kurian.svg";
 import media from "../assets/Mid/Media One.svg";
 import mango from "../assets/Mid/Mango.svg";
 import esc from "../assets/Mid/ESC.svg";
+import gaming from "../assets/Mid/GamingLounge.svg";
+import sunburn from "../assets/Mid/SunBurn.svg";
+import bandwars from "../assets/Mid/BandWars.svg";
+import coffee from "../assets/Mid/MasalaCoffee.svg";
 
 export default function Mid() {
   return (
@@ -109,6 +113,24 @@ export default function Mid() {
               Inspiration and Exposure
             </h1>
           </div>
+        </div>
+      </div>
+      <div className="h-[800px] flex justify-center mt-28 sm:mt-5 sm:gap-5 sm:h-[300px]">
+        <div className="flex flex-col gap-3 items-end mr-10 sm:mr-0">
+          <img
+            src={sunburn}
+            alt=""
+            className="h-1/3 sm:h-[200px] h-[500px] w-1/2 sm:w-full"
+          />
+          <img src={gaming} alt="" className="h-2/3 sm:h-auto h-[500px] " />
+        </div>
+        <div className="flex flex-col gap-3 items-start ">
+          <img
+            src={bandwars}
+            alt=""
+            className="h-2/3 sm:h-[200px] h-1/2 w-1/2 sm:w-full"
+          />
+          <img src={coffee} alt="" className="h-1/3 sm:h-auto h-1/2" />
         </div>
       </div>
       <div className="h-[400px] mt-10 p-10 sm:h-[300px]">
