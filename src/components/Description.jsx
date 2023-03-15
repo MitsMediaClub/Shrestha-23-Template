@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import InstagramEmbed from "react-instagram-embed";
 const Links = [
   [
     "https://images.pexels.com/photos/15903178/pexels-photo-15903178.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
