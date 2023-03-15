@@ -10,7 +10,7 @@ import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
 export default function Footer() {
   return (
-    <div>
+    <div className="">
       <div className="h-screen flex flex-col items-center gap-36 sm:gap-10">
         <div className="w-full">
           <div className="  flex justify-evenly ">

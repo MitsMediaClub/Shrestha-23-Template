@@ -18,8 +18,13 @@ export default function Events() {
       className="pt-28 h-screen sm:pt-10"
       onLoad={() => {
         write(
-          "Shreshta is a cutlural techical event whose main purpose is to introduce the future to you.",
+          "Shreshta is a cultural techical event whose main purpose is to introduce the future to you.",
           ".transtext1",
+          "neo"
+        );
+        write(
+          "Shreshta is a cultural techical event whose main purpose is to introduce the future to you.",
+          ".transtext2",
           "neo"
         );
       }}
@@ -37,10 +42,7 @@ export default function Events() {
             className="w-60"
           />
           <div className="w-80 ">
-            <h1 className="text-lg text-blue quicksand font-bold">
-              Shreshta is a cutlural techical event whose main purpose is to
-              introduce the future to you.
-            </h1>
+            <h1 className="transtext2 text-lg text-blue quicksand font-bold"></h1>
           </div>
         </div>
         {/* Mobile Version */}

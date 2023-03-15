@@ -85,9 +85,6 @@ export default function Intro() {
             </div>
             <Link to="/schedule">
               <motion.img
-                whileHover={{
-                  scale: 1.3,
-                }}
                 src={she_eve_arrow}
                 className="sm:h-28 sm:w-28 hidden sm:block"
               />

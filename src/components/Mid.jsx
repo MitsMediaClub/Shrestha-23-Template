@@ -4,10 +4,11 @@ import img1 from "../assets/Mid/Mid-img-1.svg";
 import img2 from "../assets/Mid/Mid-img-2.svg";
 import img3 from "../assets/Mid/Mid-img-3.svg";
 import left from "../assets/Mid/left.svg";
+import job from "../assets/Mid/Job Kurian.svg";
 
 export default function Mid() {
   return (
-    <div className="h-screen  flex flex-col scrollbar sm:h-96">
+    <div className="h-screen  flex flex-col flex-grow scrollbar sm:h-auto sm:mx-5">
       <div className="flex justify-center gap-2 sm:hidden">
         <div>
           <img src={arrowl} className="h-16 w-56" />
@@ -46,7 +47,7 @@ export default function Mid() {
 
       {/* Mobile Version End*/}
 
-      <div className="flex h-full sm:relative">
+      {/* <div className="flex h-full sm:relative">
         <div className="h-full w-1/2  sm:w-full sm:absolute">
           <img src={left} className="h-[500px] sm:h-full sm:w-1/2 " />
         </div>
@@ -55,19 +56,55 @@ export default function Mid() {
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
               🢀 Autoshow
             </h1>
-            {/* <img src={img2} className="h-44 w-44" /> */}
+             <img src={img2} className="h-44 w-44" /> 
           </div>
           <div className="h-1/3 flex justify-end items-center pr-5 gap-3">
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
               🢀 Arcade
             </h1>
-            {/* <img src={img3} className="h-44 w-44" /> */}
+             <img src={img3} className="h-44 w-44" /> 
           </div>
           <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
               🢀 Expo
             </h1>
-            {/* <img src={img1} className="h-44 w-44" /> */}
+             <img src={img1} className="h-44 w-44" />
+          </div>
+        </div>
+      </div> */}
+      <div className="h-96 flex items-center justify-evenly  font-bold text-white sm:flex-col sm:h-screen">
+        <img
+          src={job}
+          alt="An image of the one and only Job Kurian"
+          className="h-full"
+        />
+        <div className="flex flex-col gap-4 w-2/6 items-center justify-center sm:w-full">
+          <h1 className="quicksand">
+            <span className="text-blue">
+              Join Job Kurian in inaugurating the upcoming tech fest - let's
+              celebrate innovation!
+            </span>{" "}
+            Don't miss out on this opportunity to be a part of the excitement
+            and explore the future of technology.
+          </h1>
+          <div className="flex flex-col gap-2 sm:w-full">
+            <h1 className="drummer text-white text-2xl">
+              <span className="font-bold text-blue ">+ </span>Our Vision
+            </h1>
+            <h1 className="quicksand">
+              To create a platform for innovation that brings together a
+              community of enthusiasts, and inspires attendees to the future of
+              technology.
+            </h1>
+          </div>
+          <div className="flex flex-col gap-2 sm:w-full">
+            <h1 className="drummer text-white text-2xl">
+              <span className="font-bold text-blue">+ </span>Our Values
+            </h1>
+            <h1 className="quicksand">
+              Innovation, Learning, Community, Future-oriented, Excitement,
+              Inspiration and Exposure
+            </h1>
           </div>
         </div>
       </div>

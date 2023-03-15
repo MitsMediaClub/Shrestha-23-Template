@@ -25,7 +25,7 @@ class Card extends React.Component {
         flipDirection="horizontal"
       >
         <motion.div
-          whileHover={{ textShadow: "3px 3px 8px rgb(0,0,0)" }}
+          whileHover={{ textShadow: "0px 0px 20px rgb(0,0,0)" }}
           className="h-[400px] w-[300px] relative card1 mt-10 flex items-center"
           onClick={this.handleClick}
         >
@@ -66,7 +66,8 @@ class Card extends React.Component {
               Register
             </motion.button>
           </Link>
-          <img
+          <motion.img
+            whileHover={{ scale: 1.1 }}
             src={this.props.flip || flip}
             alt="Use to flip"
             className="w-6 h-6 absolute right-20 top-2"
