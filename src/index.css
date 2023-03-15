@@ -90,6 +90,47 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
 }
 
+.card2 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card4 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card5 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card6 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card7 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card8 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card9 {
+  background-image: url(./assets/Events/Card1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .card1back {
   background-image: url(./assets/Events/Card1Back.svg);
   background-size: contain;

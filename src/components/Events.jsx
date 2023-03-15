@@ -11,11 +11,15 @@ import astro from "../assets/Footer/astro.svg";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { write, queueWrite } from "glitched-writer";
 import { AnimatePresence, motion } from "framer-motion";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export default function Events() {
   const [culture, setCulture] = useState(true);
   const [tech, setTech] = useState(false);
+  const cultureRef = useRef();
+  const techRef = useRef();
+  const cultureRefM = useRef();
+  const techRefM = useRef();
   return (
     <motion.div
       className="pt-28 h-screen sm:pt-10"
@@ -65,18 +69,30 @@ export default function Events() {
         <div className="h-16 flex justify-center">
           <button
             onClick={() => {
+              if (cultureRef.current.classList.contains("stw")) {
+                return;
+              }
               setCulture(true);
+              cultureRef.current.classList.toggle("stw");
+              techRef.current.classList.toggle("stw");
               setTech(false);
             }}
+            ref={cultureRef}
             className=" text-3xl p-3 stw w-2/6 drummer border-b-2"
           >
             <span className="text-white">Cultural</span>
           </button>
           <button
             onClick={() => {
+              if (techRef.current.classList.contains("stw")) {
+                return;
+              }
               setCulture(false);
+              cultureRef.current.classList.toggle("stw");
+              techRef.current.classList.toggle("stw");
               setTech(true);
             }}
+            ref={techRef}
             className="text-white text-3xl p-3 drummer w-2/6 border-b-2"
           >
             Tech
@@ -178,75 +194,123 @@ export default function Events() {
             >
               <Card
                 no={"001"}
-                name={"TEST"}
+                name={"Ascension Cup"}
                 flip={flipb}
                 time={"9AM-10AM"}
-                date={"31/3/23"}
-                location={"Main Stage"}
+                date={"20/3/23"}
+                location={"Online"}
               />
               <Card
                 no={"002"}
-                name={"Step N Synchro"}
+                name={"Evolve"}
                 flip={flipb}
                 time={"10AM-11AM"}
-                date={"31/3/23"}
-                location={"Main Stage"}
+                date={"28/3/23"}
+                location={"Visvesvaraya Hall"}
               />
               <Card
                 no={"003"}
-                name={"Duet Song"}
+                name={"Aviation Workshop"}
                 flip={flipb}
                 time={"11AM-12AM"}
                 date={"31/3/23"}
-                location={"Main Stage"}
+                location={"Micheal Faraday Hall"}
               />
               <Card
                 no={"004"}
-                name={"Music Song"}
+                name={"Creatrix"}
                 flip={flipb}
                 time={"1PM-5PM"}
                 date={"31/3/23"}
-                location={"Main Stage"}
+                location={"Cad Lab, Project Lab, M 113"}
               />
               <Card
                 no={"005"}
-                name={"Stand Up Comedy"}
+                name={"Bridge X"}
                 flip={flipb}
                 time={"9AM-10AM"}
-                date={"1/4/23"}
-                location={"Main Stage"}
+                date={"31/3/23"}
+                location={"Mech Cad Lab, Mech Project Lab"}
               />
               <Card
                 no={"006"}
-                name={"Mime"}
+                name={"Gladiator"}
                 flip={flipb}
                 time={"10AM-12PM"}
-                date={"1/4/23"}
-                location={"Main Stage"}
+                date={"31/3/23"}
+                location={"Lawn in front of Ramanujan Block"}
               />
               <Card
                 no={"007"}
-                name={"Movie Spoof"}
+                name={"Armageddon"}
                 flip={flipb}
                 time={"12PM-1PM"}
                 date={"1/4/23"}
-                location={"Main Stage"}
+                location={"Room Numbers 510,507,613,604"}
               />
               <Card
                 no={"008"}
-                name={"Group Dance"}
+                name={"Pitch Perfect"}
                 flip={flipb}
                 time={"1PM-3PM"}
                 date={"1/4/23"}
-                location={"Main Stage"}
+                location={"Albert Einstein Hall"}
               />
               <Card
                 no={"009"}
-                name={"Theme Show"}
+                name={"Trackador"}
                 flip={flipb}
                 time={"3PM-5PM"}
                 date={"1/4/23"}
-                location={"Main Stage"}
+                location={"MP and MC Lab"}
+              />
+              <Card
+                no={"010"}
+                name={"Project Expo"}
+                flip={flipb}
+                time={"1PM-5PM"}
+                date={"31/3/23"}
+                location={"Vishweshwaraya Hall"}
+              />
+              <Card
+                no={"011"}
+                name={"Bridge X"}
+                flip={flipb}
+                time={"9AM-10AM"}
+                date={"31/3/23"}
+                location={"Mech Cad Lab, Mech Project Lab"}
+              />
+              <Card
+                no={"012"}
+                name={"Gladiator"}
+                flip={flipb}
+                time={"10AM-12PM"}
+                date={"31/3/23"}
+                location={"Lawn in front of Ramanujan Block"}
+              />
+              <Card
+                no={"013"}
+                name={"Armageddon"}
+                flip={flipb}
+                time={"12PM-1PM"}
+                date={"1/4/23"}
+                location={"Room Numbers 510,507,613,604"}
+              />
+              <Card
+                no={"014"}
+                name={"Pitch Perfect"}
+                flip={flipb}
+                time={"1PM-3PM"}
+                date={"1/4/23"}
+                location={"Albert Einstein Hall"}
+              />
+              <Card
+                no={"015"}
+                name={"Trackador"}
+                flip={flipb}
+                time={"3PM-5PM"}
+                date={"1/4/23"}
+                location={"MP and MC Lab"}
               />
             </motion.div>
           )}
@@ -254,81 +318,239 @@ export default function Events() {
       </div>
 
       {/* Mobile Version */}
+      <div className="h-16 flex justify-center hidden sm:block sm:flex">
+        <button
+          onClick={() => {
+            if (cultureRefM.current.classList.contains("stw")) {
+              return;
+            }
+            setCulture(true);
+            cultureRefM.current.classList.toggle("stw");
+            techRefM.current.classList.toggle("stw");
+            setTech(false);
+          }}
+          ref={cultureRefM}
+          className=" text-3xl p-3 stw w-2/6 drummer border-b-2 sm:text-lg sm:w-full sm:mt-5 sm:ml-5"
+        >
+          <span className="text-white">Cultural</span>
+        </button>
+        <button
+          onClick={() => {
+            if (techRefM.current.classList.contains("stw")) {
+              return;
+            }
+            setCulture(false);
+            cultureRefM.current.classList.toggle("stw");
+            techRefM.current.classList.toggle("stw");
+            setTech(true);
+          }}
+          ref={techRefM}
+          className="text-white text-3xl p-3 drummer w-2/6 border-b-2 sm:text-lg sm:w-full sm:mt-5 sm:mr-5"
+        >
+          Tech
+        </button>
+      </div>
       <div className="hidden sm:block sm:overflow-x-auto sm:h-[500px] sm:px-5">
-        <div className="ml-44 flex  sm:ml-0 sm:overscroll-x-auto ">
-          <Card
-            no={"001"}
-            name={"Adaptune"}
-            flip={flipb}
-            time={"9AM-10AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"002"}
-            name={"Step N Synchro"}
-            flip={flipb}
-            time={"10AM-11AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"003"}
-            name={"Duet Song"}
-            flip={flipb}
-            time={"11AM-12AM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"004"}
-            name={"Music Song"}
-            flip={flipb}
-            time={"1PM-5PM"}
-            date={"31/3/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"005"}
-            name={"Stand Up Comedy"}
-            flip={flipb}
-            time={"9AM-10AM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"006"}
-            name={"Mime"}
-            flip={flipb}
-            time={"10AM-12PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"007"}
-            name={"Movie Spoof"}
-            flip={flipb}
-            time={"12PM-1PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"008"}
-            name={"Group Dance"}
-            flip={flipb}
-            time={"1PM-3PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-          <Card
-            no={"009"}
-            name={"Theme Show"}
-            flip={flipb}
-            time={"3PM-5PM"}
-            date={"1/4/23"}
-            location={"Main Stage"}
-          />
-        </div>
+        {culture && (
+          <div className="ml-44 flex  sm:ml-0 sm:overscroll-x-auto ">
+            <Card
+              no={"001"}
+              name={"Adaptune"}
+              flip={flipb}
+              time={"9AM-10AM"}
+              date={"31/3/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"002"}
+              name={"Step N Synchro"}
+              flip={flipb}
+              time={"10AM-11AM"}
+              date={"31/3/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"003"}
+              name={"Duet Song"}
+              flip={flipb}
+              time={"11AM-12AM"}
+              date={"31/3/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"004"}
+              name={"Music Song"}
+              flip={flipb}
+              time={"1PM-5PM"}
+              date={"31/3/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"005"}
+              name={"Stand Up Comedy"}
+              flip={flipb}
+              time={"9AM-10AM"}
+              date={"1/4/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"006"}
+              name={"Mime"}
+              flip={flipb}
+              time={"10AM-12PM"}
+              date={"1/4/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"007"}
+              name={"Movie Spoof"}
+              flip={flipb}
+              time={"12PM-1PM"}
+              date={"1/4/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"008"}
+              name={"Group Dance"}
+              flip={flipb}
+              time={"1PM-3PM"}
+              date={"1/4/23"}
+              location={"Main Stage"}
+            />
+            <Card
+              no={"009"}
+              name={"Theme Show"}
+              flip={flipb}
+              time={"3PM-5PM"}
+              date={"1/4/23"}
+              location={"Main Stage"}
+            />
+          </div>
+        )}
+        {tech && (
+          <div className="ml-44 flex  sm:ml-0 sm:overscroll-x-auto ">
+            <Card
+              no={"001"}
+              name={"Ascension Cup"}
+              flip={flipb}
+              time={"9AM-10AM"}
+              date={"20/3/23"}
+              location={"Online"}
+            />
+            <Card
+              no={"002"}
+              name={"Evolve"}
+              flip={flipb}
+              time={"10AM-11AM"}
+              date={"28/3/23"}
+              location={"Visvesvaraya Hall"}
+            />
+            <Card
+              no={"003"}
+              name={"Aviation Workshop"}
+              flip={flipb}
+              time={"11AM-12AM"}
+              date={"31/3/23"}
+              location={"Micheal Faraday Hall"}
+            />
+            <Card
+              no={"004"}
+              name={"Creatrix"}
+              flip={flipb}
+              time={"1PM-5PM"}
+              date={"31/3/23"}
+              location={"Cad Lab, Project Lab, M 113"}
+            />
+            <Card
+              no={"005"}
+              name={"Bridge X"}
+              flip={flipb}
+              time={"9AM-10AM"}
+              date={"31/3/23"}
+              location={"Mech Cad Lab, Mech Project Lab"}
+            />
+            <Card
+              no={"006"}
+              name={"Gladiator"}
+              flip={flipb}
+              time={"10AM-12PM"}
+              date={"31/3/23"}
+              location={"Lawn in front of Ramanujan Block"}
+            />
+            <Card
+              no={"007"}
+              name={"Armageddon"}
+              flip={flipb}
+              time={"12PM-1PM"}
+              date={"1/4/23"}
+              location={"Room Numbers 510,507,613,604"}
+            />
+            <Card
+              no={"008"}
+              name={"Pitch Perfect"}
+              flip={flipb}
+              time={"1PM-3PM"}
+              date={"1/4/23"}
+              location={"Albert Einstein Hall"}
+            />
+            <Card
+              no={"009"}
+              name={"Trackador"}
+              flip={flipb}
+              time={"3PM-5PM"}
+              date={"1/4/23"}
+              location={"MP and MC Lab"}
+            />
+            <Card
+              no={"010"}
+              name={"Project Expo"}
+              flip={flipb}
+              time={"1PM-5PM"}
+              date={"31/3/23"}
+              location={"Vishweshwaraya Hall"}
+            />
+            <Card
+              no={"011"}
+              name={"Bridge X"}
+              flip={flipb}
+              time={"9AM-10AM"}
+              date={"31/3/23"}
+              location={"Mech Cad Lab, Mech Project Lab"}
+            />
+            <Card
+              no={"012"}
+              name={"Gladiator"}
+              flip={flipb}
+              time={"10AM-12PM"}
+              date={"31/3/23"}
+              location={"Lawn in front of Ramanujan Block"}
+            />
+            <Card
+              no={"013"}
+              name={"Armageddon"}
+              flip={flipb}
+              time={"12PM-1PM"}
+              date={"1/4/23"}
+              location={"Room Numbers 510,507,613,604"}
+            />
+            <Card
+              no={"014"}
+              name={"Pitch Perfect"}
+              flip={flipb}
+              time={"1PM-3PM"}
+              date={"1/4/23"}
+              location={"Albert Einstein Hall"}
+            />
+            <Card
+              no={"015"}
+              name={"Trackador"}
+              flip={flipb}
+              time={"3PM-5PM"}
+              date={"1/4/23"}
+              location={"MP and MC Lab"}
+            />
+          </div>
+        )}
       </div>
       {/* Mobile Version End*/}
 
