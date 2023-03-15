@@ -114,6 +114,7 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Main Stage"}
+                bg={"card1"}
               />
               <Card
                 no={"002"}
@@ -122,6 +123,7 @@ export default function Events() {
                 time={"10AM-11AM"}
                 date={"31/3/23"}
                 location={"Main Stage"}
+                bg={"card2"}
               />
               <Card
                 no={"003"}
@@ -130,6 +132,7 @@ export default function Events() {
                 time={"11AM-12AM"}
                 date={"31/3/23"}
                 location={"Main Stage"}
+                bg={"card3"}
               />
               <Card
                 no={"004"}
@@ -138,6 +141,7 @@ export default function Events() {
                 time={"1PM-5PM"}
                 date={"31/3/23"}
                 location={"Main Stage"}
+                bg={"card4"}
               />
               <Card
                 no={"005"}
@@ -146,6 +150,7 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"1/4/23"}
                 location={"Main Stage"}
+                bg={"card5"}
               />
               <Card
                 no={"006"}
@@ -154,6 +159,7 @@ export default function Events() {
                 time={"10AM-12PM"}
                 date={"1/4/23"}
                 location={"Main Stage"}
+                bg={"card6"}
               />
               <Card
                 no={"007"}
@@ -162,6 +168,7 @@ export default function Events() {
                 time={"12PM-1PM"}
                 date={"1/4/23"}
                 location={"Main Stage"}
+                bg={"card7"}
               />
               <Card
                 no={"008"}
@@ -170,6 +177,7 @@ export default function Events() {
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Main Stage"}
+                bg={"card8"}
               />
               <Card
                 no={"009"}
@@ -178,6 +186,7 @@ export default function Events() {
                 time={"3PM-5PM"}
                 date={"1/4/23"}
                 location={"Main Stage"}
+                bg={"card9"}
               />
             </motion.div>
           )}
@@ -360,6 +369,7 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Main Stage"}
+              bg={"card1"}
             />
             <Card
               no={"002"}
@@ -368,6 +378,7 @@ export default function Events() {
               time={"10AM-11AM"}
               date={"31/3/23"}
               location={"Main Stage"}
+              bg={"card2"}
             />
             <Card
               no={"003"}
@@ -376,6 +387,7 @@ export default function Events() {
               time={"11AM-12AM"}
               date={"31/3/23"}
               location={"Main Stage"}
+              bg={"card3"}
             />
             <Card
               no={"004"}
@@ -384,6 +396,7 @@ export default function Events() {
               time={"1PM-5PM"}
               date={"31/3/23"}
               location={"Main Stage"}
+              bg={"card4"}
             />
             <Card
               no={"005"}
@@ -392,6 +405,7 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"1/4/23"}
               location={"Main Stage"}
+              bg={"card5"}
             />
             <Card
               no={"006"}
@@ -400,6 +414,7 @@ export default function Events() {
               time={"10AM-12PM"}
               date={"1/4/23"}
               location={"Main Stage"}
+              bg={"card6"}
             />
             <Card
               no={"007"}
@@ -408,6 +423,7 @@ export default function Events() {
               time={"12PM-1PM"}
               date={"1/4/23"}
               location={"Main Stage"}
+              bg={"card7"}
             />
             <Card
               no={"008"}
@@ -416,6 +432,7 @@ export default function Events() {
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Main Stage"}
+              bg={"card8"}
             />
             <Card
               no={"009"}
@@ -424,6 +441,7 @@ export default function Events() {
               time={"3PM-5PM"}
               date={"1/4/23"}
               location={"Main Stage"}
+              bg={"card9"}
             />
           </div>
         )}

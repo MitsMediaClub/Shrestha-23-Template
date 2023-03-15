@@ -19,6 +19,7 @@ class Card extends React.Component {
   }
 
   render() {
+    console.log(this.props.bg);
     return (
       <ReactCardFlip
         isFlipped={this.state.isFlipped}
@@ -26,7 +27,7 @@ class Card extends React.Component {
       >
         <motion.div
           whileHover={{ textShadow: "0px 0px 20px rgb(0,0,0)" }}
-          className="h-[400px] w-[300px] relative card1 mt-10 flex items-center"
+          className={`h-[400px] w-[300px] relative ${this.props.bg} mt-10 flex items-center`}
           onClick={this.handleClick}
         >
           <h1 className="no absolute left-4 top-2 drummer text-white font-bold">
