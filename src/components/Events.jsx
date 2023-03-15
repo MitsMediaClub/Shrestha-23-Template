@@ -208,6 +208,7 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"20/3/23"}
                 location={"Online"}
+                link={"https://bit.ly/Ascension-Cup"}
               />
               <Card
                 no={"002"}
@@ -216,6 +217,7 @@ export default function Events() {
                 time={"10AM-11AM"}
                 date={"28/3/23"}
                 location={"Visvesvaraya Hall"}
+                link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
               />
               <Card
                 no={"003"}
@@ -224,6 +226,9 @@ export default function Events() {
                 time={"11AM-12AM"}
                 date={"31/3/23"}
                 location={"Micheal Faraday Hall"}
+                link={
+                  "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
+                }
               />
               <Card
                 no={"004"}
@@ -232,6 +237,7 @@ export default function Events() {
                 time={"1PM-5PM"}
                 date={"31/3/23"}
                 location={"Cad Lab, Project Lab, M 113"}
+                link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
               />
               <Card
                 no={"005"}
@@ -240,6 +246,7 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
+                link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
               />
               <Card
                 no={"006"}
@@ -248,6 +255,7 @@ export default function Events() {
                 time={"10AM-12PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
+                link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
               />
               <Card
                 no={"007"}
@@ -256,6 +264,7 @@ export default function Events() {
                 time={"12PM-1PM"}
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
+                link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
               />
               <Card
                 no={"008"}
@@ -264,6 +273,9 @@ export default function Events() {
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
+                link={
+                  "https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"
+                }
               />
               <Card
                 no={"009"}
@@ -272,6 +284,7 @@ export default function Events() {
                 time={"3PM-5PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
+                link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
               />
               <Card
                 no={"010"}
@@ -280,46 +293,56 @@ export default function Events() {
                 time={"1PM-5PM"}
                 date={"31/3/23"}
                 location={"Vishweshwaraya Hall"}
+                link={
+                  "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
+                }
               />
               <Card
                 no={"011"}
-                name={"Bridge X"}
+                name={"Eneriya"}
                 flip={flipb}
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
+                link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
               />
               <Card
                 no={"012"}
-                name={"Gladiator"}
+                name={"End Game"}
                 flip={flipb}
                 time={"10AM-12PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
+                link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
               />
               <Card
                 no={"013"}
-                name={"Armageddon"}
+                name={"Metaverse Expo"}
                 flip={flipb}
                 time={"12PM-1PM"}
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
+                link={
+                  "https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"
+                }
               />
               <Card
                 no={"014"}
-                name={"Pitch Perfect"}
+                name={"Transcendus"}
                 flip={flipb}
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
+                link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
               />
               <Card
                 no={"015"}
-                name={"Trackador"}
+                name={"Ev Workshop"}
                 flip={flipb}
                 time={"3PM-5PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
+                link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
               />
             </motion.div>
           )}
@@ -454,6 +477,7 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"20/3/23"}
               location={"Online"}
+              link={"https://bit.ly/Ascension-Cup"}
             />
             <Card
               no={"002"}
@@ -462,6 +486,7 @@ export default function Events() {
               time={"10AM-11AM"}
               date={"28/3/23"}
               location={"Visvesvaraya Hall"}
+              link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
             />
             <Card
               no={"003"}
@@ -470,6 +495,9 @@ export default function Events() {
               time={"11AM-12AM"}
               date={"31/3/23"}
               location={"Micheal Faraday Hall"}
+              link={
+                "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
+              }
             />
             <Card
               no={"004"}
@@ -478,6 +506,7 @@ export default function Events() {
               time={"1PM-5PM"}
               date={"31/3/23"}
               location={"Cad Lab, Project Lab, M 113"}
+              link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
             />
             <Card
               no={"005"}
@@ -486,6 +515,7 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
+              link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
             />
             <Card
               no={"006"}
@@ -494,6 +524,7 @@ export default function Events() {
               time={"10AM-12PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
+              link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
             />
             <Card
               no={"007"}
@@ -502,6 +533,7 @@ export default function Events() {
               time={"12PM-1PM"}
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
+              link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
             />
             <Card
               no={"008"}
@@ -510,6 +542,7 @@ export default function Events() {
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
+              link={"https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"}
             />
             <Card
               no={"009"}
@@ -518,6 +551,7 @@ export default function Events() {
               time={"3PM-5PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
+              link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
             />
             <Card
               no={"010"}
@@ -526,46 +560,52 @@ export default function Events() {
               time={"1PM-5PM"}
               date={"31/3/23"}
               location={"Vishweshwaraya Hall"}
+              link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
             />
             <Card
               no={"011"}
-              name={"Bridge X"}
+              name={"Eneriya"}
               flip={flipb}
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
+              link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
             />
             <Card
               no={"012"}
-              name={"Gladiator"}
+              name={"End Game"}
               flip={flipb}
               time={"10AM-12PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
+              link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
             />
             <Card
               no={"013"}
-              name={"Armageddon"}
+              name={"Metaverse Expo"}
               flip={flipb}
               time={"12PM-1PM"}
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
+              link={"https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"}
             />
             <Card
               no={"014"}
-              name={"Pitch Perfect"}
+              name={"Transcendus"}
               flip={flipb}
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
+              link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
             />
             <Card
               no={"015"}
-              name={"Trackador"}
+              name={"Ev Workshop"}
               flip={flipb}
               time={"3PM-5PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
+              link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
             />
           </div>
         )}

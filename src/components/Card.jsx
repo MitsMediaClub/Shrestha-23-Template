@@ -26,7 +26,10 @@ class Card extends React.Component {
         flipDirection="horizontal"
       >
         <motion.div
-          whileHover={{ textShadow: "0px 0px 20px rgb(0,0,0)" }}
+          whileHover={{
+            textShadow:
+              "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000",
+          }}
           className={`h-[400px] w-[300px] relative ${this.props.bg} mt-10 flex items-center`}
           onClick={this.handleClick}
         >
@@ -55,7 +58,7 @@ class Card extends React.Component {
             Rev up your engines and join us for a thrilling car event featuring
             classic cars, exotic vehicles, and high-speed racing action.
           </h1>
-          <Link to="https://www.yepdesk.com/embed/buy-tickets/6409eaef46e0fb0001528d14/private/fukr1g285i%22%3E">
+          <Link to={this.props.link}>
             <motion.button
               whileHover={{
                 scale: 1.1,

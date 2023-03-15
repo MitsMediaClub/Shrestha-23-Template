@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import sreta from "../assets/Shreshta.png";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
@@ -28,7 +29,7 @@ export default function Navbar() {
             Support
           </motion.h1>
         </Link>
-        <img src={logo} alt="Tech Logo" className="h-44 w-44" />
+        <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
