@@ -5,10 +5,13 @@ import img2 from "../assets/Mid/Mid-img-2.svg";
 import img3 from "../assets/Mid/Mid-img-3.svg";
 import left from "../assets/Mid/left.svg";
 import job from "../assets/Mid/Job Kurian.svg";
+import media from "../assets/Mid/Media One.svg";
+import mango from "../assets/Mid/Mango.svg";
+import esc from "../assets/Mid/ESC.svg";
 
 export default function Mid() {
   return (
-    <div className="h-screen  flex flex-col flex-grow scrollbar sm:h-auto sm:mx-5">
+    <div className="h-auto  flex flex-col flex-grow scrollbar sm:h-auto sm:mx-5">
       <div className="flex justify-center gap-2 sm:hidden">
         <div>
           <img src={arrowl} className="h-16 w-56" />
@@ -47,32 +50,32 @@ export default function Mid() {
 
       {/* Mobile Version End*/}
 
-      {/* <div className="flex h-full sm:relative">
+      <div className="flex h-full sm:relative">
         <div className="h-full w-1/2  sm:w-full sm:absolute">
-          <img src={left} className="h-[500px] sm:h-full sm:w-1/2 " />
+          <img src={left} className="h-[500px] sm:h-full sm:hidden " />
         </div>
-        <div className="h-full w-1/2  flex flex-col sm:w-full">
-          <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
+        <div className="h-96 w-1/2  flex flex-col sm:w-full sm:items-center">
+          <div className="h-56  flex justify-end items-center pr-5 gap-3">
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
-              🢀 Autoshow
+              ◈ Autoshow
             </h1>
-             <img src={img2} className="h-44 w-44" /> 
+            {/* <img src={img2} className="h-44 w-44" /> */}
           </div>
-          <div className="h-1/3 flex justify-end items-center pr-5 gap-3">
+          <div className="h-56 flex justify-end items-center pr-5 gap-3">
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
-              🢀 Arcade
+              ◈ Arcade
             </h1>
-             <img src={img3} className="h-44 w-44" /> 
+            {/* <img src={img3} className="h-44 w-44" /> */}
           </div>
-          <div className="h-1/3  flex justify-end items-center pr-5 gap-3">
+          <div className="h-56  flex justify-end items-center pr-5 gap-3">
             <h1 className="text-white drummer text-5xl sm:text-2xl mr-20 sm:mr-0">
-              🢀 Expo
+              ◈ Expo
             </h1>
-             <img src={img1} className="h-44 w-44" />
+            {/* <img src={img1} className="h-44 w-44" /> */}
           </div>
         </div>
-      </div> */}
-      <div className="h-96 flex items-center justify-evenly  font-bold text-white sm:flex-col sm:h-screen">
+      </div>
+      <div className="h-96 flex items-center justify-evenly  font-bold text-white sm:flex-col sm:h-auto">
         <img
           src={job}
           alt="An image of the one and only Job Kurian"
@@ -106,6 +109,20 @@ export default function Mid() {
               Inspiration and Exposure
             </h1>
           </div>
+        </div>
+      </div>
+      <div className="h-[400px] mt-10 p-10 sm:h-[300px]">
+        <div className="flex flex-col mx-16 sm:mx-0 sm:items-center">
+          <h1 className="text-white text-3xl drummer">SPONSORS</h1>
+          <h1 className="text-blue text-lg quicksand font-bold">
+            They made this event possible. They see the future, they experience
+            the future, they are the future.
+          </h1>
+        </div>
+        <div className="flex flex-wrap justify-evenly mt-16">
+          <img src={media} alt="" className="h-44 w-44 sm:h-12 sm:w-12" />
+          <img src={mango} alt="" className="h-44 w-44 sm:h-12 sm:w-12" />
+          <img src={esc} alt="" className="h-44 w-44 sm:h-12 sm:w-12" />
         </div>
       </div>
     </div>

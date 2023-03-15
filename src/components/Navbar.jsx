@@ -12,25 +12,14 @@ export default function Navbar() {
   return (
     <>
       <div className="h-20 flex gap-10 justify-between items-center border-b-2 mx-20 sm:hidden px-5">
-        <motion.h1
-          whileHover={{ scale: 1.1 }}
-          className="text-white freedom text-2xl"
-        >
-          Workshops
-        </motion.h1>
-        <motion.h1
-          whileHover={{ scale: 1.1 }}
-          className="text-white freedom text-2xl"
-        >
-          Lectures
-        </motion.h1>
-        <motion.h1
-          whileHover={{ scale: 1.1 }}
-          className="text-white freedom text-2xl"
-        >
-          Games
-        </motion.h1>
-        <img src={logo} alt="Tech Logo" className="h-44 w-44" />
+        <Link to="/elcamino">
+          <motion.h1
+            whileHover={{ scale: 1.1 }}
+            className="text-white freedom text-2xl"
+          >
+            El Camino
+          </motion.h1>
+        </Link>
         <Link to="mailto:support@shreshta.tech">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -39,6 +28,7 @@ export default function Navbar() {
             Support
           </motion.h1>
         </Link>
+        <img src={logo} alt="Tech Logo" className="h-44 w-44" />
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -70,34 +60,19 @@ export default function Navbar() {
 
       {show && (
         <motion.div
-          className={` h-[700px] w-screen flex flex-col items-center pt-16 mt-10 gap-5`}
+          className={` h-[600px] w-screen flex flex-col items-center justify-center  mt-10 gap-5`}
           ref={navRef}
         >
-          <motion.h1
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-white freedom text-5xl uppercase"
-          >
-            Workshops
-          </motion.h1>
-          <motion.h1
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-white freedom text-5xl uppercase"
-          >
-            Lectures
-          </motion.h1>
-          <motion.h1
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-white freedom text-5xl uppercase"
-          >
-            Games
-          </motion.h1>
-          <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
+          <Link to="/elcamino">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-white freedom text-5xl uppercase"
+            >
+              El Camino
+            </motion.h1>
+          </Link>
           <Link to="mailto:support@shreshta.tech">
             <motion.h1
               initial={{ x: "-100vw" }}
@@ -108,6 +83,7 @@ export default function Navbar() {
               Support
             </motion.h1>
           </Link>
+          <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
           <Link to="/about">
             <motion.h1
               initial={{ x: "-100vw" }}

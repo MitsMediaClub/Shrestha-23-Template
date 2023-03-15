@@ -11,29 +11,8 @@ import circle from "../assets/Footer/Bcircle.svg";
 export default function Footer() {
   return (
     <div className="">
-      <div className="h-screen flex flex-col items-center gap-36 sm:gap-10">
-        <div className="w-full">
-          <div className="  flex justify-evenly ">
-            <div className="w-1/2  flex justify-evenly pt-16 sm:w-full sm:flex-col sm:items-center items-start">
-              <div className="flex flex-col gap-2 w-56 sm:pb-10 ">
-                <h1 className="drummer text-3xl text-white">SPONSORS</h1>
-                <h1 className="quicksand font-semibold text-xl text-blue h-[168px]">
-                  They made this possible. View the kind-hearted mega minds that
-                  contributed to this event.
-                </h1>
-                <img className="" src={view1} />
-              </div>
-              <div className="flex flex-col gap-2 w-56 ">
-                <h1 className="drummer text-3xl text-white">OUR TEAM</h1>
-                <h1 className="quicksand font-semibold text-xl text-blue h-[168px]">
-                  Meet the team who worked behind the platform and the success
-                  of the events.
-                </h1>
-                <img className="" src={view2} />
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="h-[625px] sm:h-[200px] flex flex-col items-center gap-36 sm:gap-10">
+        <div className="w-full"></div>
         <img src={astro} className="h-44 w-44 sm:w-24 sm:h-24" />
       </div>
       <div className=" h-max flex justify-between sm:flex-col sm:items-start sm:justify-center relative">

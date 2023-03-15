@@ -6,6 +6,7 @@ import About from "./components/About";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Events from "./components/Events";
 import Description from "./components/Description";
+import ELCamino from "./components/ELCamino";
 
 function App() {
   return (
@@ -43,6 +44,14 @@ function App() {
           }
         />
         <Route path="/desc/:no" element={<Description />} />
+        <Route
+          path="/elcamino"
+          element={
+            <div className="h-full flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+              <Navbar /> <ELCamino />
+            </div>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

@@ -95,7 +95,7 @@ export default function Events() {
             ref={techRef}
             className="text-white text-3xl p-3 drummer w-2/6 border-b-2"
           >
-            Tech
+            Technical
           </button>
         </div>
         <AnimatePresence>
@@ -356,7 +356,7 @@ export default function Events() {
           ref={techRefM}
           className="text-white text-3xl p-3 drummer w-2/6 border-b-2 sm:text-lg sm:w-full sm:mt-5 sm:mr-5"
         >
-          Tech
+          Technical
         </button>
       </div>
       <div className="hidden sm:block sm:overflow-x-auto sm:h-[500px] sm:px-5">

@@ -5,6 +5,8 @@ const Links = [
     "https://images.pexels.com/photos/6908071/pexels-photo-6908071.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
     "https://images.pexels.com/photos/14435483/pexels-photo-14435483.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
   ],
+  [],
+  [],
 ];
 
 const Description = () => {

@@ -50,8 +50,8 @@ class Card extends React.Component {
           </div>
         </motion.div>
 
-        <div className="h-[400px] w-[300px] relative card1back mt-5 ">
-          <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand">
+        <div className="h-[400px] w-[300px] relative cardback mt-5 ">
+          <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand pr-10">
             Rev up your engines and join us for a thrilling car event featuring
             classic cars, exotic vehicles, and high-speed racing action.
           </h1>
@@ -69,9 +69,9 @@ class Card extends React.Component {
           </Link>
           <motion.img
             whileHover={{ scale: 1.1 }}
-            src={this.props.flip || flip}
-            alt="Use to flip"
-            className="w-6 h-6 absolute right-20 top-2"
+            src={flip}
+            alt="Use o flip"
+            className="w-6 h-6 absolute left-2 top-2"
             onClick={this.handleClick}
           />
         </div>
