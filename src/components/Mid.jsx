@@ -80,7 +80,7 @@ export default function Mid() {
         <img
           src={job}
           alt="An image of the one and only Job Kurian"
-          className="h-full"
+          className="h-full rounded-3xl"
         />
         <div className="flex flex-col gap-4 w-2/6 items-center justify-center sm:w-full">
           <h1 className="quicksand">
@@ -117,24 +117,24 @@ export default function Mid() {
           <img
             src={sunburn}
             alt=""
-            className="h-1/3 sm:h-[200px] h-[500px] w-1/2 sm:w-full rounded-xl"
+            className="h-1/3 sm:h-[200px] h-[500px] w-1/2 sm:w-full rounded-3xl"
           />
           <img
             src={gaming}
             alt=""
-            className="h-2/3 sm:h-auto h-[500px]  rounded-xl"
+            className="h-2/3 sm:h-auto h-[500px]  rounded-3xl"
           />
         </div>
         <div className="flex flex-col gap-3 items-start w-1/2">
           <img
             src={bandwars}
             alt=""
-            className="h-2/3 sm:h-[200px] h-1/2 w-1/2 sm:w-full rounded-xl"
+            className="h-2/3 sm:h-[200px] h-1/2 w-1/2 sm:w-full rounded-3xl"
           />
           <img
             src={coffee}
             alt=""
-            className="h-1/3 sm:h-auto h-1/2 rounded-xl"
+            className="h-1/3 sm:h-auto h-1/2 rounded-3xl"
           />
         </div>
       </div>

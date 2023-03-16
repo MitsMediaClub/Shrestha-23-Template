@@ -107,6 +107,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Main Stage"}
                 bg={"card1"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"002"}
@@ -116,6 +121,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Main Stage"}
                 bg={"card2"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"003"}
@@ -125,6 +135,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Main Stage"}
                 bg={"card3"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"004"}
@@ -134,6 +149,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Main Stage"}
                 bg={"card4"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"005"}
@@ -143,6 +163,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Main Stage"}
                 bg={"card5"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"006"}
@@ -152,6 +177,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Main Stage"}
                 bg={"card6"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"007"}
@@ -161,6 +191,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Main Stage"}
                 bg={"card7"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"008"}
@@ -170,6 +205,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Main Stage"}
                 bg={"card8"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"009"}
@@ -179,6 +219,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Main Stage"}
                 bg={"card9"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
             </motion.div>
           )}
@@ -201,6 +246,11 @@ export default function Events() {
                 date={"20/3/23"}
                 location={"Online"}
                 link={"https://bit.ly/Ascension-Cup"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"002"}
@@ -210,6 +260,11 @@ export default function Events() {
                 date={"28/3/23"}
                 location={"Visvesvaraya Hall"}
                 link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"003"}
@@ -221,6 +276,11 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
                 }
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"004"}
@@ -230,6 +290,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Cad Lab, Project Lab, M 113"}
                 link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"005"}
@@ -239,6 +304,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
                 link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"006"}
@@ -248,6 +318,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
                 link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"007"}
@@ -257,6 +332,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
                 link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"008"}
@@ -268,6 +348,11 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"
                 }
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"009"}
@@ -277,6 +362,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"010"}
@@ -288,6 +378,11 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
                 }
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"011"}
@@ -297,6 +392,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
                 link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"012"}
@@ -306,6 +406,11 @@ export default function Events() {
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
                 link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"013"}
@@ -317,6 +422,11 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"
                 }
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"014"}
@@ -326,6 +436,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
                 link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
               <Card
                 no={"015"}
@@ -335,6 +450,11 @@ export default function Events() {
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
+                button={true}
+                desc={
+                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                }
+                more={true}
               />
             </motion.div>
           )}
@@ -385,6 +505,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Main Stage"}
               bg={"card1"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"002"}
@@ -394,6 +519,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Main Stage"}
               bg={"card2"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"003"}
@@ -403,6 +533,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Main Stage"}
               bg={"card3"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"004"}
@@ -412,6 +547,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Main Stage"}
               bg={"card4"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"005"}
@@ -421,6 +561,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Main Stage"}
               bg={"card5"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"006"}
@@ -430,6 +575,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Main Stage"}
               bg={"card6"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"007"}
@@ -439,6 +589,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Main Stage"}
               bg={"card7"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"008"}
@@ -448,6 +603,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Main Stage"}
               bg={"card8"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"009"}
@@ -457,6 +617,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Main Stage"}
               bg={"card9"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
           </div>
         )}
@@ -470,6 +635,11 @@ export default function Events() {
               date={"20/3/23"}
               location={"Online"}
               link={"https://bit.ly/Ascension-Cup"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"002"}
@@ -479,6 +649,11 @@ export default function Events() {
               date={"28/3/23"}
               location={"Visvesvaraya Hall"}
               link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"003"}
@@ -488,8 +663,13 @@ export default function Events() {
               date={"31/3/23"}
               location={"Micheal Faraday Hall"}
               link={
-                "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
+                "htts://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
               }
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"004"}
@@ -499,6 +679,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Cad Lab, Project Lab, M 113"}
               link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"005"}
@@ -508,6 +693,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
               link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"006"}
@@ -517,6 +707,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
               link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"007"}
@@ -526,6 +721,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
               link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"008"}
@@ -535,6 +735,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
               link={"https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"009"}
@@ -544,6 +749,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"010"}
@@ -553,6 +763,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Vishweshwaraya Hall"}
               link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"011"}
@@ -562,6 +777,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
               link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"012"}
@@ -571,6 +791,11 @@ export default function Events() {
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
               link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"013"}
@@ -580,6 +805,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
               link={"https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"014"}
@@ -589,6 +819,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
               link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
             <Card
               no={"015"}
@@ -598,6 +833,11 @@ export default function Events() {
               date={"1/4/23"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
+              button={true}
+              desc={
+                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+              }
+              more={true}
             />
           </div>
         )}

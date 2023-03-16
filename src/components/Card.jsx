@@ -55,24 +55,27 @@ class Card extends React.Component {
 
         <div className="h-[400px] w-[300px] relative cardback mt-5 ">
           <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand pr-10">
-            Rev up your engines and join us for a thrilling car event featuring
-            classic cars, exotic vehicles
-            <Link to="/desc/0">
-              <span className="text-blue quicksand underline"> ...more</span>
-            </Link>
+            {this.props.desc}
+            {this.props.more && (
+              <Link to="/desc/0">
+                <span className="text-blue quicksand underline"> ...more</span>
+              </Link>
+            )}
           </h1>
-          <Link to={this.props.link}>
-            <motion.button
-              whileHover={{
-                scale: 1.1,
-                textShadow: "0px 0px 8px rgb(255,255,255)",
-                boxShadow: "0px 0px 8px rgb(255,255,255)",
-              }}
-              className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black"
-            >
-              Register
-            </motion.button>
-          </Link>
+          {this.props.button && (
+            <Link to={this.props.link}>
+              <motion.button
+                whileHover={{
+                  scale: 1.1,
+                  textShadow: "0px 0px 8px rgb(255,255,255)",
+                  boxShadow: "0px 0px 8px rgb(255,255,255)",
+                }}
+                className="absolute bottom-16 inset-x-1/3 left-11  text-white w-2/4 rounded-lg drummer  p-2 border-white-2 bg-opacity-70 border-white border-2 text-sm bg-black"
+              >
+                Register
+              </motion.button>
+            </Link>
+          )}
           <motion.img
             whileHover={{ scale: 1.1 }}
             src={flip}
