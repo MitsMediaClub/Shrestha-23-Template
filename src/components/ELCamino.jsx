@@ -1,6 +1,6 @@
 import React from "react";
-import waves from "../assets/El Camino/Waves.jpg";
-import gaming from "../assets/El Camino/Gaming.jpg";
+import waves from "../assets/El Camino/Waves.png";
+import gaming from "../assets/El Camino/Gaming.png";
 import logo from "../assets/footer/logo-only.svg";
 import spotify from "../assets/Footer/Spotify.svg";
 import instagram from "../assets/Footer/Instagram.svg";
@@ -35,7 +35,7 @@ const ELCamino = () => {
         Nexus Gaming Lounge
       </h1>
       <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5">
-        <img src={gaming} alt="" className="w-1/2 h-[300px] sm:w-full" />
+        <img src={gaming} alt="" className="w-1/2 h-[300px] sm:w-full rounded-3xl" />
         <div className="w-1/2 sm:w-full">
           <h1 className="text-blue quicksand">
             NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the
