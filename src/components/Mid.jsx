@@ -8,10 +8,10 @@ import job from "../assets/Mid/Job Kurian.svg";
 import media from "../assets/Mid/Media One.svg";
 import mango from "../assets/Mid/Mango.svg";
 import esc from "../assets/Mid/ESC.svg";
-import gaming from "../assets/Mid/GamingLounge.svg";
-import sunburn from "../assets/Mid/SunBurn.svg";
-import bandwars from "../assets/Mid/BandWars.svg";
-import coffee from "../assets/Mid/MasalaCoffee.svg";
+import gaming from "../assets/Mid/GamingLounge.png";
+import sunburn from "../assets/Mid/SunBurn.png";
+import bandwars from "../assets/Mid/BandWars.png";
+import coffee from "../assets/Mid/MasalaCoffee.png";
 
 export default function Mid() {
   return (
@@ -120,17 +120,25 @@ export default function Mid() {
           <img
             src={sunburn}
             alt=""
-            className="h-1/3 sm:h-[200px] h-[500px] w-1/2 sm:w-full"
+            className="h-1/3 sm:h-[200px] h-[500px] w-1/2 sm:w-full rounded-xl"
           />
-          <img src={gaming} alt="" className="h-2/3 sm:h-auto h-[500px] " />
+          <img
+            src={gaming}
+            alt=""
+            className="h-2/3 sm:h-auto h-[500px]  rounded-xl"
+          />
         </div>
         <div className="flex flex-col gap-3 items-start w-1/2">
           <img
             src={bandwars}
             alt=""
-            className="h-2/3 sm:h-[200px] h-1/2 w-1/2 sm:w-full"
+            className="h-2/3 sm:h-[200px] h-1/2 w-1/2 sm:w-full rounded-xl"
           />
-          <img src={coffee} alt="" className="h-1/3 sm:h-auto h-1/2" />
+          <img
+            src={coffee}
+            alt=""
+            className="h-1/3 sm:h-auto h-1/2 rounded-xl"
+          />
         </div>
       </div>
       <div className="h-[400px] mt-10 p-10 sm:h-[300px]">
