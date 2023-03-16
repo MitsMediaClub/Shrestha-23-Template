@@ -1,6 +1,6 @@
 import React from "react";
-import waves from "../assets/El Camino/Waves.svg";
-import gaming from "../assets/El Camino/Gaming.svg";
+import waves from "../assets/El Camino/Waves.jpg";
+import gaming from "../assets/El Camino/Gaming.jpg";
 import logo from "../assets/footer/logo-only.svg";
 import spotify from "../assets/Footer/Spotify.svg";
 import instagram from "../assets/Footer/Instagram.svg";
@@ -29,7 +29,7 @@ const ELCamino = () => {
             of art and information.
           </h1>
         </div>
-        <img src={waves} alt="" className="w-1/2 h-[300px] mt-5 sm:w-full" />
+        <img src={waves} alt="" className="w-1/2 h-[300px] mt-5 sm:w-full rounded-3xl" />
       </div>
       <h1 className="p-3 border-b-2 w-full text-3xl text-white drummer mb-5 ml-20 sm:mx-0 sm:w-screen">
         Nexus Gaming Lounge
