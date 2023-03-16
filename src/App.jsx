@@ -43,7 +43,14 @@ function App() {
             </div>
           }
         />
-        <Route path="/desc/:no" element={<Description />} />
+        <Route
+          path="/desc/:no"
+          element={
+            <div className="h-full flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+              <Navbar /> <Description />
+            </div>
+          }
+        />
         <Route
           path="/elcamino"
           element={
