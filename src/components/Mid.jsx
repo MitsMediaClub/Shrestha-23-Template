@@ -1,7 +1,7 @@
 import arrowl from "../assets/Mid/arrow-left.svg";
 import arrowr from "../assets/Mid/arrow-right.svg";
 import left from "../assets/Mid/left.svg";
-import job from "../assets/Mid/JobgKurian.jpg";
+import job from "../assets/Mid/JobgKurian.png";
 import media from "../assets/Mid/Media One.svg";
 import mango from "../assets/Mid/Mango.svg";
 import esc from "../assets/Mid/ESC.svg";
