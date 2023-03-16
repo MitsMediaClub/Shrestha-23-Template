@@ -3,7 +3,7 @@ import Intro from "./components/Intro";
 import Footer from "./components/Footer";
 import Mid from "./components/Mid";
 import About from "./components/About";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, redirect } from "react-router-dom";
 import Events from "./components/Events";
 import Description from "./components/Description";
 import ELCamino from "./components/ELCamino";
@@ -67,6 +67,7 @@ function App() {
             </div>
           }
         />
+        
       </Routes>
     </BrowserRouter>
   );
