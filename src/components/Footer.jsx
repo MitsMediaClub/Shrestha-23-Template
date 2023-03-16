@@ -1,4 +1,4 @@
-import logo from "../assets/footer/logo-only.svg";
+import logo from "../assets/Footer/logo-only.svg";
 import spotify from "../assets/Footer/Spotify.svg";
 import instagram from "../assets/Footer/Instagram.svg";
 import twitch from "../assets/Footer/Twitch.svg";
