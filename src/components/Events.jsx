@@ -21,21 +21,7 @@ export default function Events() {
   const cultureRefM = useRef();
   const techRefM = useRef();
   return (
-    <motion.div
-      className="pt-28 h-screen sm:pt-10"
-      onLoad={() => {
-        write(
-          "Shreshta is a cultural techical event whose main purpose is to introduce the future to you.",
-          ".transtext1",
-          "neo"
-        );
-        write(
-          "Shreshta is a cultural techical event whose main purpose is to introduce the future to you.",
-          ".transtext2",
-          "neo"
-        );
-      }}
-    >
+    <motion.div className="pt-28 h-screen sm:pt-10">
       <div className="h-auto flex w-full sm:flex-col">
         <div className="w-1/2 flex flex-col gap-10 ml-20 sm:gap-2 sm:ml-0 sm:w-full sm:px-5">
           <h1 className="text-7xl text-white drummer sm:text-3xl ">SHRESHTA</h1>
@@ -49,7 +35,10 @@ export default function Events() {
             className="w-60"
           />
           <div className="w-80 ">
-            <h1 className="transtext2 text-lg text-blue quicksand font-bold"></h1>
+            <h1 className="transext2t text-lg text-blue quicksand font-bold">
+              Shreshta is a cultural techical event whose main purpose is to
+              introduce the future to you.
+            </h1>
           </div>
         </div>
         {/* Mobile Version */}
@@ -60,7 +49,10 @@ export default function Events() {
             className="w-28"
           />
           <div className="w-56">
-            <h1 className="transtext1 text-lg text-blue quicksand font-bold"></h1>
+            <h1 className="transtext1 text-lg text-blue quicksand font-bold">
+              Shreshta is a cultural techical event whose main purpose is to
+              introduce the future to you.
+            </h1>
           </div>
         </div>
         {/* Mobile Version End*/}
