@@ -32,6 +32,16 @@ body,
   src: url(./assets/fonts/Hiragana.ttf);
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: rgb(0, 1, 78);
+  background: rgb(0, 255, 128);
+}
+
+::selection {
+  color: rgb(0, 1, 78);
+  background: rgb(0, 255, 128);
+}
+
 .freedom {
   font-family: freedom;
 }
