@@ -13,8 +13,8 @@ import circle from "../assets/Footer/Bcircle.svg";
 const ELCamino = () => {
   return (
     <div className="h-screen mt-20">
-      <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5">
-        <div className="w-1/2 sm:w-full">
+      <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5 justify-between">
+        <div className="w-1/2 sm:w-full ">
           <h1 className="p-3 border-b-2 w-1/2 text-3xl text-white drummer mb-5 sm:w-full sm:mx-0">
             EL CAMINO
           </h1>
@@ -29,13 +29,21 @@ const ELCamino = () => {
             of art and information.
           </h1>
         </div>
-        <img src={waves} alt="" className="w-1/2 h-[300px] mt-5 sm:w-full rounded-3xl" />
+        <img
+          src={waves}
+          alt=""
+          className=" h-[300px] mt-5 sm:w-full rounded-3xl "
+        />
       </div>
       <h1 className="p-3 border-b-2 w-full text-3xl text-white drummer mb-5 ml-20 sm:mx-0 sm:w-screen">
         Nexus Gaming Lounge
       </h1>
-      <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5">
-        <img src={gaming} alt="" className="w-1/2 h-[300px] sm:w-full rounded-3xl" />
+      <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5 justify-between">
+        <img
+          src={gaming}
+          alt=""
+          className=" h-[300px] sm:w-full rounded-3xl "
+        />
         <div className="w-1/2 sm:w-full">
           <h1 className="text-blue quicksand">
             NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the

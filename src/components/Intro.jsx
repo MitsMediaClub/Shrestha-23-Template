@@ -47,12 +47,7 @@ export default function Intro() {
         );
       }}
     >
-      <motion.div
-        initial={{ x: "-100vw" }}
-        animate={{ x: 0 }}
-        transition={{ type: "tween", duration: 1.5 }}
-        className="w-1/2 sm:w-full sm:h-80"
-      >
+      <motion.div className="w-1/2 sm:w-full sm:h-80">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
           <div className="flex gap-5 justify-end items-center sm:px-5 w-full">
             <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-bold"></h1>
