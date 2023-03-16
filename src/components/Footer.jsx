@@ -1,5 +1,3 @@
-import view1 from "../assets/footer/View1.svg";
-import view2 from "../assets/footer/View2.svg";
 import logo from "../assets/footer/logo-only.svg";
 import spotify from "../assets/Footer/Spotify.svg";
 import instagram from "../assets/Footer/Instagram.svg";
