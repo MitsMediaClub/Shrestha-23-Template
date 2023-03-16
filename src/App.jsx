@@ -27,6 +27,14 @@ function App() {
           path="/about"
           element={
             <div className="h-screen flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial sm:px-0 sm:pb-5">
+              <p className="hidden">Adrin</p>
+              <p className="hidden">Advaith</p>
+              <p className="hidden">Metopher</p>
+              <p className="hidden">Siddarth</p>
+              <p className="hidden">Amal</p>
+              <p className="hidden">Rohit</p>
+              <p className="hidden">VJ</p>
+              <p className="hidden">Abdu</p>
               <Navbar />
               <div className="flex items-center">
                 <About />

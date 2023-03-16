@@ -32,14 +32,6 @@ export default function Schedule({ props }) {
         button={true}
         bg={"cardback"}
       />
-      <h1 className="hidden">Adrin</h1>
-      <h1 className="hidden">Advaith</h1>
-      <h1 className="hidden">Metopher</h1>
-      <h1 className="hidden">Siddarth</h1>
-      <h1 className="hidden">Amal</h1>
-      <h1 className="hidden">Rohit</h1>
-      <h1 className="hidden">VJ</h1>
-      <h1 className="hidden">Abdu</h1>
     </div>
   );
 }
