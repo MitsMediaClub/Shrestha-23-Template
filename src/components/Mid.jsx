@@ -1,8 +1,5 @@
 import arrowl from "../assets/Mid/arrow-left.svg";
 import arrowr from "../assets/Mid/arrow-right.svg";
-import img1 from "../assets/Mid/Mid-img-1.svg";
-import img2 from "../assets/Mid/Mid-img-2.svg";
-import img3 from "../assets/Mid/Mid-img-3.svg";
 import left from "../assets/Mid/left.svg";
 import job from "../assets/Mid/Job Kurian.svg";
 import media from "../assets/Mid/Media One.svg";
