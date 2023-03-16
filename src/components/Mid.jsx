@@ -116,7 +116,7 @@ export default function Mid() {
         </div>
       </div>
       <div className="h-[800px] flex justify-center mt-28 sm:mt-5 sm:gap-5 sm:h-[300px]">
-        <div className="flex flex-col gap-3 items-end mr-10 sm:mr-0">
+        <div className="flex flex-col gap-3 items-end mr-10 sm:mr-0 w-1/2">
           <img
             src={sunburn}
             alt=""
@@ -124,7 +124,7 @@ export default function Mid() {
           />
           <img src={gaming} alt="" className="h-2/3 sm:h-auto h-[500px] " />
         </div>
-        <div className="flex flex-col gap-3 items-start ">
+        <div className="flex flex-col gap-3 items-start w-1/2">
           <img
             src={bandwars}
             alt=""

@@ -53,6 +53,10 @@ body,
 .radial {
   background: #00111c;
 }
+
+.metopher {
+  color: #00111c;
+}
 /* Balls */
 .left {
   background-image: "url('./assets/Mid/left.svg')";
