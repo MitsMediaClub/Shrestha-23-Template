@@ -10,6 +10,7 @@ export default function Schedule({ props }) {
         link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
         button={true}
         bg={"cardback"}
+        cardback={"cardback"}
       />
       <Card
         name={"Advaith"}
@@ -17,6 +18,7 @@ export default function Schedule({ props }) {
         link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
         button={true}
         bg={"cardback"}
+        cardback={"cardback"}
       />
       <Card
         name={"Joshua"}
@@ -24,6 +26,7 @@ export default function Schedule({ props }) {
         link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
         button={true}
         bg={"cardback"}
+        cardback={"cardback"}
       />
       <Card
         name={"Anand"}
@@ -31,6 +34,7 @@ export default function Schedule({ props }) {
         link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
         button={true}
         bg={"cardback"}
+        cardback={"cardback"}
       />
     </div>
   );

@@ -53,7 +53,9 @@ class Card extends React.Component {
           </div>
         </motion.div>
 
-        <div className="h-[400px] w-[300px] relative cardback mt-5 ">
+        <div
+          className={`h-[400px] w-[300px] relative ${this.props.cardback} mt-5 `}
+        >
           <h1 className="desc absolute bottom-24 w-3/4 text-sm text-white p-5 text-end quicksand pr-10">
             {this.props.desc}
             {this.props.more && (

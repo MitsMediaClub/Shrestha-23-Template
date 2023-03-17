@@ -32,7 +32,8 @@ body,
   src: url(./assets/fonts/Hiragana.ttf);
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: rgb(0, 1, 78);
   background: rgb(0, 255, 128);
 }
@@ -97,7 +98,7 @@ body::-webkit-scrollbar {
 }
 
 /* Card */
-.card1 {
+/* .card1 {
   background-image: url(./assets/Events/Cultural/1.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -142,10 +143,16 @@ body::-webkit-scrollbar {
   background-image: url(./assets/Events/Cultural/9.png);
   background-size: contain;
   background-repeat: no-repeat;
-}
+} */
 
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cardback1 {
+  background-image: url(./assets/Events/Tech/techBack.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
