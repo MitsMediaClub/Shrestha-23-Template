@@ -1,5 +1,5 @@
 import startcard from "../assets/Events/StartCard.svg";
-import logo from "../assets/footer/logo-only.svg";
+import logo from "../assets/Footer/logo-only.svg";
 import spotify from "../assets/Footer/Spotify.svg";
 import instagram from "../assets/Footer/Instagram.svg";
 import twitch from "../assets/Footer/Twitch.svg";
@@ -9,7 +9,6 @@ import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
 import flipb from "../assets/Events/FlipBlack.svg";
-import { write, queueWrite } from "glitched-writer";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, useState } from "react";
 

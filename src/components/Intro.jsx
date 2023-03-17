@@ -6,10 +6,7 @@ import img3 from "../assets/Intro-img-3.svg";
 import she_eve_arrow from "../assets/she-eve-arrow.svg";
 import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
-import GlitchedWriter from "glitched-writer";
-import { wait } from "glitched-writer";
-import { useEffect, useState } from "react";
-import { write, queueWrite } from "glitched-writer";
+import { write } from "glitched-writer";
 import { motion } from "framer-motion";
 
 export default function Intro() {
