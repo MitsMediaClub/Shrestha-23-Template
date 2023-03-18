@@ -38,7 +38,11 @@ class Card extends React.Component {
           </h1>
           {/* absolute bottom-24 left-6 */}
           <div className=" flex flex-col gap-1  items-start justify-center p-5">
-            <h1 className="w-1/6 name drummer text-white font-bold text-xl">
+            <h1
+              className={`w-1/6 name drummer text-white font-bold  ${
+                this.props.text || "text-xl"
+              }`}
+            >
               {this.props.name || ""}
             </h1>
             <h1 className="w-1/2 date drummer text-white  text-md">

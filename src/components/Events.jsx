@@ -338,7 +338,7 @@ export default function Events() {
               />
               <Card
                 no={"007"}
-                name={"Armageddon"}
+                name={"Arma- geddon"}
                 flip={flipb}
                 time={"12PM-1PM"}
                 date={"1/4/23"}
@@ -443,7 +443,7 @@ export default function Events() {
               />
               <Card
                 no={"014"}
-                name={"Transcendus"}
+                name={"Trans- cendus"}
                 flip={flipb}
                 time={"1PM-3PM"}
                 date={"1/4/23"}
@@ -690,7 +690,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Colloquium on the scope, challenges and impacts of electriv vehicles"
               }
             />
             <Card
@@ -705,7 +705,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
               }
             />
             <Card
@@ -720,7 +720,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Hello folks!!!🤗Are you idea hamsters?💡 If yes, CREATRIX brings before you a perfect chance  to accelerate📈 your creativity and showcase your skills in the field of Analysis, design and prototyping."
               }
             />
             <Card
@@ -735,7 +735,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Get ready to unleash your inner engineer and compete against the best in our bridge building challenge - where creativity, design, and innovation collide to build the strongest and most spectacular bridges!"
               }
             />
             <Card
@@ -750,12 +750,12 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "And the crowd goes wild for the day as we have the roars of engines soar past the track as the mud splashes and the rocks fly with the guest of wind that bears excitement. Ready to test your ride, Come on in fellow enthusiasts!!"
               }
             />
             <Card
               no={"007"}
-              name={"Armageddon"}
+              name={"Arma- geddon"}
               flip={flipb}
               time={"12PM-1PM"}
               date={"1/4/23"}
@@ -765,7 +765,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "The count down has begun. Embark on a riveting quest to save mankind from extinction. A battle of wits and mettle. Only the worthy survive. Do you have what it takes?"
               }
             />
             <Card
@@ -795,7 +795,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Are you ready to take on the ultimate tech challenge? Join us for the Line Follower RC Car competition 🏎️and witness your creation flawlessly track its course🏁. With a chance to win big from our Prize Pool of 10k 💸💰, this is the thrill ride you don't want to miss!⚡"
               }
             />
             <Card
@@ -810,7 +810,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Step into the world of Novellio, where innovation meets elegance. Discover the most recent innovations and ground-breaking concepts as our gifted teams present their creative initiatives. Join us for an event that will astound and impress you while being uplifting and instructive."
               }
             />
             <Card
@@ -825,7 +825,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Join us to find solutions to combat climate change by building solutions for Climate Action and Energy Sustainability. ⚡ ENERYIA ⚡ Hackathon 2023 presents you an opportunity to find innovative 💡 solutions and to win  a 💫 prize pool worth 1Lakh 💫and more."
               }
             />
             <Card
@@ -855,12 +855,12 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Step into a whole new world with  cutting-edge virtual shared spaces technology, designed to give you a one-of-a-kind immersive experience. Are you ready to explore beyond the boundaries of reality?"
               }
             />
             <Card
               no={"014"}
-              name={"Transcendus"}
+              name={"Trans- cendus"}
               flip={flipb}
               time={"1PM-3PM"}
               date={"1/4/23"}
@@ -870,7 +870,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Are you ready to flex your skills and take on a challenge like no other? Enter our inter-disciplinary competition and put your abilities to the test. With diverse teams and unique challenges, it's time to prove you have what it takes to be the ultimate champion!"
               }
             />
             <Card
