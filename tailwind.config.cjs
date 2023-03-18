@@ -5,14 +5,16 @@ module.exports = {
     extend: {
       colors: {
         "light-blue": "#02E5FF",
-        blue: "#53BCDF",
+        blue: "#02E5FF",
         sphere: "#0BDBFE",
       },
       screens: { sm: { max: "576px" } },
       inset: {
-        circlebottom: "-24rem",
-        circleright: "-4rem",
+        circlebottom: "-75%",
         locasep: "4.5rem",
+      },
+      borderWidth: {
+        '0.5': '0.5px',
       },
     },
   },
