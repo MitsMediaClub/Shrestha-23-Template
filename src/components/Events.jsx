@@ -109,9 +109,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"002"}
@@ -124,9 +124,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"003"}
@@ -139,13 +139,13 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"004"}
-                name={"Music Song"}
+                name={"Band Wars"}
                 flip={flipb}
                 time={"1PM-5PM"}
                 date={"31/3/23"}
@@ -154,9 +154,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"005"}
@@ -169,9 +169,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"006"}
@@ -184,9 +184,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"007"}
@@ -199,9 +199,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"008"}
@@ -214,9 +214,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
               <Card
                 no={"009"}
@@ -229,9 +229,9 @@ export default function Events() {
                 cardback={"cardback"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
                 }
-                more={true}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
               />
             </motion.div>
           )}
@@ -253,14 +253,13 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"20/3/23"}
                 location={"Online"}
-                link={"https://bit.ly/Ascension-Cup"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
                   "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
                 }
-                more={true}
               />
               <Card
                 no={"002"}
@@ -269,14 +268,13 @@ export default function Events() {
                 time={"10AM-11AM"}
                 date={"28/3/23"}
                 location={"Visvesvaraya Hall"}
-                link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Colloquium on the scope, challenges and impacts of electriv vehicles"
                 }
-                more={true}
               />
               <Card
                 no={"003"}
@@ -285,16 +283,13 @@ export default function Events() {
                 time={"11AM-12AM"}
                 date={"31/3/23"}
                 location={"Micheal Faraday Hall"}
-                link={
-                  "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
-                }
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
                 }
-                more={true}
               />
               <Card
                 no={"004"}
@@ -303,14 +298,13 @@ export default function Events() {
                 time={"1PM-5PM"}
                 date={"31/3/23"}
                 location={"Cad Lab, Project Lab, M 113"}
-                link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Hello folks!!!🤗Are you idea hamsters?💡 If yes, CREATRIX brings before you a perfect chance  to accelerate📈 your creativity and showcase your skills in the field of Analysis, design and prototyping."
                 }
-                more={true}
               />
               <Card
                 no={"005"}
@@ -319,14 +313,13 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
-                link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Get ready to unleash your inner engineer and compete against the best in our bridge building challenge - where creativity, design, and innovation collide to build the strongest and most spectacular bridges!"
                 }
-                more={true}
               />
               <Card
                 no={"006"}
@@ -335,14 +328,13 @@ export default function Events() {
                 time={"10AM-12PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
-                link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "And the crowd goes wild for the day as we have the roars of engines soar past the track as the mud splashes and the rocks fly with the guest of wind that bears excitement. Ready to test your ride, Come on in fellow enthusiasts!!"
                 }
-                more={true}
               />
               <Card
                 no={"007"}
@@ -351,14 +343,13 @@ export default function Events() {
                 time={"12PM-1PM"}
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
-                link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "The count down has begun. Embark on a riveting quest to save mankind from extinction. A battle of wits and mettle. Only the worthy survive. Do you have what it takes?"
                 }
-                more={true}
               />
               <Card
                 no={"008"}
@@ -367,16 +358,13 @@ export default function Events() {
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
-                link={
-                  "https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"
-                }
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
                   "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
                 }
-                more={true}
               />
               <Card
                 no={"009"}
@@ -385,14 +373,13 @@ export default function Events() {
                 time={"3PM-5PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
-                link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Are you ready to take on the ultimate tech challenge? Join us for the Line Follower RC Car competition 🏎️and witness your creation flawlessly track its course🏁. With a chance to win big from our Prize Pool of 10k 💸💰, this is the thrill ride you don't want to miss!⚡"
                 }
-                more={true}
               />
               <Card
                 no={"010"}
@@ -401,16 +388,13 @@ export default function Events() {
                 time={"1PM-5PM"}
                 date={"31/3/23"}
                 location={"Vishweshwaraya Hall"}
-                link={
-                  "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
-                }
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Step into the world of Novellio, where innovation meets elegance. Discover the most recent innovations and ground-breaking concepts as our gifted teams present their creative initiatives. Join us for an event that will astound and impress you while being uplifting and instructive."
                 }
-                more={true}
               />
               <Card
                 no={"011"}
@@ -419,14 +403,13 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
-                link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Join us to find solutions to combat climate change by building solutions for Climate Action and Energy Sustainability. ⚡ ENERYIA ⚡ Hackathon 2023 presents you an opportunity to find innovative 💡 solutions and to win  a 💫 prize pool worth 1Lakh 💫and more."
                 }
-                more={true}
               />
               <Card
                 no={"012"}
@@ -435,14 +418,13 @@ export default function Events() {
                 time={"10AM-12PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
-                link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
                   "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
                 }
-                more={true}
               />
               <Card
                 no={"013"}
@@ -451,16 +433,13 @@ export default function Events() {
                 time={"12PM-1PM"}
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
-                link={
-                  "https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"
-                }
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Step into a whole new world with  cutting-edge virtual shared spaces technology, designed to give you a one-of-a-kind immersive experience. Are you ready to explore beyond the boundaries of reality?"
                 }
-                more={true}
               />
               <Card
                 no={"014"}
@@ -469,14 +448,13 @@ export default function Events() {
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
-                link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Are you ready to flex your skills and take on a challenge like no other? Enter our inter-disciplinary competition and put your abilities to the test. With diverse teams and unique challenges, it's time to prove you have what it takes to be the ultimate champion!"
                 }
-                more={true}
               />
               <Card
                 no={"015"}
@@ -485,14 +463,13 @@ export default function Events() {
                 time={"3PM-5PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
-                link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
+                link={"https://www.yepdesk.com/profile/shreshta23"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={
                   "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
                 }
-                more={true}
               />
             </motion.div>
           )}
@@ -552,9 +529,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"002"}
@@ -567,9 +544,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"003"}
@@ -582,13 +559,13 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"004"}
-              name={"Music Song"}
+              name={"Band Wars"}
               flip={flipb}
               time={"1PM-5PM"}
               date={"31/3/23"}
@@ -597,9 +574,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"005"}
@@ -612,9 +589,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"006"}
@@ -627,9 +604,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"007"}
@@ -642,9 +619,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"008"}
@@ -657,9 +634,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
             <Card
               no={"009"}
@@ -672,9 +649,9 @@ export default function Events() {
               cardback={"cardback"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
               }
-              more={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
             />
           </motion.div>
         )}
@@ -693,14 +670,13 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"20/3/23"}
               location={"Online"}
-              link={"https://bit.ly/Ascension-Cup"}
-              button={true}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
+              button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"002"}
@@ -709,14 +685,13 @@ export default function Events() {
               time={"10AM-11AM"}
               date={"28/3/23"}
               location={"Visvesvaraya Hall"}
-              link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"003"}
@@ -725,16 +700,13 @@ export default function Events() {
               time={"11AM-12AM"}
               date={"31/3/23"}
               location={"Micheal Faraday Hall"}
-              link={
-                "htts://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
-              }
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"004"}
@@ -743,14 +715,13 @@ export default function Events() {
               time={"1PM-5PM"}
               date={"31/3/23"}
               location={"Cad Lab, Project Lab, M 113"}
-              link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"005"}
@@ -759,14 +730,13 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
-              link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"006"}
@@ -775,14 +745,13 @@ export default function Events() {
               time={"10AM-12PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
-              link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"007"}
@@ -791,14 +760,13 @@ export default function Events() {
               time={"12PM-1PM"}
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
-              link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"008"}
@@ -807,14 +775,13 @@ export default function Events() {
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
-              link={"https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"009"}
@@ -823,14 +790,13 @@ export default function Events() {
               time={"3PM-5PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
-              link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"010"}
@@ -839,14 +805,13 @@ export default function Events() {
               time={"1PM-5PM"}
               date={"31/3/23"}
               location={"Vishweshwaraya Hall"}
-              link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"011"}
@@ -855,14 +820,13 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
-              link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"012"}
@@ -871,14 +835,13 @@ export default function Events() {
               time={"10AM-12PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
-              link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"013"}
@@ -887,14 +850,13 @@ export default function Events() {
               time={"12PM-1PM"}
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
-              link={"https://www.yepdesk.com/metaverse-expo/private/c2f262idh8"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"014"}
@@ -903,14 +865,13 @@ export default function Events() {
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
-              link={"https://www.yepdesk.com/transcendus/private/m95hju6a78"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
             <Card
               no={"015"}
@@ -919,14 +880,13 @@ export default function Events() {
               time={"3PM-5PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
-              link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
+              link={"https://www.yepdesk.com/profile/shreshta23"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
                 "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
               }
-              more={true}
             />
           </motion.div>
         )}
