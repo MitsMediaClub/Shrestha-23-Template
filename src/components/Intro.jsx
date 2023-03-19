@@ -31,28 +31,28 @@ export default function Intro() {
   // }, []);
 
   // const [transt,setTranst] = useState();
-
+  let encrypted = {"interval":[50,90],"delay":[0,1300],"steps":[5,8],"maxGhosts":0,"ghostChance":0,"changeChance":0.8,"glyphs":"あいうえおがぎぐげござじずぜぞだぢづでどにねのばびふぺぽまやゆんゑゐゟ","fillSpace":false,"mode":"normal","oneAtATime":0};
   return (
     <div
-      className="flex pt-28 h-screen sm:w-full sm:pt-5 sm:h-96 z-1 "
+      className="flex h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
       onLoad={async () => {
-        write("31 March-1'st April", ".transtext1", "nier");
+        write("31st March - 1st April", ".transtext1", encrypted);
         write(
           "We're taking tech events to a whole new level. Participate and get rewards!",
           ".transtext2",
-          "nier"
+          encrypted
         );
       }}
     >
-      <motion.div className="w-1/2 sm:w-full sm:h-80">
+      <motion.div className="w-full md:w-1/2 sm:h-80 pt-10 md:pt-28">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
-          <div className="flex gap-5 justify-end items-center sm:px-5 w-full">
-            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-bold"></h1>
+          <div className="flex gap-5 justify-end items-center sm:px-10 w-full">
+            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-normal" style={{"text-shadow": "rgb(0, 196, 242) 2px 2px 20px"}}></h1>
             <h1 className="drummer text-white text-7xl sm:text-5xl trans">
               TECH
             </h1>
           </div>
-          <div className="flex gap-5 items-center sm:gap-2 sm:px-5">
+          <div className="flex gap-5 justify-end items-center sm:gap-2 sm:mx-10">
             <h1 className=" text-white text-7xl drummer sm:text-5xl">UP</h1>
             <img
               src={logo}
@@ -61,18 +61,18 @@ export default function Intro() {
             />
             <h1 className=" text-white text-7xl  drummer sm:text-5xl">YOUR</h1>
           </div>
-          <div className="flex gap-5 items-center border-b-2 sm:pb-5 sm:mx-5 ">
-            <h1 className=" text-white text-7xl drummer sm:text-5xl">
+          <div className="flex gap-5 justify-end items-center border-b-0.5 border-white/50 pb-5 sm:mx-10 ">
+            <h1 className=" text-white text-[76.8px] text-7xl drummer sm:text-5xl">
               TALENTS
             </h1>
           </div>
 
-          <div className="flex gap-2 justify-end items-center sm:justify-between sm:px-5 w-full h-[100px]">
-            <div className="w-36 sm:hidden">
-              <hr className="sm:hidden" />
+          <div className="flex gap-2 items-center sm:justify-between sm:px-10 w-full h-[100px]">
+            <div className="w-56 sm:hidden">
+              <hr className="sm:hidden border-0.5 border-white/50" />
             </div>
             <img src={arrowm} className="h-12 w-12 sm:hidden" />
-            <div className="w-56 ">
+            <div className="w-60 ">
               <h1 className="transtext2 text-md quicksand text-end text-blue sm:text-start font-bold"></h1>
             </div>
             <Link to="/schedule">
@@ -85,36 +85,36 @@ export default function Intro() {
 
           <div className="flex gap-2 justify-between items-center sm:hidden">
             <div className="flex flex-col items-center">
-              <img src={img1} alt={"Workshops"} className=" w-32" />
+              <img src={img1} alt={"Workshops"} className=" w-32 scale-[1.2]" />
               <h1 className="text-white text-lg freedom">Workshops </h1>
             </div>
 
             <div className="flex flex-col items-center">
-              <img src={img2} alt={"Games"} className=" w-36" />
+              <img src={img2} alt={"Games"} className=" w-36 scale-[1.9]" />
               <h1 className="text-white text-lg freedom">Games</h1>
             </div>
             <div className="flex flex-col items-center">
-              <img src={img3} alt={"Lectures"} className=" w-32" />
+              <img src={img3} alt={"Lectures"} className=" w-32 scale-[1.2]" />
               <h1 className="text-white text-lg freedom">Lectures</h1>
             </div>
           </div>
         </div>
       </motion.div>
-      <div className="w-1/2 flex items-center justify-start sm:hidden relative ">
-        <Link to="/schedule">
+      <div className="w-1/2 pb-28 flex items-center justify-center sm:hidden relative ">
+        <Link to="/schedule" className="z-10">
           <motion.img
             whileHover={{
               scale: 1.1,
             }}
             src={she_eve_arrow}
             alt={"Link to Schedules and Events"}
-            className="w-56 h-56 z-2 mr-20"
+            className="w-64 h-64 z-30 mr-20 hover:scale-1"
           />
         </Link>
         <img
           src={circles}
           alt=""
-          className="absolute bottom-circlebottom right-circleright z-0 w-[500px]"
+          className="absolute bottom-circlebottom right-circleright z-0"
         />
       </div>
     </div>

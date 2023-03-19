@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,23 +15,18 @@ body,
 
 /* FONTS */
 @font-face {
-  font-family: freedom;
-  src: url(./assets/fonts/Freedom.ttf);
+  font-family: "Freedom";
+  src: url("./assets/fonts/Freedom.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: quicksand;
-  src: url(./assets/fonts/Quicksand.otf);
+  font-family: "Drummer";
+  src: url("./assets/fonts/Drummer.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: drummer;
-  src: url(./assets/fonts/Drummer.ttf);
-}
-
-@font-face {
-  font-family: hiragana;
-  src: url(./assets/fonts/Hiragana.ttf);
+  font-family: "Hiragana";
+  src: url("./assets/fonts/Hiragana.ttf") format("truetype");
 }
 
 ::-moz-selection {
@@ -44,15 +41,15 @@ body,
 }
 
 .freedom {
-  font-family: freedom;
+  font-family: "Freedom";
 }
 
 .quicksand {
-  font-family: quicksand;
+  font-family: "Quicksand", "Hiragana";
 }
 
 .drummer {
-  font-family: drummer;
+  font-family: "Drummer", "Hiragana";
 }
 
 /* .hiragana {

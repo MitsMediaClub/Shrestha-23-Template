@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/Footer/logo-only.svg";
 import sreta from "../assets/Shreshta.png";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import { useRef, useState } from "react";
@@ -12,11 +12,11 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="h-20 flex gap-10 justify-between items-center border-b-2 mx-20 sm:hidden px-5">
+      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5">
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white freedom text-2xl"
+            className="text-white/90 freedom text-xl"
           >
             El Camino
           </motion.h1>
@@ -24,16 +24,18 @@ export default function Navbar() {
         <Link to="mailto:support@shreshta.tech">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white freedom text-2xl"
+            className="text-white/90 freedom text-xl"
           >
             Support
           </motion.h1>
         </Link>
-        <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
+        <div class="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
+        <img src={logo} alt="Tech Logo" className="h-16 w-16" />
+        <div class="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white freedom text-2xl"
+            className="text-white/90 freedom text-xl"
           >
             About Us
           </motion.h1>
@@ -41,17 +43,17 @@ export default function Navbar() {
         <Link to="/">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white freedom text-2xl"
+            className="text-white/90 freedom text-xl"
           >
-            Home
+            Login
           </motion.h1>
         </Link>
       </div>
 
       {/* Mobile Version */}
-      <div className="hidden h-10 border-b-2 mt-5 pb-5 sm:block">
+      <div className="hidden h-10 mt-5 pb-5 sm:block">
         <div
-          className=" flex justify-start items-center  hidden sm:block px-5 w-max"
+          className=" flex justify-start items-center z-50 hidden sm:block px-5 w-max"
           ref={iconRef}
           onClick={() => setShow(!show)}
         >
@@ -61,9 +63,16 @@ export default function Navbar() {
 
       {show && (
         <motion.div
-          className={` h-[600px] w-screen flex flex-col items-center justify-center  mt-10 gap-5`}
+          className={` h-screen fixed z-40 bg-[#00111C] w-screen flex flex-col items-center justify-center gap-5`}
           ref={navRef}
         >
+          <div
+          className=" z-50 fixed top-5 left-5 w-max"
+          ref={iconRef}
+          onClick={() => setShow(!show)}
+        >
+          <SortRoundedIcon className="text-white" />
+        </div>
           <Link to="/elcamino">
             <motion.h1
               initial={{ x: "-100vw" }}
