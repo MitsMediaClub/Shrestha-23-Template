@@ -4,6 +4,7 @@ import gaming from "../assets/El Camino/Gaming.webp";
 import logo from "../assets/Footer/logo-only.png";
 import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
+import Footer from "./Footer";
 
 const ELCamino = () => {
   return (
@@ -53,26 +54,7 @@ const ELCamino = () => {
           </h1>
         </div>
       </div>
-      <div className="">
-        <div className="h-[625px] sm:h-[200px] flex flex-col items-center gap-36 sm:gap-10">
-          <div className="w-full"></div>
-          <img src={astro} className="h-44 w-44 sm:w-24 sm:h-24" />
-        </div>
-        <div className=" h-max flex justify-between sm:flex-col sm:items-start sm:justify-center relative">
-          <div className="w-1/2 flex gap-2 items-center p-2 sm:p-0">
-            <img src={logo} className="h-12 w-10" />
-            <h1 className="drummer text-white text-lg sm:text-md">SRESHTHA</h1>
-          </div>
-          <div className="w-1/2 flex flex-col gap-10 items-end mr-5 ">
-            <div className="flex  gap-7 justify-center sm:hidden">
-            </div>
-            <h1 className="quicksand text-white sm:pl-3">
-              2023 MITS. All rights reserved.
-            </h1>
-          </div>
-          <img src={circle} alt="" className=" absolute bottom-0 sm:h-44" />
-        </div>
-      </div>
+      <Footer/>
     </div>
   );
 };
