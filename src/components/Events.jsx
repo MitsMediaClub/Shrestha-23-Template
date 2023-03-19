@@ -356,7 +356,7 @@ export default function Events() {
                 time={"1PM-3PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://forms.gle/M46ATF54q6cFLNck6"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -401,7 +401,7 @@ export default function Events() {
                 time={"9AM-10AM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://linktr.ee/eneryia"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -767,7 +767,7 @@ export default function Events() {
               time={"1PM-3PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://forms.gle/M46ATF54q6cFLNck6"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -812,7 +812,7 @@ export default function Events() {
               time={"9AM-10AM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://linktr.ee/eneryia"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}

@@ -29,9 +29,9 @@ export default function Navbar() {
             Support
           </motion.h1>
         </Link>
-        <div class="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
+        <div className="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <img src={logo} alt="Tech Logo" className="h-16 w-16" />
-        <div class="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
+        <div className="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -75,6 +75,9 @@ export default function Navbar() {
           </div>
           <Link to="/elcamino">
             <motion.h1
+              onClick={() => {
+                setShow(!show);
+              }}
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
@@ -85,6 +88,9 @@ export default function Navbar() {
           </Link>
           <Link to="mailto:support@shreshta.tech">
             <motion.h1
+              onClick={() => {
+                setShow(!show);
+              }}
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
@@ -100,6 +106,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-white freedom text-5xl uppercase"
+              onClick={() => setShow(!show)}
             >
               About Us
             </motion.h1>
@@ -110,6 +117,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               className="text-white freedom text-5xl uppercase"
+              onClick={() => setShow(!show)}
             >
               Home
             </motion.h1>
