@@ -1,5 +1,5 @@
 import startcard from "../assets/Events/StartCard.svg";
-import logo from "../assets/Footer/logo-only.svg";
+import logo from "../assets/Footer/logo-only.png";
 import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
@@ -398,9 +398,9 @@ export default function Events() {
                 no={"011"}
                 name={"Eneriya"}
                 flip={flipb}
-                time={"9AM-11PM"}
-                date={"31/3/23"}
-                location={"Mech Cad Lab, Mech Project Lab"}
+                time={"1/4/23"}
+                date={"31/3/23 to"}
+                location={"Computer Depatment classrooms"}
                 link={"https://linktr.ee/eneryia"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
@@ -813,9 +813,9 @@ export default function Events() {
               no={"011"}
               name={"Eneriya"}
               flip={flipb}
-              time={"9AM-11PM"}
+              time={"1/4/23"}
               date={"31/3/23"}
-              location={"Mech Cad Lab, Mech Project Lab"}
+              location={"CS Depatment Classrooms"}
               link={"https://linktr.ee/eneryia"}
               bg={"cardback1"}
               cardback={"cardback1"}
@@ -888,7 +888,7 @@ export default function Events() {
 
       <div className=" h-[600px] flex justify-between sm:flex-col sm:items-start sm:justify-center relative pt-10 sm:h-max sm:gap-5">
         <div className="h-full w-1/2 flex gap-2 items-end p-2 sm:p-0 sm:items-center">
-          <img src={logo} className="h-12 w-12" />
+          <img src={logo} className="h-12 w-10" />
           <h1 className="drummer text-white text-lg sm:text-md">SRESHTHA</h1>
         </div>
         <div className="h-full w-1/2 flex flex-col gap-10 justify-end mr-5 items-end">

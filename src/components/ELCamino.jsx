@@ -1,7 +1,7 @@
 import React from "react";
-import waves from "../assets/El Camino/Waves.png";
-import gaming from "../assets/El Camino/Gaming.png";
-import logo from "../assets/Footer/logo-only.svg";
+import waves from "../assets/El Camino/Waves.webp";
+import gaming from "../assets/El Camino/Gaming.webp";
+import logo from "../assets/Footer/logo-only.png";
 import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
 
@@ -13,7 +13,7 @@ const ELCamino = () => {
           <h1 className="p-3 border-b-2 w-1/2 text-3xl text-white drummer mb-5 sm:w-full sm:mx-0">
             EL CAMINO
           </h1>
-          <h1 className="text-blue quicksand">
+          <h1 className="text-blue quicksand text-xl">
             The universe is such a pretty big place. With a promise of never
             ending possibilities of infinity and beyond, SHRESTHA'23 are
             thrilled to present El-Camino,the perils and trenches of the great
@@ -40,7 +40,7 @@ const ELCamino = () => {
           className=" h-[300px] sm:w-full rounded-3xl "
         />
         <div className="w-1/2 sm:w-full">
-          <h1 className="text-blue quicksand">
+          <h1 className="text-blue quicksand text-xl">
             NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the
             Techno-Cultural Fest Hosted by Muthoot Institute of Technology and
             Science at Kochi on the dates of March 31 and April 1. This Lounge
@@ -60,7 +60,7 @@ const ELCamino = () => {
         </div>
         <div className=" h-max flex justify-between sm:flex-col sm:items-start sm:justify-center relative">
           <div className="w-1/2 flex gap-2 items-center p-2 sm:p-0">
-            <img src={logo} className="h-12 w-12" />
+            <img src={logo} className="h-12 w-10" />
             <h1 className="drummer text-white text-lg sm:text-md">SRESHTHA</h1>
           </div>
           <div className="w-1/2 flex flex-col gap-10 items-end mr-5 ">

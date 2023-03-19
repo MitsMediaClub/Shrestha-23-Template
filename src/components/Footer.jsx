@@ -1,4 +1,4 @@
-import logo from "../assets/Footer/logo-only.svg";
+import logo from "../assets/Footer/logo-only.png";
 import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
 export default function Footer() {
@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
       <div className=" h-max flex justify-between flex-col md:flex-row items-center sm:justify-center relative">
         <div className="md:ml-16 md:w-1/2 z-50 mb-3 md:pb-16 flex gap-2 items-center p-2 sm:p-0">
-          <img src={logo} className="h-12 w-12 md:h-16 md:w-16" />
+          <img src={logo} className="h-12 w-10 md:h-16 md:w-16" />
           <h1 className="drummer text-white/80 text-bold text-lg md:text-2xl sm:text-md">SHRESHTA</h1>
         </div>
         <div className="md:mr-16 md:w-1/2 z-50 pb-4 md:pb-16 flex flex-col gap-3 md:gap-10 items-center md:items-end">

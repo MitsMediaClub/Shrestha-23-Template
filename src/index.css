@@ -143,13 +143,13 @@ body::-webkit-scrollbar {
 } */
 
 .cardback {
-  background-image: url(./assets/Events/Cultural/CardBack.png);
+  background-image: url(./assets/Events/Cultural/CardBack.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .cardback1 {
-  background-image: url(./assets/Events/Tech/techBack.png);
+  background-image: url(./assets/Events/Tech/techBack.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }

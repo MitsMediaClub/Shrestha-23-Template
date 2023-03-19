@@ -1,8 +1,8 @@
 import logo from "../assets/tech-text-symbol.svg";
 import arrowm from "../assets/arrowm.svg";
-import img1 from "../assets/Intro-img-1.svg";
-import img2 from "../assets/Intro-img-2.svg";
-import img3 from "../assets/Intro-img-3.svg";
+import img1 from "../assets/Intro-img-1.webp";
+import img2 from "../assets/Intro-img-2.webp";
+import img3 from "../assets/Intro-img-3.webp";
 import she_eve_arrow from "../assets/she-eve-arrow.svg";
 import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
@@ -129,7 +129,7 @@ export default function Intro() {
         <img
           src={circles}
           alt=""
-          className="absolute bottom-circlebottom right-circleright"
+          className="absolute bottom-circlebottom right-circleright -z-50"
         />
       </div>
     </div>

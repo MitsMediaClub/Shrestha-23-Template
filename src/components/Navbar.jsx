@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Footer/logo-only.svg";
+import logo from "../assets/Footer/logo-only.png";
 import sreta from "../assets/Shreshta.png";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import { useRef, useState } from "react";
@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-1">
+      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-10">
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -30,7 +30,7 @@ export default function Navbar() {
           </motion.h1>
         </Link>
         <div className="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
-        <img src={logo} alt="Tech Logo" className="h-16 w-16" />
+        <img src={logo} alt="Tech Logo" className="h-16 w-15" />
         <div className="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <Link to="/about">
           <motion.h1

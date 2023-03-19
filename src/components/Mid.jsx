@@ -1,17 +1,17 @@
 import arrowl from "../assets/Mid/arrow-left.svg";
 import arrowr from "../assets/Mid/arrow-right.svg";
 import left from "../assets/Mid/left.svg";
-import job from "../assets/Mid/JobKurian.png";
+import job from "../assets/Mid/JobKurian.webp";
 import media from "../assets/Mid/Media One.svg";
 import mango from "../assets/Mid/Mango.svg";
-import img1 from "../assets/mid-img-1.svg";
-import img2 from "../assets/mid-img-2.svg";
-import img3 from "../assets/mid-img-3.svg";
+import img1 from "../assets/mid-img-1.webp";
+import img2 from "../assets/mid-img-2.webp";
+import img3 from "../assets/mid-img-3.webp";
 import esc from "../assets/Mid/ESC.svg";
-import gaming from "../assets/Mid/GamingLounge.png";
-import sunburn from "../assets/Mid/SunBurn.png";
-import bandwars from "../assets/Mid/BandWars.png";
-import coffee from "../assets/Mid/MasalaCoffee.png";
+import gaming from "../assets/Mid/GamingLounge.webp";
+import sunburn from "../assets/Mid/SunBurn.webp";
+import bandwars from "../assets/Mid/BandWars.webp";
+import coffee from "../assets/Mid/MasalaCoffee.webp";
 
 export default function Mid() {
   return (
@@ -83,7 +83,7 @@ export default function Mid() {
         <img
           src={job}
           alt="An image of the one and only Job Kurian"
-          className="md:w-1/2 rounded-3xl"
+          className="md:w-1/2 rounded-4xl"
         />
         <div className="flex flex-col gap-4 w-2/6 items-center text-base md:text-2xl font-medium justify-center sm:w-full">
           <h1 className="quicksand">
@@ -120,24 +120,24 @@ export default function Mid() {
           <img
             src={sunburn}
             alt=""
-            className=" rounded-3xl"
+            className=" rounded-4xl"
           />
           <img
             src={gaming}
             alt=""
-            className=" rounded-3xl"
+            className=" rounded-4xl"
           />
         </div>
         <div className="flex flex-col gap-5 md:gap-10 items-start md:w-1/2">
           <img
             src={bandwars}
             alt=""
-            className=" rounded-3xl"
+            className=" rounded-4xl"
           />
           <img
             src={coffee}
             alt=""
-            className=" rounded-3xl"
+            className=" rounded-4xl"
           />
         </div>
       </div>
