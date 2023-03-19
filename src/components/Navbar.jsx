@@ -45,7 +45,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.1 }}
             className="text-white/90 freedom text-xl"
           >
-            Login
+            Home
           </motion.h1>
         </Link>
       </div>

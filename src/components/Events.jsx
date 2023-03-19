@@ -250,7 +250,7 @@ export default function Events() {
                 no={"001"}
                 name={"Ascension Cup"}
                 flip={flipb}
-                time={"9AM-10AM"}
+                time={"9AM-11PM"}
                 date={"20/3/23"}
                 location={"Online"}
                 link={"https://www.yepdesk.com/profile/shreshta23"}
@@ -263,7 +263,7 @@ export default function Events() {
                 no={"002"}
                 name={"Evolve"}
                 flip={flipb}
-                time={"10AM-11AM"}
+                time={"9AM-11PM"}
                 date={"28/3/23"}
                 location={"Visvesvaraya Hall"}
                 link={"https://www.yepdesk.com/profile/shreshta23"}
@@ -278,10 +278,12 @@ export default function Events() {
                 no={"003"}
                 name={"Aviation Workshop"}
                 flip={flipb}
-                time={"11AM-12AM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Micheal Faraday Hall"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={
+                  "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
+                }
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -289,14 +291,15 @@ export default function Events() {
                   "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
                 }
               />
+
               <Card
                 no={"004"}
                 name={"Creatrix"}
                 flip={flipb}
-                time={"1PM-5PM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Cad Lab, Project Lab, M 113"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -308,10 +311,10 @@ export default function Events() {
                 no={"005"}
                 name={"Bridge X"}
                 flip={flipb}
-                time={"9AM-10AM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -323,10 +326,10 @@ export default function Events() {
                 no={"006"}
                 name={"Gladiator"}
                 flip={flipb}
-                time={"10AM-12PM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -338,10 +341,10 @@ export default function Events() {
                 no={"007"}
                 name={"Arma- geddon"}
                 flip={flipb}
-                time={"12PM-1PM"}
+                time={"9AM-11PM"}
                 date={"1/4/23"}
                 location={"Room Numbers 510,507,613,604"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -353,7 +356,7 @@ export default function Events() {
                 no={"008"}
                 name={"Pitch Perfect"}
                 flip={flipb}
-                time={"1PM-3PM"}
+                time={"9AM-11PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
                 link={"https://forms.gle/M46ATF54q6cFLNck6"}
@@ -366,12 +369,12 @@ export default function Events() {
               />
               <Card
                 no={"009"}
-                name={"Trackador"}
+                name={"Tracador"}
                 flip={flipb}
-                time={"3PM-5PM"}
+                time={"9AM-11PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -383,10 +386,12 @@ export default function Events() {
                 no={"010"}
                 name={"Project Expo"}
                 flip={flipb}
-                time={"1PM-5PM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Vishweshwaraya Hall"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={
+                  "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
+                }
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -398,7 +403,7 @@ export default function Events() {
                 no={"011"}
                 name={"Eneriya"}
                 flip={flipb}
-                time={"9AM-10AM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Mech Cad Lab, Mech Project Lab"}
                 link={"https://linktr.ee/eneryia"}
@@ -413,38 +418,24 @@ export default function Events() {
                 no={"012"}
                 name={"End Game"}
                 flip={flipb}
-                time={"10AM-12PM"}
+                time={"9AM-11PM"}
                 date={"31/3/23"}
                 location={"Lawn in front of Ramanujan Block"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={""}
               />
+
               <Card
                 no={"013"}
-                name={"Metaverse Expo"}
-                flip={flipb}
-                time={"12PM-1PM"}
-                date={"1/4/23"}
-                location={"Room Numbers 510,507,613,604"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
-                button={true}
-                desc={
-                  "Step into a whole new world with  cutting-edge virtual shared spaces technology, designed to give you a one-of-a-kind immersive experience. Are you ready to explore beyond the boundaries of reality?"
-                }
-              />
-              <Card
-                no={"014"}
                 name={"Trans- cendus"}
                 flip={flipb}
-                time={"1PM-3PM"}
+                time={"9AM-11PM"}
                 date={"1/4/23"}
                 location={"Albert Einstein Hall"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/transcendus"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -453,17 +444,32 @@ export default function Events() {
                 }
               />
               <Card
-                no={"015"}
+                no={"014"}
                 name={"Ev Workshop"}
                 flip={flipb}
-                time={"3PM-5PM"}
+                time={"9AM-11PM"}
                 date={"1/4/23"}
                 location={"MP and MC Lab"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
                 desc={""}
+              />
+              <Card
+                no={"015"}
+                name={"Mystery Mayhem"}
+                flip={flipb}
+                time={"9AM-11PM"}
+                date={"1/4/23"}
+                location={"Micheal Faraday Hall"}
+                link={"https://www.yepdesk.com/mystery-mayhem"}
+                bg={"cardback1"}
+                cardback={"cardback1"}
+                button={true}
+                desc={
+                  "Step into the shoes of a detective and solve the ultimate whodunit! Join our murder investigation competition and put your sleuthing skills to the test. With clues to unravel and suspects to interrogate, can you crack the case and emerge victorious?"
+                }
               />
             </motion.div>
           )}
@@ -661,7 +667,7 @@ export default function Events() {
               no={"001"}
               name={"Ascension Cup"}
               flip={flipb}
-              time={"9AM-10AM"}
+              time={"9AM-11PM"}
               date={"20/3/23"}
               location={"Online"}
               link={"https://www.yepdesk.com/profile/shreshta23"}
@@ -674,7 +680,7 @@ export default function Events() {
               no={"002"}
               name={"Evolve"}
               flip={flipb}
-              time={"10AM-11AM"}
+              time={"9AM-11PM"}
               date={"28/3/23"}
               location={"Visvesvaraya Hall"}
               link={"https://www.yepdesk.com/profile/shreshta23"}
@@ -689,10 +695,12 @@ export default function Events() {
               no={"003"}
               name={"Aviation Workshop"}
               flip={flipb}
-              time={"11AM-12AM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Micheal Faraday Hall"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={
+                "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
+              }
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -700,14 +708,15 @@ export default function Events() {
                 "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
               }
             />
+
             <Card
               no={"004"}
               name={"Creatrix"}
               flip={flipb}
-              time={"1PM-5PM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Cad Lab, Project Lab, M 113"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -719,10 +728,10 @@ export default function Events() {
               no={"005"}
               name={"Bridge X"}
               flip={flipb}
-              time={"9AM-10AM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -734,10 +743,10 @@ export default function Events() {
               no={"006"}
               name={"Gladiator"}
               flip={flipb}
-              time={"10AM-12PM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -749,10 +758,10 @@ export default function Events() {
               no={"007"}
               name={"Arma- geddon"}
               flip={flipb}
-              time={"12PM-1PM"}
+              time={"9AM-11PM"}
               date={"1/4/23"}
               location={"Room Numbers 510,507,613,604"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -764,7 +773,7 @@ export default function Events() {
               no={"008"}
               name={"Pitch Perfect"}
               flip={flipb}
-              time={"1PM-3PM"}
+              time={"9AM-11PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
               link={"https://forms.gle/M46ATF54q6cFLNck6"}
@@ -777,12 +786,12 @@ export default function Events() {
             />
             <Card
               no={"009"}
-              name={"Trackador"}
+              name={"Tracador"}
               flip={flipb}
-              time={"3PM-5PM"}
+              time={"9AM-11PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -794,10 +803,10 @@ export default function Events() {
               no={"010"}
               name={"Project Expo"}
               flip={flipb}
-              time={"1PM-5PM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Vishweshwaraya Hall"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -809,7 +818,7 @@ export default function Events() {
               no={"011"}
               name={"Eneriya"}
               flip={flipb}
-              time={"9AM-10AM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Mech Cad Lab, Mech Project Lab"}
               link={"https://linktr.ee/eneryia"}
@@ -824,38 +833,24 @@ export default function Events() {
               no={"012"}
               name={"End Game"}
               flip={flipb}
-              time={"10AM-12PM"}
+              time={"9AM-11PM"}
               date={"31/3/23"}
               location={"Lawn in front of Ramanujan Block"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={""}
             />
+
             <Card
               no={"013"}
-              name={"Metaverse Expo"}
-              flip={flipb}
-              time={"12PM-1PM"}
-              date={"1/4/23"}
-              location={"Room Numbers 510,507,613,604"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
-              button={true}
-              desc={
-                "Step into a whole new world with  cutting-edge virtual shared spaces technology, designed to give you a one-of-a-kind immersive experience. Are you ready to explore beyond the boundaries of reality?"
-              }
-            />
-            <Card
-              no={"014"}
               name={"Trans- cendus"}
               flip={flipb}
-              time={"1PM-3PM"}
+              time={"9AM-11PM"}
               date={"1/4/23"}
               location={"Albert Einstein Hall"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/transcendus"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -864,17 +859,32 @@ export default function Events() {
               }
             />
             <Card
-              no={"015"}
+              no={"014"}
               name={"Ev Workshop"}
               flip={flipb}
-              time={"3PM-5PM"}
+              time={"9AM-11PM"}
               date={"1/4/23"}
               location={"MP and MC Lab"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={""}
+            />
+            <Card
+              no={"015"}
+              name={"Mystery Mayhem"}
+              flip={flipb}
+              time={"9AM-11PM"}
+              date={"1/4/23"}
+              location={"Micheal Faraday Hall"}
+              link={"https://www.yepdesk.com/mystery-mayhem"}
+              bg={"cardback1"}
+              cardback={"cardback1"}
+              button={true}
+              desc={
+                "Step into the shoes of a detective and solve the ultimate whodunit! Join our murder investigation competition and put your sleuthing skills to the test. With clues to unravel and suspects to interrogate, can you crack the case and emerge victorious?"
+              }
             />
           </motion.div>
         )}
