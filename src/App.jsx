@@ -6,21 +6,30 @@ import About from "./components/About";
 import { BrowserRouter, Route, Routes, redirect } from "react-router-dom";
 import Events from "./components/Events";
 import Description from "./components/Description";
+import Loading from "./components/Loading";
 import ELCamino from "./components/ELCamino";
+import React, { useState, 
+  useEffect
+   } from 'react';
 
 function App() {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 5000)
+  }, [])
   return (
     <BrowserRouter>
       <Routes>
         <Route
           path="/"
-          element={
+          element={ !loading ? 
             <div className="flex flex-col bg-blue-400  pb-0 overflow-y-auto pb-0 radial sm:px-0 sm:w-full sm:overflow-x-hidden sm:scrollbar scrollbar overflow-x-hidden relative">
               <Navbar />
               <Intro />
               <Mid />
               <Footer />
-            </div>
+            </div> : <Loading/>
           }
         />
         <Route

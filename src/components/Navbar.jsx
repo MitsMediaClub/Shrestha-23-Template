@@ -40,9 +40,6 @@ export default function Navbar() {
             Support
           </motion.h1>
         </Link>
-        <div className="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
-        <img src={logo} alt="Tech Logo" className="h-16 w-16" />
-        <div className="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
