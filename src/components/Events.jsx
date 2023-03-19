@@ -252,7 +252,7 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={""}
+                desc={"Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"}
               />
               <Card
                 no={"002"}
@@ -669,7 +669,7 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={""}
+              desc={"Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"}
             />
             <Card
               no={"002"}
