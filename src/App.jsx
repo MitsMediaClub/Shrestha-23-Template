@@ -13,7 +13,7 @@ import React, { useState,
    } from 'react';
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 5000)
@@ -23,13 +23,16 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={ !loading ? 
+          element={
+            <div>
+            
             <div className="flex flex-col bg-blue-400  pb-0 overflow-y-auto pb-0 radial sm:px-0 sm:w-full sm:overflow-x-hidden sm:scrollbar scrollbar overflow-x-hidden relative">
               <Navbar />
               <Intro />
               <Mid />
               <Footer />
-            </div> : <Loading/>
+            </div>
+            </div>
           }
         />
         <Route
