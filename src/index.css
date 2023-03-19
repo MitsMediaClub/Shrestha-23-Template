@@ -144,13 +144,11 @@ body::-webkit-scrollbar {
 
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.png);
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
 .cardback1 {
   background-image: url(./assets/Events/Tech/techBack.png);
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -158,8 +156,3 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-/* Semi-Transparent White */
-
-.stw {
-  background-color: rgb(255, 255, 255, 0.2);
-}
