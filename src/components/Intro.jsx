@@ -31,7 +31,19 @@ export default function Intro() {
   // }, []);
 
   // const [transt,setTranst] = useState();
-  let encrypted = {"interval":[50,90],"delay":[0,1300],"steps":[5,8],"maxGhosts":0,"ghostChance":0,"changeChance":0.8,"glyphs":"あいうえおがぎぐげござじずぜぞだぢづでどにねのばびふぺぽまやゆんゑゐゟ","fillSpace":false,"mode":"normal","oneAtATime":0};
+  let encrypted = {
+    interval: [50, 90],
+    delay: [0, 1300],
+    steps: [5, 8],
+    maxGhosts: 0,
+    ghostChance: 0,
+    changeChance: 0.8,
+    glyphs:
+      "あいうえおがぎぐげござじずぜぞだぢづでどにねのばびふぺぽまやゆんゑゐゟ",
+    fillSpace: false,
+    mode: "normal",
+    oneAtATime: 0,
+  };
   return (
     <div
       className="flex h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
@@ -47,7 +59,10 @@ export default function Intro() {
       <motion.div className="w-full md:w-1/2 sm:h-80 pt-10 md:pt-28">
         <div className="flex flex-col gap-2 justify-center w-max sm:w-full ml-20 sm:ml-0">
           <div className="flex gap-5 justify-end items-center sm:px-10 w-full">
-            <h1 className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-normal" style={{"text-shadow": "rgb(0, 196, 242) 2px 2px 20px"}}></h1>
+            <h1
+              className=" transtext1 quicksand text-xl text-light-blue sm:text-sm font-normal"
+              style={{ "text-shadow": "rgb(0, 196, 242) 2px 2px 20px" }}
+            ></h1>
             <h1 className="drummer text-white text-7xl sm:text-5xl trans">
               TECH
             </h1>
@@ -100,7 +115,7 @@ export default function Intro() {
           </div>
         </div>
       </motion.div>
-      <div className="w-1/2 pb-28 flex items-center justify-center sm:hidden relative ">
+      <div className="w-1/2 pb-28 flex items-center justify-center sm:hidden relative z-0">
         <Link to="/schedule" className="z-10">
           <motion.img
             whileHover={{
@@ -114,7 +129,7 @@ export default function Intro() {
         <img
           src={circles}
           alt=""
-          className="absolute bottom-circlebottom right-circleright z-0"
+          className="absolute bottom-circlebottom right-circleright"
         />
       </div>
     </div>

@@ -257,9 +257,7 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-                }
+                desc={""}
               />
               <Card
                 no={"002"}
@@ -363,7 +361,7 @@ export default function Events() {
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                  "Unleash your innovation: Pitch your technological idea to change the world! Welcome to the battlefield of innovative and creative ideas that leverage technology to solve real-world problems. Let's make a positive impact together!"
                 }
               />
               <Card
@@ -422,9 +420,7 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-                }
+                desc={""}
               />
               <Card
                 no={"013"}
@@ -467,9 +463,7 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={
-                  "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-                }
+                desc={""}
               />
             </motion.div>
           )}
@@ -674,9 +668,7 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-              }
+              desc={""}
             />
             <Card
               no={"002"}
@@ -780,7 +772,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
+                "Unleash your innovation: Pitch your technological idea to change the world! Welcome to the battlefield of innovative and creative ideas that leverage technology to solve real-world problems. Let's make a positive impact together!"
               }
             />
             <Card
@@ -839,9 +831,7 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-              }
+              desc={""}
             />
             <Card
               no={"013"}
@@ -884,9 +874,7 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={
-                "Rev up your engines and join us for a thrilling car event featuring classic cars, exotic vehicles"
-              }
+              desc={""}
             />
           </motion.div>
         )}

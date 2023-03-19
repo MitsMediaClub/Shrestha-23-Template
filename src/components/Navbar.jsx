@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5">
+      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-1">
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -67,12 +67,12 @@ export default function Navbar() {
           ref={navRef}
         >
           <div
-          className=" z-50 fixed top-5 left-5 w-max"
-          ref={iconRef}
-          onClick={() => setShow(!show)}
-        >
-          <SortRoundedIcon className="text-white" />
-        </div>
+            className=" z-50 fixed top-5 left-5 w-max"
+            ref={iconRef}
+            onClick={() => setShow(!show)}
+          >
+            <SortRoundedIcon className="text-white" />
+          </div>
           <Link to="/elcamino">
             <motion.h1
               initial={{ x: "-100vw" }}

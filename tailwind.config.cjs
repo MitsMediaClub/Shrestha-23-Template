@@ -14,7 +14,7 @@ module.exports = {
         locasep: "4.5rem",
       },
       borderWidth: {
-        '0.5': '0.5px',
+        0.5: "0.5px",
       },
     },
   },
