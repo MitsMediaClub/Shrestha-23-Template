@@ -1,10 +1,5 @@
 import startcard from "../assets/Events/StartCard.svg";
 import logo from "../assets/Footer/logo-only.svg";
-import spotify from "../assets/Footer/Spotify.svg";
-import instagram from "../assets/Footer/Instagram.svg";
-import twitch from "../assets/Footer/Twitch.svg";
-import dribble from "../assets/Footer/Dribbble.svg";
-import facebook from "../assets/Footer/Facebook.svg";
 import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
 import astro from "../assets/Footer/astro.svg";
@@ -898,11 +893,6 @@ export default function Events() {
         </div>
         <div className="h-full w-1/2 flex flex-col gap-10 justify-end mr-5 items-end">
           <div className="flex  gap-7 justify-center sm:hidden">
-            <img src={spotify} alt={"Spotify"} className="w-10 h-10" />
-            <img src={facebook} alt={"Facebook"} className="w-10 h-10" />
-            <img src={instagram} alt={"Instagram"} className="w-10 h-10" />
-            <img src={twitch} alt={"Twitch"} className="w-10 h-10" />
-            <img src={dribble} alt={"Dribbble"} className="w-10 h-10" />
           </div>
           <h1 className="quicksand text-white sm:pl-3">
             2023 MITS. All rights reserved.
