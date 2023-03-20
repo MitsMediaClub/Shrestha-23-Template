@@ -8,6 +8,9 @@ import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
 import { write } from "glitched-writer";
 import { motion } from "framer-motion";
+import React, { useState, 
+  useEffect
+   } from 'react';
 
 export default function Intro() {
   // const writer = new GlitchedWriter(".transtext", "nier");
@@ -44,10 +47,21 @@ export default function Intro() {
     mode: "normal",
     oneAtATime: 0,
   };
+  const [loading, setLoading] = useState(true);
   return (
+    <div>
+    <div className={`h-screen w-screen bg-[#00111C] z-50 fixed ${loading ? "" : "hidden"}`}>
+              <div class="relative top-1/2 mx-auto w-fit text-center justify-center">
+                <h1 class="drummer text-white font-xl w-fit mx-auto">LOADING</h1>
+                <div class="progress-bar bg-white/10">
+                  <div class="progress-fill"></div>
+                </div>
+              </div>
+            </div>
     <div
       className="flex h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
       onLoad={async () => {
+        setLoading(false);
         write("31st March - 1st April", ".transtext1", encrypted);
         write(
           "We're taking tech events to a whole new level. Participate and get rewards!",
@@ -132,6 +146,7 @@ export default function Intro() {
           className="absolute bottom-circlebottom right-circleright -z-50"
         />
       </div>
+    </div>
     </div>
   );
 }

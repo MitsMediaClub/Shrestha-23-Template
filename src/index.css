@@ -108,3 +108,36 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.progress-bar {
+  position: relative;
+  height: 10px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.progress-fill {
+  position: absolute;
+  height: 10px;
+  width: 0%;
+  animation: progress-forward 6s infinite;
+  background: white;
+  border-radius: 15px;
+}
+
+@keyframes progress-forward {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+} ;
