@@ -428,9 +428,9 @@ export default function Events() {
                 no={"013"}
                 name={"Trans- cendus"}
                 flip={flipb}
-                time={"9AM - 11PM"}
-                date={"01-04"}
-                location={"Albert Einstein Hall"}
+                time={"All Day"}
+                date={"31/01"}
+                location={"M206"}
                 link={"https://www.yepdesk.com/transcendus"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
@@ -843,9 +843,9 @@ export default function Events() {
               no={"013"}
               name={"Trans- cendus"}
               flip={flipb}
-              time={"9AM - 11PM"}
-              date={"01-04"}
-              location={"Albert Einstein Hall"}
+              time={"All Day"}
+              date={"31/01"}
+              location={"M206"}
               link={"https://www.yepdesk.com/transcendus"}
               bg={"cardback1"}
               cardback={"cardback1"}
