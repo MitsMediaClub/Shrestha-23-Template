@@ -94,54 +94,6 @@ body::-webkit-scrollbar {
   scrollbar-width: none; /* Firefox */
 }
 
-/* Card */
-/* .card1 {
-  background-image: url(./assets/Events/Cultural/1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.card2 {
-  background-image: url(./assets/Events/Cultural/2.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card3 {
-  background-image: url(./assets/Events/Cultural/3.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card4 {
-  background-image: url(./assets/Events/Cultural/4.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card5 {
-  background-image: url(./assets/Events/Cultural/5.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card6 {
-  background-image: url(./assets/Events/Cultural/6.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card7 {
-  background-image: url(./assets/Events/Cultural/7.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card8 {
-  background-image: url(./assets/Events/Cultural/8.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.card9 {
-  background-image: url(./assets/Events/Cultural/9.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
-
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.webp);
   background-repeat: no-repeat;

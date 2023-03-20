@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/Footer/logo-only.png";
+import logo from "../assets/Footer/logo-only.svg";
 import sreta from "../assets/Shreshta.png";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import { useRef, useState } from "react";
@@ -12,15 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-1">
-      <Link to="/">
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            className="text-white/90 freedom text-xl"
-          >
-            Home
-          </motion.h1>
-        </Link>
+      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-10">
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -29,9 +21,6 @@ export default function Navbar() {
             El Camino
           </motion.h1>
         </Link>
-        <div className="border-l-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
-        <img src={logo} alt="Tech Logo" className="h-16 w-16" />
-        <div className="border-r-0.5 rotate-12 w-1 my-2 h-12 border-white/50"></div>
         <Link to="mailto:support@shreshta.tech">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -49,6 +38,14 @@ export default function Navbar() {
             className="text-white/90 freedom text-xl"
           >
             About Us
+          </motion.h1>
+        </Link>
+        <Link to="/">
+          <motion.h1
+            whileHover={{ scale: 1.1 }}
+            className="text-white/90 freedom text-xl"
+          >
+            Home
           </motion.h1>
         </Link>
       </div>
@@ -76,17 +73,6 @@ export default function Navbar() {
           >
             <SortRoundedIcon className="text-white" />
           </div>
-          <Link to="/">
-            <motion.h1
-              initial={{ x: "-100vw" }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-              className="text-white freedom text-5xl uppercase"
-              onClick={() => setShow(!show)}
-            >
-              Home
-            </motion.h1>
-          </Link>
           <Link to="/elcamino">
             <motion.h1
               onClick={() => {
@@ -113,6 +99,7 @@ export default function Navbar() {
               Support
             </motion.h1>
           </Link>
+          <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
           <Link to="/about">
             <motion.h1
               initial={{ x: "-100vw" }}
@@ -122,6 +109,17 @@ export default function Navbar() {
               onClick={() => setShow(!show)}
             >
               About Us
+            </motion.h1>
+          </Link>
+          <Link to="/">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              className="text-white freedom text-5xl uppercase"
+              onClick={() => setShow(!show)}
+            >
+              Home
             </motion.h1>
           </Link>
         </motion.div>
