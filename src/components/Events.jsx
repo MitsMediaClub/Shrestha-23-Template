@@ -1,9 +1,6 @@
 import startcard from "../assets/Events/StartCard.svg";
-import logo from "../assets/Footer/logo-only.svg";
 import Footer from "./Footer";
-import circle from "../assets/Footer/Bcircle.svg";
 import Card from "./Card";
-import astro from "../assets/Footer/astro.svg";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, useState } from "react";
@@ -96,7 +93,7 @@ export default function Events() {
             >
               <Card
                 no={"001"}
-                name={"Adaptune"}
+                name={"Shuffle"}
                 flip={flipb}
                 time={"9AM - 10AM"}
                 date={"31-03"}
@@ -107,7 +104,7 @@ export default function Events() {
                 desc={
                   "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/shuffle"}
               />
               <Card
                 no={"002"}
@@ -122,7 +119,7 @@ export default function Events() {
                 desc={
                   "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/step-n-synchro1"}
               />
               <Card
                 no={"003"}
@@ -267,7 +264,7 @@ export default function Events() {
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Colloquium on the scope, challenges and impacts of electriv vehicles"
+                  "Colloquium on the scope, challenges and impacts of electric vehicles"
                 }
               />
               <Card
@@ -414,14 +411,14 @@ export default function Events() {
                 no={"012"}
                 name={"End Game"}
                 flip={flipb}
-                time={"9AM - 11PM"}
+                time={"01-04"}
                 date={"31-03"}
-                location={"Lawn in front of Ramanujan Block"}
+                location={"M207"}
                 link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={""}
+                desc={"A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called \"End Game\" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms."}
               />
 
               <Card
