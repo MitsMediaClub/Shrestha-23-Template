@@ -8,16 +8,14 @@ import Events from "./components/Events";
 import Description from "./components/Description";
 import Loading from "./components/Loading";
 import ELCamino from "./components/ELCamino";
-import React, { useState, 
-  useEffect
-   } from 'react';
+import React, { useState, useEffect } from "react";
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 5000)
-  }, [])
+    setTimeout(() => setLoading(false), 5000);
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
@@ -25,13 +23,12 @@ function App() {
           path="/"
           element={
             <div>
-            
-            <div className="flex flex-col bg-blue-400  pb-0 overflow-y-auto pb-0 radial sm:px-0 sm:w-full sm:overflow-x-hidden sm:scrollbar scrollbar overflow-x-hidden relative">
-              <Navbar />
-              <Intro />
-              <Mid />
-              <Footer />
-            </div>
+              <div className="flex flex-col bg-blue-400  pb-0 overflow-y-auto pb-0 radial sm:px-0 sm:w-full sm:overflow-x-hidden sm:scrollbar scrollbar overflow-x-hidden relative">
+                <Navbar />
+                <Intro />
+                <Mid />
+                <Footer />
+              </div>
             </div>
           }
         />
@@ -49,7 +46,7 @@ function App() {
         <Route
           path="/schedule"
           element={
-            <div className="h-full flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar">
+            <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar">
               <Navbar />
               <Events />
             </div>
@@ -66,8 +63,9 @@ function App() {
         <Route
           path="/elcamino"
           element={
-            <div className="h-full flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
-              <Navbar /> <ELCamino />
+            <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+              <Navbar />
+              <ELCamino />
             </div>
           }
         />
