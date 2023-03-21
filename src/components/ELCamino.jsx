@@ -54,7 +54,7 @@ const ELCamino = () => {
           </h1>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
