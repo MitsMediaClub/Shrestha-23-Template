@@ -3,7 +3,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --force
 COPY . .
-RUN ls -la src/assets
 RUN npm run build
 
 FROM nginx as runner
