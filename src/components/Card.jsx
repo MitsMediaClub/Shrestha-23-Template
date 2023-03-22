@@ -61,8 +61,11 @@ class Card extends React.Component {
 
         <div
           className={`h-[515px] w-[265px] relative ${this.props.cardback} bg-contain items-center`}
-          onClick={this.handleClick}
         >
+          <div class="absolute h-[515px] w-[265px]"
+          onClick={this.handleClick}
+            >
+          </div>
           <div class="relative -bottom-1/4">
           <h1 className="desc text-sm text-white p-5 text-end quicksand pr-10">
             {this.props.desc}
@@ -73,7 +76,7 @@ class Card extends React.Component {
             )}
           </h1>
           {this.props.button && (
-            <div class="mx-auto items-center w-fit">
+            <div class="mx-auto items-center w-fit z-50">
             <Link to={this.props.link}>
               <motion.button
                 whileHover={{
