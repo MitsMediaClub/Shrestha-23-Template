@@ -91,7 +91,7 @@ export default function Events() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1 }}
-              className="flex flex-wrap gap-10 mx-20 mt-10 mb-14 justify-between"
+              className="flex flex-wrap gap-10 mx-20 mt-10 mb-14 justify-start"
             >
               <Card
                 no={"001"}

@@ -95,7 +95,6 @@ body::-webkit-scrollbar {
 
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.webp);
-  background-size: 65%;
   background-repeat: no-repeat;
 }
 

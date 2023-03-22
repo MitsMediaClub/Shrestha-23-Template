@@ -12,7 +12,15 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="h-20 flex gap-10 justify-between font-base items-center border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-10">
+      <div className="flex gap-10 justify-between font-base items-center py-2 border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-10">
+        <Link to="/">
+          <motion.h1
+            whileHover={{ scale: 1.1 }}
+            className="text-white/90 drummer text-xl"
+          >
+            Home
+          </motion.h1>
+        </Link>
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -21,6 +29,9 @@ export default function Navbar() {
             El Camino
           </motion.h1>
         </Link>
+        <div class="h-16 border-r-0.5 border-white/50 rotate-12"></div>
+        <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
+        <div class="h-16 border-l-0.5 border-white/50 rotate-12"></div>
         <Link to="mailto:support@shreshta.tech">
           <motion.h1
             whileHover={{ scale: 1.1 }}
@@ -29,21 +40,12 @@ export default function Navbar() {
             Support
           </motion.h1>
         </Link>
-        <img src={sreta} alt="Tech Logo" className="h-20 w-20 " />
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
             className="text-white/90 drummer text-xl"
           >
             About Us
-          </motion.h1>
-        </Link>
-        <Link to="/">
-          <motion.h1
-            whileHover={{ scale: 1.1 }}
-            className="text-white/90 drummer text-xl"
-          >
-            Home
           </motion.h1>
         </Link>
       </div>
