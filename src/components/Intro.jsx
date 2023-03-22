@@ -108,7 +108,7 @@ export default function Intro() {
               <div className="w-60 ">
                 <h1 className="transtext2 text-md quicksand text-end text-blue sm:text-start font-bold"></h1>
               </div>
-              <Link to="/schedule">
+              <Link to="/rules">
                 <motion.img
                   src={she_eve_arrow}
                   className="sm:h-28 sm:w-28 hidden sm:block"
@@ -142,7 +142,7 @@ export default function Intro() {
           </div>
         </motion.div>
         <div className="w-1/2 pb-28 flex items-center justify-center sm:hidden relative z-0">
-          <Link to="/schedule" className="z-10">
+          <Link to="/rules" className="z-10">
             <motion.img
               whileHover={{
                 scale: 1.1,

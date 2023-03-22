@@ -10,6 +10,7 @@ import Loading from "./components/Loading";
 import ELCamino from "./components/ELCamino";
 import React, { useState, useEffect } from "react";
 import Support from "./components/Support";
+import Rules from "./components/Rules";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -76,6 +77,15 @@ function App() {
             <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
               <Navbar />
               <Support />
+            </div>
+          }
+        />
+        <Route
+          path="/rules"
+          element={
+            <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+              <Navbar />
+              <Rules />
             </div>
           }
         />
