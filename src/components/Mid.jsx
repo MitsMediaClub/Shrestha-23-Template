@@ -7,7 +7,7 @@ import mango from "../assets/Mid/Mango.svg";
 import img1 from "../assets/mid-img-1.webp";
 import img2 from "../assets/mid-img-2.webp";
 import img3 from "../assets/mid-img-3.webp";
-import esc from "../assets/Mid/ESC.svg";
+// import esc from "../assets/Mid/ESC.svg";
 import gaming from "../assets/Mid/GamingLounge.webp";
 import sunburn from "../assets/Mid/SunBurn.webp";
 import bandwars from "../assets/Mid/BandWars.webp";
@@ -60,7 +60,7 @@ export default function Mid() {
         </div>
         <div className=" w-1/2  flex flex-col drummer sm:w-full">
           <div className="flex justify-end items-center md:pr-5 gap-3">
-            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0 ">
+            <h1 className="text-white text-5xl sm:text-base md:mr-10 sm:mr-0 ">
               Sea Experience
             </h1>
             <img src={img1} className="h-44 w-44 md:mr-10" />

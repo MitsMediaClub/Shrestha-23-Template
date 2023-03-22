@@ -75,7 +75,7 @@ export default function Navbar() {
           >
             <SortRoundedIcon className="text-white" />
           </div>
-          <Link to="/schedule">
+          <Link to="/rules">
             <motion.h1
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
