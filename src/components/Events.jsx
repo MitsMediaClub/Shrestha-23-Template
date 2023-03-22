@@ -151,7 +151,7 @@ export default function Events() {
                 desc={
                   "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/bandwars"}
               />
               <Card
                 no={"005"}
@@ -181,7 +181,7 @@ export default function Events() {
                 desc={
                   "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/mime5"}
               />
               <Card
                 no={"007"}
@@ -226,7 +226,7 @@ export default function Events() {
                 desc={
                   "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/theme-show1"}
               />
             </motion.div>
           )}
@@ -263,7 +263,7 @@ export default function Events() {
                 time={"9AM - 11PM"}
                 date={"28-03"}
                 location={"Visvesvaraya Hall"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -341,7 +341,7 @@ export default function Events() {
                 time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Room Numbers 510,507,613,604"}
-                link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+                link={"https://www.yepdesk.com/armageddon1"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -356,7 +356,9 @@ export default function Events() {
                 time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Albert Einstein Hall"}
-                link={"https://forms.gle/M46ATF54q6cFLNck6"}
+                link={
+                  "https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"
+                }
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -403,7 +405,7 @@ export default function Events() {
                 time={"1/4/23"}
                 date={"31/3/23 to"}
                 location={"Computer Depatment classrooms"}
-                link={"https://linktr.ee/eneryia"}
+                link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -519,7 +521,7 @@ export default function Events() {
           >
             <Card
               no={"001"}
-              name={"Adaptune"}
+              name={"Shuffle"}
               flip={flipb}
               time={"9AM - 10AM"}
               date={"31-03"}
@@ -530,7 +532,7 @@ export default function Events() {
               desc={
                 "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/shuffle"}
             />
             <Card
               no={"002"}
@@ -545,7 +547,7 @@ export default function Events() {
               desc={
                 "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/step-n-synchro1"}
             />
             <Card
               no={"003"}
@@ -575,7 +577,7 @@ export default function Events() {
               desc={
                 "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/bandwars"}
             />
             <Card
               no={"005"}
@@ -605,7 +607,7 @@ export default function Events() {
               desc={
                 "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/mime5"}
             />
             <Card
               no={"007"}
@@ -650,7 +652,7 @@ export default function Events() {
               desc={
                 "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/theme-show1"}
             />
           </motion.div>
         )}
@@ -684,12 +686,12 @@ export default function Events() {
               time={"9AM - 11PM"}
               date={"28-03"}
               location={"Visvesvaraya Hall"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
               desc={
-                "Colloquium on the scope, challenges and impacts of electriv vehicles"
+                "Colloquium on the scope, challenges and impacts of electric vehicles"
               }
             />
             <Card
@@ -762,7 +764,7 @@ export default function Events() {
               time={"9AM - 11PM"}
               date={"01-04"}
               location={"Room Numbers 510,507,613,604"}
-              link={"https://www.yepdesk.com/armageddon1/private/rsocmo1fao"}
+              link={"https://www.yepdesk.com/armageddon1"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -777,7 +779,7 @@ export default function Events() {
               time={"9AM - 11PM"}
               date={"01-04"}
               location={"Albert Einstein Hall"}
-              link={"https://forms.gle/M46ATF54q6cFLNck6"}
+              link={"https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -820,9 +822,9 @@ export default function Events() {
               name={"Eneriya"}
               flip={flipb}
               time={"1/4/23"}
-              date={"31/3/23"}
-              location={"CS Depatment Classrooms"}
-              link={"https://linktr.ee/eneryia"}
+              date={"31/3/23 to"}
+              location={"Computer Depatment classrooms"}
+              link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -834,14 +836,16 @@ export default function Events() {
               no={"012"}
               name={"End Game"}
               flip={flipb}
-              time={"9AM - 11PM"}
+              time={"01-04"}
               date={"31-03"}
-              location={"Lawn in front of Ramanujan Block"}
+              location={"M207"}
               link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={""}
+              desc={
+                'A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called "End Game" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms.'
+              }
             />
 
             <Card
