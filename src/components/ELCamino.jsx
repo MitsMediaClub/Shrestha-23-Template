@@ -31,7 +31,7 @@ const ELCamino = () => {
           className=" h-[300px] mt-5 sm:w-full rounded-3xl "
         />
       </div>
-      <h1 className="p-3 border-b-2 w-full text-3xl text-white drummer mb-5 ml-20 sm:mx-0 sm:w-screen">
+      <h1 className="p-3 border-b-2 w-1/2 text-3xl text-white drummer mb-5 ml-20 sm:mx-0 sm:w-screen">
         Nexus Gaming Lounge
       </h1>
       <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5 justify-between">
