@@ -73,6 +73,17 @@ export default function Navbar() {
           >
             <SortRoundedIcon className="text-white" />
           </div>
+          <Link to="/schedule">
+            <motion.h1
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5 }}
+              className="text-white drummer text-3xl uppercase"
+              onClick={() => setShow(!show)}
+            >
+              Events
+            </motion.h1>
+          </Link>
           <Link to="/elcamino">
             <motion.h1
               onClick={() => {
@@ -80,12 +91,13 @@ export default function Navbar() {
               }}
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
-              transition={{ duration: 0.5 }}
-              className="text-white drummer text-5xl uppercase"
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="text-white drummer text-3xl uppercase"
             >
               El Camino
             </motion.h1>
           </Link>
+
           <Link to="mailto:support@shreshta.tech">
             <motion.h1
               onClick={() => {
@@ -94,7 +106,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-white drummer text-5xl uppercase"
+              className="text-white drummer text-3xl uppercase"
             >
               Support
             </motion.h1>
@@ -105,7 +117,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-white drummer text-5xl uppercase"
+              className="text-white drummer text-3xl uppercase"
               onClick={() => setShow(!show)}
             >
               About Us
@@ -116,7 +128,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="text-white drummer text-5xl uppercase"
+              className="text-white drummer text-3xl uppercase"
               onClick={() => setShow(!show)}
             >
               Home

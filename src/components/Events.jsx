@@ -125,7 +125,7 @@ export default function Events() {
               />
               <Card
                 no={"003"}
-                name={"Duet Song"}
+                name={"Swara-raaga"}
                 flip={flipb}
                 time={"11AM - 12AM"}
                 date={"31-03"}
@@ -136,7 +136,7 @@ export default function Events() {
                 desc={
                   "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/swara-raaga"}
               />
               <Card
                 no={"004"}
@@ -155,7 +155,7 @@ export default function Events() {
               />
               <Card
                 no={"005"}
-                name={"Stand Up Comedy"}
+                name={"Funlimited"}
                 flip={flipb}
                 time={"9AM - 10AM"}
                 date={"01-04"}
@@ -166,7 +166,7 @@ export default function Events() {
                 desc={
                   "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/funlimited"}
               />
               <Card
                 no={"006"}
@@ -185,7 +185,7 @@ export default function Events() {
               />
               <Card
                 no={"007"}
-                name={"Movie Spoof"}
+                name={"Lights, Camera, Action!"}
                 flip={flipb}
                 time={"12PM - 1PM"}
                 date={"01-04"}
@@ -196,11 +196,11 @@ export default function Events() {
                 desc={
                   "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/lights-camera-action-"}
               />
               <Card
                 no={"008"}
-                name={"Group Dance"}
+                name={"Nacho Nacho"}
                 flip={flipb}
                 time={"1PM - 3PM"}
                 date={"01-04"}
@@ -211,7 +211,7 @@ export default function Events() {
                 desc={
                   "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
                 }
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/naacho-naacho"}
               />
               <Card
                 no={"009"}
@@ -248,7 +248,7 @@ export default function Events() {
                 time={"9AM - 11PM"}
                 date={"20-03"}
                 location={"Online"}
-                link={"https://www.yepdesk.com/profile/shreshta23"}
+                link={"https://www.yepdesk.com/the-ascension-cup"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -266,14 +266,13 @@ export default function Events() {
                 link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
-                button={true}
                 desc={
                   "Colloquium on the scope, challenges and impacts of electric vehicles"
                 }
               />
               <Card
                 no={"003"}
-                name={"Aviation Workshop"}
+                name={"RC Plane Workshop"}
                 flip={flipb}
                 time={"9AM - 11PM"}
                 date={"31-03"}
@@ -383,7 +382,7 @@ export default function Events() {
               />
               <Card
                 no={"010"}
-                name={"Project Expo"}
+                name={"Novellio"}
                 flip={flipb}
                 time={"9AM - 11PM"}
                 date={"31-03"}
@@ -446,7 +445,7 @@ export default function Events() {
               />
               <Card
                 no={"014"}
-                name={"Ev Workshop"}
+                name={"EV Workshop"}
                 flip={flipb}
                 time={"9AM - 11PM"}
                 date={"01-04"}
@@ -455,7 +454,9 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={""}
+                desc={
+                  "Rev up your engines and join me for an electrifying workshop on sustainable transportation! 🚗⚡️ Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV . Don't miss out on this opportunity to learn about the future of transportation and how you can play a part in creating a cleaner, greener world. See you there! 🌍 #electricvehicles #sustainabletransportation #workshop #cleanenergy #greenerfuture"
+                }
               />
               <Card
                 no={"015"}
@@ -551,7 +552,7 @@ export default function Events() {
             />
             <Card
               no={"003"}
-              name={"Duet Song"}
+              name={"Swara-raaga"}
               flip={flipb}
               time={"11AM - 12AM"}
               date={"31-03"}
@@ -562,7 +563,7 @@ export default function Events() {
               desc={
                 "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/swara-raaga"}
             />
             <Card
               no={"004"}
@@ -581,7 +582,7 @@ export default function Events() {
             />
             <Card
               no={"005"}
-              name={"Stand Up Comedy"}
+              name={"Funlimited"}
               flip={flipb}
               time={"9AM - 10AM"}
               date={"01-04"}
@@ -592,7 +593,7 @@ export default function Events() {
               desc={
                 "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/funlimited"}
             />
             <Card
               no={"006"}
@@ -611,7 +612,7 @@ export default function Events() {
             />
             <Card
               no={"007"}
-              name={"Movie Spoof"}
+              name={"Lights, Camera, Action!"}
               flip={flipb}
               time={"12PM - 1PM"}
               date={"01-04"}
@@ -622,11 +623,11 @@ export default function Events() {
               desc={
                 "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/lights-camera-action-"}
             />
             <Card
               no={"008"}
-              name={"Group Dance"}
+              name={"Nacho Nacho"}
               flip={flipb}
               time={"1PM - 3PM"}
               date={"01-04"}
@@ -637,7 +638,7 @@ export default function Events() {
               desc={
                 "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
               }
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/naacho-naacho"}
             />
             <Card
               no={"009"}
@@ -671,7 +672,7 @@ export default function Events() {
               time={"9AM - 11PM"}
               date={"20-03"}
               location={"Online"}
-              link={"https://www.yepdesk.com/profile/shreshta23"}
+              link={"https://www.yepdesk.com/the-ascension-cup"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -689,14 +690,13 @@ export default function Events() {
               link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
               bg={"cardback1"}
               cardback={"cardback1"}
-              button={true}
               desc={
                 "Colloquium on the scope, challenges and impacts of electric vehicles"
               }
             />
             <Card
               no={"003"}
-              name={"Aviation Workshop"}
+              name={"RC Plane Workshop"}
               flip={flipb}
               time={"9AM - 11PM"}
               date={"31-03"}
@@ -804,7 +804,7 @@ export default function Events() {
             />
             <Card
               no={"010"}
-              name={"Project Expo"}
+              name={"Novellio"}
               flip={flipb}
               time={"9AM - 11PM"}
               date={"31-03"}
@@ -865,7 +865,7 @@ export default function Events() {
             />
             <Card
               no={"014"}
-              name={"Ev Workshop"}
+              name={"EV Workshop"}
               flip={flipb}
               time={"9AM - 11PM"}
               date={"01-04"}
@@ -874,7 +874,9 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={""}
+              desc={
+                "Rev up your engines and join me for an electrifying workshop on sustainable transportation! 🚗⚡️ Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV . Don't miss out on this opportunity to learn about the future of transportation and how you can play a part in creating a cleaner, greener world. See you there! 🌍 #electricvehicles #sustainabletransportation #workshop #cleanenergy #greenerfuture"
+              }
             />
             <Card
               no={"015"}
