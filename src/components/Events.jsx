@@ -18,7 +18,9 @@ export default function Events() {
         <div className="w-1/2 flex flex-col gap-10 ml-20 sm:gap-2 sm:ml-0 sm:w-full sm:px-5">
           <h1 className="text-7xl text-white drummer sm:text-3xl ">SHRESHTA</h1>
           <h1 className="text-7xl text-white drummer sm:text-3xl">EXPANDING</h1>
-          <h1 className="text-7xl text-white drummer sm:text-3xl">TECHNOLOGY</h1>
+          <h1 className="text-7xl text-white drummer sm:text-3xl">
+            TECHNOLOGY
+          </h1>
         </div>
         <div className="w-1/2 flex items-center flex-col gap-5 pl-56 sm:hidden">
           <img
@@ -237,7 +239,7 @@ export default function Events() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1 }}
-              className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-between"
+              className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-start"
             >
               <Card
                 no={"001"}
@@ -250,7 +252,9 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={"Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"}
+                desc={
+                  "Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"
+                }
               />
               <Card
                 no={"002"}
@@ -418,7 +422,9 @@ export default function Events() {
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
-                desc={"A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called \"End Game\" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms."}
+                desc={
+                  'A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called "End Game" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms.'
+                }
               />
 
               <Card
@@ -667,7 +673,9 @@ export default function Events() {
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
-              desc={"Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"}
+              desc={
+                "Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"
+              }
             />
             <Card
               no={"002"}
@@ -884,7 +892,7 @@ export default function Events() {
       </div>
       {/* Mobile Version End*/}
 
-      <Footer/>
+      <Footer />
     </motion.div>
   );
 }

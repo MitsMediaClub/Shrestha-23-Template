@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/Footer/logo-only.svg";
-import sreta from "../assets/Shreshta.png";
+import sreta from "../assets/Logo.webp";
 import SortRoundedIcon from "@mui/icons-material/SortRounded";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ export default function Navbar() {
         <Link to="/elcamino">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white/90 freedom text-xl"
+            className="text-white/90 drummer text-xl"
           >
             El Camino
           </motion.h1>
@@ -24,16 +24,16 @@ export default function Navbar() {
         <Link to="mailto:support@shreshta.tech">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white/90 freedom text-xl"
+            className="text-white/90 drummer text-xl"
           >
             Support
           </motion.h1>
         </Link>
-        <img src={logo} alt="Tech Logo" className="h-20 w-20 " />
+        <img src={sreta} alt="Tech Logo" className="h-20 w-20 " />
         <Link to="/about">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white/90 freedom text-xl"
+            className="text-white/90 drummer text-xl"
           >
             About Us
           </motion.h1>
@@ -41,7 +41,7 @@ export default function Navbar() {
         <Link to="/">
           <motion.h1
             whileHover={{ scale: 1.1 }}
-            className="text-white/90 freedom text-xl"
+            className="text-white/90 drummer text-xl"
           >
             Home
           </motion.h1>
@@ -79,7 +79,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-white freedom text-5xl uppercase"
+              className="text-white drummer text-5xl uppercase"
             >
               El Camino
             </motion.h1>
@@ -92,7 +92,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className="text-white freedom text-5xl uppercase"
+              className="text-white drummer text-5xl uppercase"
             >
               Support
             </motion.h1>
@@ -103,7 +103,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-white freedom text-5xl uppercase"
+              className="text-white drummer text-5xl uppercase"
               onClick={() => setShow(!show)}
             >
               About Us
@@ -114,7 +114,7 @@ export default function Navbar() {
               initial={{ x: "-100vw" }}
               animate={{ x: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              className="text-white freedom text-5xl uppercase"
+              className="text-white drummer text-5xl uppercase"
               onClick={() => setShow(!show)}
             >
               Home

@@ -58,7 +58,7 @@ export default function Mid() {
         <div className="h-full w-1/2  sm:w-full sm:absolute">
           <img src={left} className="sm:h-full sm:hidden " />
         </div>
-        <div className=" w-1/2  flex flex-col freedom sm:w-full">
+        <div className=" w-1/2  flex flex-col drummer sm:w-full">
           <div className="flex justify-end items-center md:pr-5 gap-3">
             <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
               Auto show
@@ -117,28 +117,12 @@ export default function Mid() {
       </div>
       <div className="flex flex-col md:flex-row justify-center mt-14 md:mt-28 sm:gap-5 md:mx-16">
         <div className="flex flex-col gap-5 md:gap-10 items-end mr-10 sm:mr-0 md:w-1/2">
-          <img
-            src={sunburn}
-            alt=""
-            className=" rounded-4xl"
-          />
-          <img
-            src={gaming}
-            alt=""
-            className=" rounded-4xl"
-          />
+          <img src={sunburn} alt="" className=" rounded-4xl" />
+          <img src={gaming} alt="" className=" rounded-4xl" />
         </div>
         <div className="flex flex-col gap-5 md:gap-10 items-start md:w-1/2">
-          <img
-            src={bandwars}
-            alt=""
-            className=" rounded-4xl"
-          />
-          <img
-            src={coffee}
-            alt=""
-            className=" rounded-4xl"
-          />
+          <img src={bandwars} alt="" className=" rounded-4xl" />
+          <img src={coffee} alt="" className=" rounded-4xl" />
         </div>
       </div>
       <div className="mt-28 p-10">
