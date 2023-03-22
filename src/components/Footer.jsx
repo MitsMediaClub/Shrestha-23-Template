@@ -10,12 +10,13 @@ export default function Footer() {
       </div>
       <div className=" h-max flex justify-between flex-col md:flex-row items-center sm:justify-center relative">
         <div className="md:ml-16 md:w-1/2 z-50 mb-3 md:pb-16 flex gap-2 items-center p-2 sm:p-0">
-          <img src={logo} className="h-12 w-10 md:h-16 md:w-16" />
-          <h1 className="drummer text-white/80 text-bold text-lg md:text-2xl sm:text-md">SHRESHTA</h1>
+          <img src={logo} className="sm:h-12 sm:w-10 h-16 w-16" />
+          <h1 className="drummer text-white/80 text-bold text-lg md:text-2xl sm:text-md">
+            SHRESHTA
+          </h1>
         </div>
         <div className="md:mr-16 md:w-1/2 z-50 pb-4 md:pb-16 flex flex-col gap-3 md:gap-10 items-center md:items-end">
-          <div className="flex  gap-7 justify-center">
-          </div>
+          <div className="flex  gap-7 justify-center"></div>
           <h1 className="quicksand md:font-semibold text-white/80 text-xs md:text-base">
             © 2023 MITS. All rights reserved.
           </h1>

@@ -60,8 +60,8 @@ export default function Mid() {
         </div>
         <div className=" w-1/2  flex flex-col drummer sm:w-full">
           <div className="flex justify-end items-center md:pr-5 gap-3">
-            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
-              Ascension
+            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0 ">
+              Ascen sion
             </h1>
             <img src={img1} className="h-44 w-44 md:mr-10" />
           </div>
@@ -89,29 +89,31 @@ export default function Mid() {
         <div className="flex flex-col gap-4 w-2/6 items-center text-base md:text-2xl font-medium justify-center sm:w-full">
           <h1 className="quicksand">
             <span className="text-blue">
-              Join Amritha Suressh in inaugurating the upcoming tech fest -
-              let's celebrate innovation!
+              Join Amritha Suresh in inaugrating the upcoming techno-cultural
+              fest, celebrating the colours of youth, innovation and
+              inspiration!
             </span>{" "}
-            Don't miss out on this opportunity to be a part of the excitement
-            and explore the future of technology.
+            Don't miss out on this golden opportunity to be a part of the
+            excitement and explore the future of technology.
           </h1>
           <div className="flex flex-col gap-2 sm:w-full">
             <h1 className="drummer text-white text-2xl mt-8">
-              <span className="font-bold text-blue ">+ </span>Our Vision
+              <span className="font-bold text-blue ">+ </span>About Her
             </h1>
             <h1 className="quicksand">
-              To create a platform for innovation that brings together a
-              community of enthusiasts, and inspires attendees to the future of
-              technology.
+              Amrutha Suresh is a singer,composer, songwriter and
+              radio-jockey.With her immense popularity and massive fan following
+              she rose to fame through a number of chart buster hits.
             </h1>
           </div>
           <div className="flex flex-col gap-2 sm:w-full">
             <h1 className="drummer text-white text-2xl mt-8">
-              <span className="font-bold text-blue">+ </span>Our Values
+              <span className="font-bold text-blue">+ </span>Engraving Glory
             </h1>
             <h1 className="quicksand">
-              Innovation, Learning, Community, Future-oriented, Excitement,
-              Inspiration and Exposure
+              Future of innovation and inspiration, SHRESHTA'23 aims to be a
+              cultural and inter collegiate masquerade for all the young,fresh
+              minds to be a part of our journey.
             </h1>
           </div>
         </div>
