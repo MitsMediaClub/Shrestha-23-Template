@@ -30,7 +30,9 @@ export default function Navbar() {
           </motion.h1>
         </Link>
         <div class="h-16 border-r-0.5 border-white/50 rotate-12"></div>
-        <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
+        <Link to="/">     
+          <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
+        </Link>
         <div class="h-16 border-l-0.5 border-white/50 rotate-12"></div>
         <Link to="/support">
           <motion.h1
@@ -111,7 +113,9 @@ export default function Navbar() {
               Support
             </motion.h1>
           </Link>
-          <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
+          <Link to={"/"}>
+            <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
+          </Link>
           <Link to="/about">
             <motion.h1
               initial={{ x: "-100vw" }}
