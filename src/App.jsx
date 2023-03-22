@@ -9,6 +9,7 @@ import Description from "./components/Description";
 import Loading from "./components/Loading";
 import ELCamino from "./components/ELCamino";
 import React, { useState, useEffect } from "react";
+import Support from "./components/Support";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -66,6 +67,15 @@ function App() {
             <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
               <Navbar />
               <ELCamino />
+            </div>
+          }
+        />
+        <Route
+          path="/support"
+          element={
+            <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar overflow-x-hidden">
+              <Navbar />
+              <Support />
             </div>
           }
         />

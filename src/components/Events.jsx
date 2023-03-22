@@ -91,7 +91,7 @@ export default function Events() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1 }}
-              className="flex flex-wrap gap-10 mx-20 mt-10 mb-14 justify-start"
+              className="flex flex-wrap gap-10 mx-20 mt-10 mb-14 justify-evenly"
             >
               <Card
                 no={"001"}
@@ -239,7 +239,7 @@ export default function Events() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1 }}
-              className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-start"
+              className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-evenly "
             >
               <Card
                 no={"001"}
@@ -355,9 +355,7 @@ export default function Events() {
                 time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Albert Einstein Hall"}
-                link={
-                  "https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"
-                }
+                link={"https://forms.gle/M46ATF54q6cFLNck6"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -455,7 +453,7 @@ export default function Events() {
                 cardback={"cardback1"}
                 button={true}
                 desc={
-                  "Rev up your engines and join me for an electrifying workshop on sustainable transportation! 🚗⚡️ Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV . Don't miss out on this opportunity to learn about the future of transportation and how you can play a part in creating a cleaner, greener world. See you there! 🌍 #electricvehicles #sustainabletransportation #workshop #cleanenergy #greenerfuture"
+                  "Rev up your engines and join me for an electrifying workshop on sustainable transportation! Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV ."
                 }
               />
               <Card
@@ -518,7 +516,7 @@ export default function Events() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
-            className="flex flex-wrap justify-center mt-10 mb-10 gap-10"
+            className="flex flex-wrap justify-center mt-10 mb-10 gap-10 "
           >
             <Card
               no={"001"}
@@ -779,7 +777,7 @@ export default function Events() {
               time={"9AM - 11PM"}
               date={"01-04"}
               location={"Albert Einstein Hall"}
-              link={"https://www.yepdesk.com/pitch-perfect/private/sn9qac9650"}
+              link={"https://forms.gle/M46ATF54q6cFLNck6"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
@@ -875,7 +873,7 @@ export default function Events() {
               cardback={"cardback1"}
               button={true}
               desc={
-                "Rev up your engines and join me for an electrifying workshop on sustainable transportation! 🚗⚡️ Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV . Don't miss out on this opportunity to learn about the future of transportation and how you can play a part in creating a cleaner, greener world. See you there! 🌍 #electricvehicles #sustainabletransportation #workshop #cleanenergy #greenerfuture"
+                "Rev up your engines and join me for an electrifying workshop on sustainable transportation! Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV ."
               }
             />
             <Card

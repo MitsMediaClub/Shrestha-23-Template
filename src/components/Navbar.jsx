@@ -32,7 +32,7 @@ export default function Navbar() {
         <div class="h-16 border-r-0.5 border-white/50 rotate-12"></div>
         <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
         <div class="h-16 border-l-0.5 border-white/50 rotate-12"></div>
-        <Link to="mailto:support@shreshta.tech">
+        <Link to="/support">
           <motion.h1
             whileHover={{ scale: 1.1 }}
             className="text-white/90 drummer text-xl"
@@ -98,7 +98,7 @@ export default function Navbar() {
             </motion.h1>
           </Link>
 
-          <Link to="mailto:support@shreshta.tech">
+          <Link to="/support">
             <motion.h1
               onClick={() => {
                 setShow(!show);

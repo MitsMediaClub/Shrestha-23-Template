@@ -128,7 +128,7 @@ export default function Mid() {
       </div>
       <div className="mt-28 p-10">
         <div className="flex flex-col mx-16 sm:mx-0 sm:items-center">
-          <h1 className="text-white text-4xl md:text-6xl drummer">SPONSORS</h1>
+          <h1 className="text-white text-4xl md:text-6xl drummer">PARTNERS</h1>
           <h1 className="text-blue text-base md:text-lg quicksand font-medium mt-4">
             They made this event possible. They see the future, they experience
             the future, they are the future.
