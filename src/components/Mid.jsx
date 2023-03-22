@@ -89,7 +89,7 @@ export default function Mid() {
         <div className="flex flex-col gap-4 w-2/6 items-center text-base md:text-2xl font-medium justify-center sm:w-full">
           <h1 className="quicksand">
             <span className="text-blue">
-              Join Amritha Suresh in inaugrating the upcoming techno-cultural
+              Join Amrutha Suresh in inaugrating the upcoming techno-cultural
               fest, celebrating the colours of youth, innovation and
               inspiration!
             </span>{" "}
