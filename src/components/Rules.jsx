@@ -91,9 +91,76 @@ const Rules = () => {
           14. The decision of the Organizing Committee and judges shall be final
           in all matters.
         </h1>
+
+        <br />
+        <br />
+        <br />
+        <h1 className="drummer text-3xl text-white border-b-2 p-4 w-1/2 mb-10 sm:w-full">
+          THE FOLLOWING ARE THE RULES FOR CULTURAL EVENTS
+        </h1>
+        <h1>
+          1. Songs, Background music or any Karaoke shall be given to the
+          respective committee members one day before the event
+        </h1>
+
+        <br />
+        <h1>
+          2. The participants should report 30 minutes before the event at the
+          venue and collect the chest numbers.
+        </h1>
+
+        <br />
+        <h1>
+          3. There will be a maximum of three calls for a team/participant
+          within which the participant should report to the stage for
+          performance.
+        </h1>
+
+        <br />
+        <h1>
+          4. The appeal request will be considered only if the difference in
+          results is within 10% of the final score.
+        </h1>
+
+        <br />
+        <h1>
+          5. The appeal must be submitted within 1 hour of the result
+          declaration.
+        </h1>
+
+        <br />
+        <h1>
+          6. The appeal request must be submitted to the judges through the
+          event committee and the decision of the judges shall be final.
+        </h1>
+
+        <br />
+        <h1>
+          7. If there are fewer than 5 team registrations for any event, the
+          college has the authority to cancel the event.
+        </h1>
+
+        <br />
+        <h1>
+          8. A Bonafide of all participants (including substitutes) printed on
+          the institutional letterhead duly signed by the head of the
+          institution should be presented during the registration upon arrival
+          at college, bonafide will be verified with the student IDs
+        </h1>
+
+        <br />
+        <h1>
+          9. After the coordinators confirm the registration and payments of
+          events, refunds will not be provided under any circumstances.
+        </h1>
       </div>
       <Link to="/schedule">
-        <button className="text-white rounded-lg drummer mx-auto  p-2 border-white-2 bg-opacity-70 border-white/30 border text-sm backdrop-blur bg-white/10 mb-10">
+        <button
+          onClick={() => {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }}
+          className="text-white rounded-lg drummer mx-auto  p-2 border-white-2 bg-opacity-70 border-white/30 border text-sm backdrop-blur bg-white/10 mb-10"
+        >
           Agree and Proceed
         </button>
       </Link>
