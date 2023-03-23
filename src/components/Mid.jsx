@@ -12,8 +12,13 @@ import gaming from "../assets/Mid/GamingLounge.webp";
 import sunburn from "../assets/Mid/SunBurn.webp";
 import bandwars from "../assets/Mid/BandWars.webp";
 import coffee from "../assets/Mid/MasalaCoffee.webp";
+import drop from "../assets/Mid/drop.png";
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Mid() {
+  const [show1, setShow1] = useState(false);
+  const [show2, setShow2] = useState(false);
   return (
     <div className="h-auto pt-14 flex flex-col flex-grow scrollbar sm:h-auto sm:mx-5 z-30">
       <div className="flex justify-center gap-2 sm:hidden">
@@ -141,6 +146,64 @@ export default function Mid() {
           <img src={mango} alt="" className="h-44 w-44" />
           {/* <img src={esc} alt="" className="h-44 w-44" /> */}
         </div>
+      </div>
+      <div className="faq w-full mx-20">
+        <h1 className="text-white drummer pb-2 text-8xl w-2/6 border-b-2">
+          FAQ
+        </h1>
+
+        <motion.div className="mt-10 flex flex-col gap-5">
+          <div className="w-full flex flex-col gap-3">
+            <h1 className="text-white quicksand text-xl">
+              1. Who all can participate?{" "}
+              <img
+                className="inline h-12 w-12"
+                src={drop}
+                onClick={() => {
+                  setShow1(!show1);
+                }}
+              />
+            </h1>
+            {show1 && (
+              <motion.h1
+                initial={{ x: "-100vw" }}
+                animate={{ x: 0 }}
+                transition={{ duration: 0.5, type: "tween" }}
+                className="text-white quicksand text-xl"
+              >
+                {"  "} ⦿ Engineering college students with ID cards can take
+                part in this event.
+              </motion.h1>
+            )}
+          </div>
+          <div className="w-full flex flex-col gap-3">
+            <h1 className="text-white quicksand text-xl">
+              2. Are there accomodation facilities?
+              <img
+                className="inline h-12 w-12"
+                src={drop}
+                onClick={() => {
+                  setShow2(!show2);
+                }}
+              />
+            </h1>
+            {show2 && (
+              <motion.h1
+                initial={{ x: "-100vw" }}
+                animate={{ x: 0 }}
+                transition={{ duration: 0.5, type: "tween" }}
+                className="text-white quicksand text-xl"
+              >
+                {"  "} ⦿ Limited accomodation facilities are available. To
+                avail, refer to the support page{" "}
+                <a href="/support" className="text-blue underline">
+                  here
+                </a>
+                .
+              </motion.h1>
+            )}
+          </div>
+        </motion.div>
       </div>
     </div>
   );
