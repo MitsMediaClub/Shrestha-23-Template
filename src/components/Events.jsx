@@ -402,7 +402,7 @@ export default function Events() {
                 time={"1/4/23"}
                 date={"31/3/23 to"}
                 location={"Computer Depatment classrooms"}
-                link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+                link={"https://linktr.ee/eneryia"}
                 bg={"cardback1"}
                 cardback={"cardback1"}
                 button={true}
@@ -822,7 +822,7 @@ export default function Events() {
               time={"1/4/23"}
               date={"31/3/23 to"}
               location={"Computer Depatment classrooms"}
-              link={"https://www.yepdesk.com/eneriya/private/q77ivtoab8"}
+              link={"https://linktr.ee/eneryia"}
               bg={"cardback1"}
               cardback={"cardback1"}
               button={true}
