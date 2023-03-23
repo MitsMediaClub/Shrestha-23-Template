@@ -19,7 +19,7 @@ export default function Events() {
     <motion.div className="pt-28 h-screen sm:pt-10">
       <div className="h-auto flex w-full sm:flex-col">
         <div className="w-1/2 flex flex-col gap-10 ml-20 sm:gap-2 sm:ml-0 sm:w-full sm:px-5">
-          <h1 className="text-7xl text-white drummer sm:text-3xl ">SHRESHTA</h1>
+          <h1 className="text-7xl text-white drummer sm:text-3xl">SHRESHTA</h1>
           <h1 className="text-7xl text-white drummer sm:text-3xl">EXPANDING</h1>
           <h1 className="text-7xl text-white drummer sm:text-3xl">
             TECHNOLOGY
@@ -435,7 +435,7 @@ export default function Events() {
                 no={"014"}
                 name={"EV Workshop"}
                 flip={flipb}
-                date={"01-04"}
+                date={"31-03"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
                 bg={"cardback1"}
@@ -840,7 +840,7 @@ export default function Events() {
               no={"014"}
               name={"EV Workshop"}
               flip={flipb}
-              date={"01-04"}
+              date={"31-03"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
               bg={"cardback1"}
