@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Card from "./Card";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { AnimatePresence, motion } from "framer-motion";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Events() {
   const [culture, setCulture] = useState(true);
@@ -12,6 +12,9 @@ export default function Events() {
   const techRef = useRef();
   const cultureRefM = useRef();
   const techRefM = useRef();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <motion.div className="pt-28 h-screen sm:pt-10">
       <div className="h-auto flex w-full sm:flex-col">
