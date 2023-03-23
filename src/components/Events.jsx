@@ -248,7 +248,6 @@ export default function Events() {
                 no={"001"}
                 name={"Ascension Cup"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"20-03"}
                 location={"Online"}
                 link={"https://www.yepdesk.com/the-ascension-cup"}
@@ -263,7 +262,6 @@ export default function Events() {
                 no={"002"}
                 name={"Evolve"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"28-03"}
                 location={"Visvesvaraya Hall"}
                 link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
@@ -277,7 +275,6 @@ export default function Events() {
                 no={"003"}
                 name={"RC Plane Workshop"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"31-03"}
                 location={"Micheal Faraday Hall"}
                 link={
@@ -295,7 +292,6 @@ export default function Events() {
                 no={"004"}
                 name={"Creatrix"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"31-03"}
                 location={"Cad Lab, Project Lab, M 113"}
                 link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
@@ -310,7 +306,6 @@ export default function Events() {
                 no={"005"}
                 name={"Bridge X"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"31-03"}
                 location={"Mech Cad Lab, Mech Project Lab"}
                 link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
@@ -325,7 +320,6 @@ export default function Events() {
                 no={"006"}
                 name={"Gladiator"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"31-03"}
                 location={"Lawn in front of Ramanujan Block"}
                 link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
@@ -340,7 +334,6 @@ export default function Events() {
                 no={"007"}
                 name={"Arma- geddon"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Room Numbers 510,507,613,604"}
                 link={"https://www.yepdesk.com/armageddon1"}
@@ -355,7 +348,6 @@ export default function Events() {
                 no={"008"}
                 name={"Pitch Perfect"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Albert Einstein Hall"}
                 link={"https://forms.gle/M46ATF54q6cFLNck6"}
@@ -370,7 +362,6 @@ export default function Events() {
                 no={"009"}
                 name={"Tracador"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
@@ -385,7 +376,6 @@ export default function Events() {
                 no={"010"}
                 name={"Novellio"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"31-03"}
                 location={"Vishweshwaraya Hall"}
                 link={
@@ -402,8 +392,7 @@ export default function Events() {
                 no={"011"}
                 name={"Eneriya"}
                 flip={flipb}
-                time={"1/4/23"}
-                date={"31/3/23 to"}
+                date={"31/3/23 to 1/4/23"}
                 location={"Computer Depatment classrooms"}
                 link={"https://linktr.ee/eneryia"}
                 bg={"cardback1"}
@@ -417,7 +406,6 @@ export default function Events() {
                 no={"012"}
                 name={"End Game"}
                 flip={flipb}
-                time={"01-04"}
                 date={"31-03"}
                 location={"M207"}
                 link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
@@ -433,7 +421,6 @@ export default function Events() {
                 no={"013"}
                 name={"Trans- cendus"}
                 flip={flipb}
-                time={"All Day"}
                 date={"31/01"}
                 location={"M206"}
                 link={"https://www.yepdesk.com/transcendus"}
@@ -448,7 +435,6 @@ export default function Events() {
                 no={"014"}
                 name={"EV Workshop"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
@@ -463,7 +449,6 @@ export default function Events() {
                 no={"015"}
                 name={"Mystery Mayhem"}
                 flip={flipb}
-                time={"9AM - 11PM"}
                 date={"01-04"}
                 location={"Micheal Faraday Hall"}
                 link={"https://www.yepdesk.com/mystery-mayhem"}
@@ -670,7 +655,6 @@ export default function Events() {
               no={"001"}
               name={"Ascension Cup"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"20-03"}
               location={"Online"}
               link={"https://www.yepdesk.com/the-ascension-cup"}
@@ -685,7 +669,6 @@ export default function Events() {
               no={"002"}
               name={"Evolve"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"28-03"}
               location={"Visvesvaraya Hall"}
               link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
@@ -699,7 +682,6 @@ export default function Events() {
               no={"003"}
               name={"RC Plane Workshop"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"31-03"}
               location={"Micheal Faraday Hall"}
               link={
@@ -717,7 +699,6 @@ export default function Events() {
               no={"004"}
               name={"Creatrix"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"31-03"}
               location={"Cad Lab, Project Lab, M 113"}
               link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
@@ -732,7 +713,6 @@ export default function Events() {
               no={"005"}
               name={"Bridge X"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"31-03"}
               location={"Mech Cad Lab, Mech Project Lab"}
               link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
@@ -747,7 +727,6 @@ export default function Events() {
               no={"006"}
               name={"Gladiator"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"31-03"}
               location={"Lawn in front of Ramanujan Block"}
               link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
@@ -762,7 +741,6 @@ export default function Events() {
               no={"007"}
               name={"Arma- geddon"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"01-04"}
               location={"Room Numbers 510,507,613,604"}
               link={"https://www.yepdesk.com/armageddon1"}
@@ -777,7 +755,6 @@ export default function Events() {
               no={"008"}
               name={"Pitch Perfect"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"01-04"}
               location={"Albert Einstein Hall"}
               link={"https://forms.gle/M46ATF54q6cFLNck6"}
@@ -792,7 +769,6 @@ export default function Events() {
               no={"009"}
               name={"Tracador"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"01-04"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
@@ -807,7 +783,6 @@ export default function Events() {
               no={"010"}
               name={"Novellio"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"31-03"}
               location={"Vishweshwaraya Hall"}
               link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
@@ -822,8 +797,7 @@ export default function Events() {
               no={"011"}
               name={"Eneriya"}
               flip={flipb}
-              time={"1/4/23"}
-              date={"31/3/23 to"}
+              date={"31/3/23 to 1/4/23"}
               location={"Computer Depatment classrooms"}
               link={"https://linktr.ee/eneryia"}
               bg={"cardback1"}
@@ -837,7 +811,6 @@ export default function Events() {
               no={"012"}
               name={"End Game"}
               flip={flipb}
-              time={"01-04"}
               date={"31-03"}
               location={"M207"}
               link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
@@ -853,7 +826,6 @@ export default function Events() {
               no={"013"}
               name={"Trans- cendus"}
               flip={flipb}
-              time={"All Day"}
               date={"31/01"}
               location={"M206"}
               link={"https://www.yepdesk.com/transcendus"}
@@ -868,7 +840,6 @@ export default function Events() {
               no={"014"}
               name={"EV Workshop"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"01-04"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
@@ -883,7 +854,6 @@ export default function Events() {
               no={"015"}
               name={"Mystery Mayhem"}
               flip={flipb}
-              time={"9AM - 11PM"}
               date={"01-04"}
               location={"Micheal Faraday Hall"}
               link={"https://www.yepdesk.com/mystery-mayhem"}

@@ -147,17 +147,17 @@ export default function Mid() {
           {/* <img src={esc} alt="" className="h-44 w-44" /> */}
         </div>
       </div>
-      <div className="faq w-full mx-20">
-        <h1 className="text-white drummer pb-2 text-8xl w-2/6 border-b-2">
+      <div className="faq w-full mx-20 sm:mx-5">
+        <h1 className="text-white drummer pb-2 text-8xl w-2/6 border-b-2 sm:text-5xl sm:w-1/2">
           FAQ
         </h1>
 
         <motion.div className="mt-10 flex flex-col gap-5">
           <div className="w-full flex flex-col gap-3">
-            <h1 className="text-white quicksand text-xl">
+            <h1 className="text-white quicksand text-xl sm:text-sm">
               1. Who all can participate?{" "}
               <img
-                className="inline h-12 w-12"
+                className="inline h-12 w-12 sm:h-8 sm:w-8"
                 src={drop}
                 onClick={() => {
                   setShow1(!show1);
@@ -169,7 +169,7 @@ export default function Mid() {
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.5, type: "tween" }}
-                className="text-white quicksand text-xl"
+                className="text-white quicksand text-xl sm:text-sm"
               >
                 {"  "} ⦿ Engineering college students with ID cards can take
                 part in this event.
@@ -177,10 +177,10 @@ export default function Mid() {
             )}
           </div>
           <div className="w-full flex flex-col gap-3">
-            <h1 className="text-white quicksand text-xl">
+            <h1 className="text-white quicksand text-xl sm:text-sm">
               2. Are there accomodation facilities?
               <img
-                className="inline h-12 w-12"
+                className="inline h-12 w-12 sm:h-8 sm:w-8"
                 src={drop}
                 onClick={() => {
                   setShow2(!show2);
@@ -192,7 +192,7 @@ export default function Mid() {
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
                 transition={{ duration: 0.5, type: "tween" }}
-                className="text-white quicksand text-xl"
+                className="text-white quicksand text-xl sm:text-sm"
               >
                 {"  "} ⦿ Limited accomodation facilities are available. To
                 avail, refer to the support page{" "}
