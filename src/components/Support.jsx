@@ -88,6 +88,19 @@ const Support = () => {
             (Media Club Technical Lead)
           </h1>
         </div>
+        <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
+          <div className="flex flex-col ">
+            <h1 className="text-white drummer text-3xl  font-semibold ">
+              Thalha Jamsheed
+            </h1>
+            <h1 className="text-white drummer text-3xl  font-semibold ">
+              8078439893
+            </h1>
+          </div>
+          <h1 className="text-white drummer text-3xl mb-10 font-semibold w-1/2">
+            (Accomodation Coordinator)
+          </h1>
+        </div>
       </div>
     </div>
   );
