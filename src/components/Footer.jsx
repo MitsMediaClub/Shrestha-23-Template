@@ -1,6 +1,7 @@
 import logo from "../assets/Footer/logo-only.png";
 import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="">
@@ -16,7 +17,20 @@ export default function Footer() {
           </h1>
         </div>
         <div className="md:mr-16 md:w-1/2 z-50 pb-4 md:pb-16 flex flex-col gap-3 md:gap-10 items-center md:items-end">
-          <div className="flex  gap-7 justify-center"></div>
+          <div className="flex  gap-7 justify-center">
+            <Link to="https://www.instagram.com/shreshta.mits/">
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png"
+                className="w-12 h-12"
+              />
+            </Link>
+            <Link to="https://www.youtube.com/@SHRESHTAMITS">
+              <img
+                src="https://img.icons8.com/ios-filled/50/null/youtube-play.png"
+                className="w-12 h-12"
+              />
+            </Link>
+          </div>
           <h1 className="quicksand md:font-semibold text-white/80 text-xs md:text-base">
             © 2023 MITS. All rights reserved.
           </h1>
