@@ -4,7 +4,7 @@ import left from "../assets/Mid/left.webp";
 import arm from "../assets/Mid/Amritha.webp";
 import media from "../assets/Mid/Media One.svg";
 import mango from "../assets/Mid/Mango.svg";
-import img1 from "../assets/mid-img-1.webp";
+import img1 from "../assets/mid-img-1.png";
 import img2 from "../assets/mid-img-2.webp";
 import img3 from "../assets/mid-img-3.webp";
 // import esc from "../assets/Mid/ESC.svg";
@@ -34,7 +34,7 @@ export default function Mid() {
           </h1>
         </div>
         <div>
-          <img src={arrowr} className="h-48 w-56" />
+          <img src={arrowr} className="mt-14 h-16 w-56" />
         </div>
       </div>
 
@@ -58,32 +58,6 @@ export default function Mid() {
       </div>
 
       {/* Mobile Version End*/}
-
-      <div className="flex h-full sm:relative">
-        <div className="h-full w-1/2  sm:w-full sm:absolute">
-          <img src={left} className="sm:h-full sm:hidden " />
-        </div>
-        <div className=" w-1/2  flex flex-col drummer sm:w-full">
-          <div className="flex justify-end items-center md:pr-5 gap-3">
-            <h1 className="text-white text-5xl sm:text-base md:mr-10 sm:mr-0 ">
-              Sea Experience
-            </h1>
-            <img src={img1} className="h-44 w-44 md:mr-10" />
-          </div>
-          <div className="flex justify-end items-center md:pr-5 gap-3">
-            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
-              Arcade
-            </h1>
-            <img src={img2} className="h-44 w-44 scale-[1.9] md:mr-10" />
-          </div>
-          <div className=" flex justify-end items-center md:pr-5 gap-3">
-            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
-              Expo
-            </h1>
-            <img src={img3} className="h-44 w-44 md:mr-10" />
-          </div>
-        </div>
-      </div>
       <div className="pt-14 md:pt-28 flex items-center justify-evenly  font-bold text-white sm:flex-col sm:h-auto">
         <img
           loading="lazy"
@@ -131,6 +105,31 @@ export default function Mid() {
         <div className="flex flex-col gap-5 md:gap-10 items-start md:w-1/2">
           <img src={bandwars} alt="" className=" rounded-4xl" />
           <img src={coffee} alt="" className=" rounded-4xl" />
+        </div>
+      </div>
+      <div className="flex h-full mt-44 sm:relative">
+        <div className="h-full w-1/2  sm:w-full sm:absolute">
+          <img src={left} className="sm:h-full sm:hidden " />
+        </div>
+        <div className=" w-1/2  flex flex-col drummer sm:w-full">
+          <div className="flex justify-end items-center md:pr-5 gap-3">
+            <h1 className="text-white text-5xl sm:text-base md:mr-10 sm:mr-0 ">
+              Theme Show
+            </h1>
+            <img src={img1} className="w-44 md:mr-10" />
+          </div>
+          <div className="flex justify-end items-center md:pr-5 gap-3">
+            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
+              Arcade
+            </h1>
+            <img src={img2} className="w-44 scale-[1.9] md:mr-10" />
+          </div>
+          <div className=" flex justify-end items-center md:pr-5 gap-3">
+            <h1 className="text-white text-5xl sm:text-2xl md:mr-10 sm:mr-0">
+              Expo
+            </h1>
+            <img src={img3} className="w-44 md:mr-10" />
+          </div>
         </div>
       </div>
       <div className="mt-28 p-10">

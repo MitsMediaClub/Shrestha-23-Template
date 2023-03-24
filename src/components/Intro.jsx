@@ -3,7 +3,7 @@ import arrowm from "../assets/arrowm.svg";
 import img1 from "../assets/Intro-img-1.webp";
 import img2 from "../assets/Intro-img-2.webp";
 import img3 from "../assets/Intro-img-3.webp";
-import she_eve_arrow from "../assets/she-eve-arrow.svg";
+import she_eve_arrow from "../assets/she-eve-arrow.png";
 import { Link } from "react-router-dom";
 import circles from "../assets/Circles.svg";
 import { write } from "glitched-writer";
@@ -61,7 +61,7 @@ export default function Intro() {
         </div>
       </div>
       <div
-        className="flex h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
+        className="flex min-h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
         onLoad={async () => {
           setLoading(false);
           write("31st March - 1st April", ".transtext1", encrypted);
@@ -116,21 +116,25 @@ export default function Intro() {
               </Link>
             </div>
 
-            <div className="flex gap-2 justify-between items-center sm:hidden">
-              <div className="flex flex-col items-center">
+            <div className="flex gap-2 justify-between items-end sm:hidden">
+            <Link to="/rules">
+              <div className="h-full flex flex-col items-center">
                 <img
                   src={img1}
                   alt={"Workshops"}
-                  className=" w-32 scale-[1.2]"
+                  className=" w-32 scale-[1.4]"
                 />
                 <h1 className="text-white text-lg freedom">Workshops </h1>
               </div>
-
-              <div className="flex flex-col items-center">
+              </Link>
+              <Link to="/rules">
+              <div className="h-full flex flex-col items-center">
                 <img src={img2} alt={"Games"} className=" w-36 scale-[1.9]" />
                 <h1 className="text-white text-lg freedom">Games</h1>
               </div>
-              <div className="flex flex-col items-center">
+              </Link>
+              <Link to="/rules">
+              <div className="h-full flex flex-col items-center">
                 <img
                   src={img3}
                   alt={"Lectures"}
@@ -138,6 +142,7 @@ export default function Intro() {
                 />
                 <h1 className="text-white text-lg freedom">Lectures</h1>
               </div>
+              </Link>
             </div>
           </div>
         </motion.div>
