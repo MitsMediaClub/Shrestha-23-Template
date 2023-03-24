@@ -3,7 +3,8 @@ import Footer from "./Footer";
 import Card from "./Card";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
 export default function Events() {
   const [culture, setCulture] = useState(true);
@@ -12,9 +13,11 @@ export default function Events() {
   const techRef = useRef();
   const cultureRefM = useRef();
   const techRefM = useRef();
-  useEffect(() => {
+  const location = useLocation();
+  // Scroll to top if path changes
+  useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [location.pathname]);
   return (
     <motion.div className="pt-28 h-screen sm:pt-10">
       <div className="h-auto flex w-full sm:flex-col">

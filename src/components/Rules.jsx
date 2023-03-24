@@ -6,11 +6,12 @@ const Rules = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="h-screen mt-20 mx-20 sm:mx-2">
-      <h1 className="drummer text-3xl text-white border-b-2 p-4 w-1/2 mb-10 sm:w-full">
-        GENERAL RULES AND REGULATIONS CULTURAL EVENTS
+    <div class="mx-20 sm:mx-2 mt-16">
+    <div className="h-[80vh] md:h-[66vh] overflow-y-scroll">
+      <h1 className="drummer text-3xl md:text-6xl text-white border-b-0.5 border-white/50 p-4 w-fit mb-10 sm:w-full">
+        RULES AND REGULATIONS
       </h1>
-      <div className="quicksand text-3xl text-white border-b-2 p-4  mb-10 sm:w-full">
+      <div className="quicksand text-xl text-white p-4  mb-10 sm:w-full">
         <h1>
           1. Only students from Engineering colleges are allowed to participate
           in the Techno-Cultural Events
@@ -98,7 +99,7 @@ const Rules = () => {
         <br />
         <br />
         <br />
-        <h1 className="drummer text-3xl text-white border-b-2 p-4 w-1/2 mb-10 sm:w-full">
+        <h1 className="drummer text-3xl md:text-6xl text-white border-b-0.5 border-white/50 p-4 mb-10 sm:w-full">
           THE FOLLOWING ARE THE RULES FOR CULTURAL EVENTS
         </h1>
         <h1>
@@ -157,20 +158,15 @@ const Rules = () => {
           events, refunds will not be provided under any circumstances.
         </h1>
       </div>
+    </div>
       <Link to="/schedule">
         <button
-          onclick="window.scrollTo(0, 0);"
-         
-          onClick={() => {
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-          }}
-          className="text-white rounded-lg drummer mx-auto  p-2 border-white-2 bg-opacity-70 border-white/30 border text-sm backdrop-blur bg-white/10 mb-10"
-        
+          className=" mt-8 ml-4 text-white rounded-lg quicksand font-bold mx-auto  py-2 px-4 border-white-2 bg-opacity-70 border-white/30 border text-lg backdrop-blur bg-white/10 mb-10"
         >
           Agree and Proceed
         </button>
       </Link>
-    </div>
+      </div>
   );
 };
 
