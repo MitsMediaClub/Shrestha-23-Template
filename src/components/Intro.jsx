@@ -61,7 +61,7 @@ export default function Intro() {
         </div>
       </div>
       <div
-        className="flex min-h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
+        className="flex min-h-max md:min-h-screen sm:w-full sm:pt-5 sm:h-96 z-1 font-semibold"
         onLoad={async () => {
           setLoading(false);
           write("31st March - 1st April", ".transtext1", encrypted);
@@ -111,7 +111,7 @@ export default function Intro() {
               <Link to="/rules">
                 <motion.img
                   src={she_eve_arrow}
-                  className="sm:h-28 sm:w-28 hidden sm:block"
+                  className="h-28 w-28 mt-4 hidden sm:block"
                 />
               </Link>
             </div>

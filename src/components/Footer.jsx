@@ -4,7 +4,7 @@ import circle from "../assets/Footer/Bcircle.svg";
 export default function Footer() {
   return (
     <div className="">
-      <div className="h-[625px] sm:h-[180px] flex flex-col items-center gap-36 sm:gap-10">
+      <div className="h-[625px] sm:h-[200px] flex flex-col items-center gap-36 sm:gap-10">
         <div className="w-full"></div>
         <img src={astro} className="h-44 w-44 sm:w-24 sm:h-24" />
       </div>
