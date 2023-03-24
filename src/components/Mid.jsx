@@ -4,6 +4,8 @@ import left from "../assets/Mid/left.webp";
 import arm from "../assets/Mid/Amritha.webp";
 import media from "../assets/Mid/Media_One.png";
 import mango from "../assets/Mid/Mango.png";
+import benq from "../assets/Mid/benq.png";
+import cmx from "../assets/Mid/cmx.png";
 import img1 from "../assets/mid-img-1.png";
 import img2 from "../assets/mid-img-2.webp";
 import img3 from "../assets/mid-img-3.webp";
@@ -140,9 +142,11 @@ export default function Mid() {
             the future, they are the future.
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12 md:gap-48 justify-evenly mt-16 md:mx-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-12 md:gap-20 justify-evenly mt-16 md:mx-16">
           <img src={media} alt="" className="" />
           <img src={mango} alt="" className="" />
+          <img src={benq} alt="" className="rounded-xl" />
+          <img src={cmx} alt="" className="" />
           {/* <img src={esc} alt="" className="h-44 w-44" /> */}
         </div>
       </div>
@@ -153,61 +157,67 @@ export default function Mid() {
 
         <motion.div className="mt-10 flex flex-col gap-5">
           <div className="w-full flex flex-col gap-3">
-            <h1 className="text-white quicksand text-xl sm:text-sm cursor-pointer" onClick={() => {
-                  setShow1(!show1);
-                }}>
+            <h1
+              className="text-white quicksand text-xl sm:text-sm cursor-pointer"
+              onClick={() => {
+                setShow1(!show1);
+              }}
+            >
               1. Who all can participate?{" "}
               <img
-                className={`inline h-2 ml-4 ${show1 ? 'rotate-180' : ''}`}
+                className={`inline h-2 ml-4 ${show1 ? "rotate-180" : ""}`}
                 src={drop}
                 onClick={() => {
                   setShow1(!show1);
                 }}
               />
             </h1>
-            <div className={`overflow-hidden ${show1 ? `h-12` : 'h-0'}`}>
-            {show1 && (
-              <motion.h1
-                initial={{ y: "-100vw" }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.5, type: "tween" }}
-                className="text-white/70 quicksand ml-4 md:ml-8 text-xl sm:text-sm"
-              >
-                Engineering college students with ID cards can take
-                part in this event.
-              </motion.h1>
-            )}
-          </div>
+            <div className={`overflow-hidden ${show1 ? `h-12` : "h-0"}`}>
+              {show1 && (
+                <motion.h1
+                  initial={{ y: "-100vw" }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 0.5, type: "tween" }}
+                  className="text-white/70 quicksand ml-4 md:ml-8 text-xl sm:text-sm"
+                >
+                  Engineering college students with ID cards can take part in
+                  this event.
+                </motion.h1>
+              )}
+            </div>
           </div>
           <div className="w-full flex flex-col gap-3">
-            <h1 className="text-white quicksand text-xl sm:text-sm cursor-pointer" onClick={() => {
-                  setShow2(!show2);
-                }}>
+            <h1
+              className="text-white quicksand text-xl sm:text-sm cursor-pointer"
+              onClick={() => {
+                setShow2(!show2);
+              }}
+            >
               2. Are there accommodation facilities?
               <img
-                className={`inline h-2 ml-4 ${show2 ? 'rotate-180' : ''}`}
+                className={`inline h-2 ml-4 ${show2 ? "rotate-180" : ""}`}
                 src={drop}
                 onClick={() => {
                   setShow2(!show2);
                 }}
               />
             </h1>
-            <div className={`overflow-hidden ${show2 ? `h-12` : 'h-0'}`}>
-            {show2 && (
-              <motion.h1
-                initial={{ y: "-10vw" }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.5, type: "tween" }}
-                className="text-white/70 quicksand ml-4 md:ml-8 text-xl sm:text-sm"
-              >
-                Limited accommodation facilities are available. To
-                avail, refer to the support page{" "}
-                <a href="/support" className="text-blue underline">
-                  here
-                </a>
-                .
-              </motion.h1>
-            )}
+            <div className={`overflow-hidden ${show2 ? `h-12` : "h-0"}`}>
+              {show2 && (
+                <motion.h1
+                  initial={{ y: "-10vw" }}
+                  animate={{ y: 0 }}
+                  transition={{ duration: 0.5, type: "tween" }}
+                  className="text-white/70 quicksand ml-4 md:ml-8 text-xl sm:text-sm"
+                >
+                  Limited accommodation facilities are available. To avail,
+                  refer to the support page{" "}
+                  <a href="/support" className="text-blue underline">
+                    here
+                  </a>
+                  .
+                </motion.h1>
+              )}
             </div>
           </div>
         </motion.div>
