@@ -19,6 +19,9 @@ module.exports = {
       borderRadius: {
         "4xl": "2.5rem",
       },
+      backgroundImage: {
+        circle: "url('./src/assets/Footer/Bcircle.svg')",
+      },
     },
   },
   plugins: [],

@@ -379,7 +379,7 @@ export default function Events() {
                 no={"010"}
                 name={"Novellio"}
                 flip={flipb}
-                date={"31-03"}
+                date={"01-04"}
                 location={"Vishweshwaraya Hall"}
                 link={
                   "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
@@ -786,7 +786,7 @@ export default function Events() {
               no={"010"}
               name={"Novellio"}
               flip={flipb}
-              date={"31-03"}
+              date={"01-04"}
               location={"Vishweshwaraya Hall"}
               link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
               bg={"cardback1"}
