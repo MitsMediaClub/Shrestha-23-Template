@@ -111,7 +111,7 @@ export default function Mid() {
         <div className="h-full w-1/2  sm:w-full sm:absolute">
           <img src={left} className="sm:h-full sm:hidden " />
         </div>
-        <div className=" w-1/2  flex flex-col drummer sm:w-full">
+        <div className=" w-1/2 gap-6 md:gap-12 flex flex-col drummer sm:w-full">
           <div className="flex justify-end items-center md:pr-5 gap-3">
             <h1 className="text-white text-5xl sm:text-base md:mr-10 sm:mr-0 ">
               Theme Show
