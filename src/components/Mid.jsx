@@ -145,7 +145,7 @@ export default function Mid() {
         <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-12 md:gap-20 justify-evenly mt-16 md:mx-16">
           <img src={media} alt="" className="" />
           <img src={mango} alt="" className="" />
-          <img src={benq} alt="" className="rounded-xl" />
+          <img src={benq} alt="" className="" />
           <img src={cmx} alt="" className="" />
           {/* <img src={esc} alt="" className="h-44 w-44" /> */}
         </div>
