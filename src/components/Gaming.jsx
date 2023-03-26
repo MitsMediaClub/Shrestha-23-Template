@@ -1,6 +1,6 @@
 import startcard from "../assets/Events/StartCard.svg";
 import Footer from "./Footer";
-import Card from "./Card";
+import Card from "./GameCard";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { motion } from "framer-motion";
 import { useLayoutEffect } from "react";
@@ -33,7 +33,9 @@ export default function Events() {
             className="w-60"
           />
           <div className="w-80 ">
-            <h1 className="transext2t text-3xl text-blue quicksand font-medium">CLICK THE CARDS <br/> TO REGISTER</h1>
+            <h1 className="transext2t text-3xl text-blue quicksand font-medium">
+              CLICK THE CARDS <br /> TO REGISTER
+            </h1>
           </div>
         </div>
       </div>
@@ -129,7 +131,7 @@ export default function Events() {
           transition={{ duration: 1 }}
           className="flex flex-wrap justify-center mt-10 mb-10 gap-10 "
         >
-           <Card
+          <Card
             no={"001"}
             name={"CSGO"}
             flip={flipb}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import flip from "../assets/Events/Flip.svg";
 import { motion } from "framer-motion";
 
-class Card extends React.Component {
+class GameCard extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -55,6 +55,11 @@ class Card extends React.Component {
             <h1 className="location quicksand text-white/80  text-sm">
               {this.props.location}
             </h1>
+            <img
+              className="rounded-xl absolute top-12 h-44 w-44"
+              src={this.props.poster || ""}
+              alt=""
+            />
           </div>
         </motion.div>
 
@@ -105,4 +110,4 @@ class Card extends React.Component {
   }
 }
 
-export default Card;
+export default GameCard;
