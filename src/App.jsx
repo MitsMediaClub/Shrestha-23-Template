@@ -5,6 +5,7 @@ import Mid from "./components/Mid";
 import About from "./components/About";
 import { BrowserRouter, Route, Routes, redirect } from "react-router-dom";
 import Events from "./components/Events";
+import Gaming from "./components/Gaming";
 import Description from "./components/Description";
 import Loading from "./components/Loading";
 import ELCamino from "./components/ELCamino";
@@ -51,6 +52,15 @@ function App() {
             <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar">
               <Navbar />
               <Events />
+            </div>
+          }
+        />
+        <Route
+          path="/nexus"
+          element={
+            <div className="h-screen flex flex-col bg-blue-400  overflow-y-auto pb-0 radial  sm:w-full sm:overflow-x-hidden sm:scrollbar">
+              <Navbar />
+              <Gaming />
             </div>
           }
         />

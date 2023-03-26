@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
@@ -95,6 +94,11 @@ body::-webkit-scrollbar {
 
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.webp);
+  background-repeat: no-repeat;
+}
+
+.nex {
+  background-image: url(./assets/Gaming/NEXUS_GAME.webp);
   background-repeat: no-repeat;
 }
 

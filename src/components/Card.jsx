@@ -25,7 +25,6 @@ class Card extends React.Component {
         containerClassName="w-fit"
         isFlipped={this.state.isFlipped}
         flipDirection="horizontal"
-
       >
         <motion.div
           whileHover={{
@@ -56,39 +55,47 @@ class Card extends React.Component {
             <h1 className="location quicksand text-white/80  text-sm">
               {this.props.location}
             </h1>
+            <img
+              className="rounded-xl absolute top-12 h-44 w-44"
+              src={this.props.poster || ""}
+              alt=""
+            />
           </div>
         </motion.div>
 
         <div
           className={`h-[515px] w-[265px] relative ${this.props.cardback} bg-contain items-center`}
         >
-          <div class="absolute h-[515px] w-[265px]"
-          onClick={this.handleClick}
-            >
-          </div>
+          <div
+            class="absolute h-[515px] w-[265px]"
+            onClick={this.handleClick}
+          ></div>
           <div class="relative -bottom-1/4">
-          <h1 className="desc text-sm text-white p-5 text-end quicksand pr-10">
-            {this.props.desc}
-            {this.props.more && (
-              <Link to="/desc/0">
-                <span className="text-blue quicksand underline"> ...more</span>
-              </Link>
+            <h1 className="desc text-sm text-white p-5 text-end quicksand pr-10">
+              {this.props.desc}
+              {this.props.more && (
+                <Link to="/desc/0">
+                  <span className="text-blue quicksand underline">
+                    {" "}
+                    ...more
+                  </span>
+                </Link>
+              )}
+            </h1>
+            {this.props.button && (
+              <div class="mx-auto items-center w-fit z-50">
+                <Link to={this.props.link}>
+                  <motion.button
+                    whileHover={{
+                      scale: 1.1,
+                    }}
+                    className="text-white rounded-lg drummer mx-auto  p-2 border-white-2 bg-opacity-70 border-white/30 border text-sm backdrop-blur bg-white/10"
+                  >
+                    Register
+                  </motion.button>
+                </Link>
+              </div>
             )}
-          </h1>
-          {this.props.button && (
-            <div class="mx-auto items-center w-fit z-50">
-            <Link to={this.props.link}>
-              <motion.button
-                whileHover={{
-                  scale: 1.1,
-                }}
-                className="text-white rounded-lg drummer mx-auto  p-2 border-white-2 bg-opacity-70 border-white/30 border text-sm backdrop-blur bg-white/10"
-              >
-                Register
-              </motion.button>
-            </Link>
-            </div>
-          )}
           </div>
           {/* <motion.img
             whileHover={{ scale: 1.1 }}
