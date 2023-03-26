@@ -11,6 +11,7 @@ import fifa from "../assets/Gaming/Fifa.webp";
 import mine1 from "../assets/Gaming/Minecraft.webp";
 import mine2 from "../assets/Gaming/MinecraftCreate.webp";
 import cod from "../assets/Gaming/COD.webp";
+import codm from "../assets/Gaming/codm.webp";
 
 export default function Events() {
   // Scroll to top if path changes
@@ -32,7 +33,7 @@ export default function Events() {
             className="w-60"
           />
           <div className="w-80 ">
-            <h1 className="transext2t text-lg text-blue quicksand font-medium"></h1>
+            <h1 className="transext2t text-3xl text-blue quicksand font-medium">CLICK THE CARDS <br/> TO REGISTER</h1>
           </div>
         </div>
       </div>
@@ -46,44 +47,44 @@ export default function Events() {
         >
           <Card
             no={"001"}
-            name={"Ascension Cup"}
-            flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
-            button={true}
-            poster={valo}
-            link={"https://www.yepdesk.com/shuffle"}
-          />
-          <Card
-            no={"002"}
             name={"CSGO"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={csgo}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-csgo-tribute-cup"}
           />
 
           <Card
-            no={"003"}
-            name={"Call Of Duty"}
+            no={"002"}
+            name={"Call Of Duty: Black Ops"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={cod}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-csgo-ghost-cup"}
+          />
+          <Card
+            no={"003"}
+            name={"Call Of Duty : Mobile"}
+            flip={flipb}
+            bg={"nex"}
+            cardback={"nex"}
+            button={true}
+            poster={codm}
+            link={"https://forms.gle/zrSKvp2sbjwGxFUw7"}
           />
           <Card
             no={"004"}
-            name={"Fifa"}
+            name={"FIFA"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={fifa}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/fifa-mits-tournament"}
           />
           <Card
             no={"005"}
@@ -93,7 +94,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={rocket}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-rocket-leaque"}
           />
           <Card
             no={"006"}
@@ -103,7 +104,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={mine1}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/minecraft-bedwars"}
           />
           <Card
             no={"007"}
@@ -113,7 +114,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={mine2}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
         </motion.div>
       </div>
@@ -128,46 +129,46 @@ export default function Events() {
           transition={{ duration: 1 }}
           className="flex flex-wrap justify-center mt-10 mb-10 gap-10 "
         >
-          <Card
+           <Card
             no={"001"}
-            name={"Ascension Cup"}
-            flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
-            button={true}
-            poster={valo}
-            link={"https://www.yepdesk.com/shuffle"}
-          />
-          <Card
-            no={"002"}
             name={"CSGO"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={csgo}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-csgo-tribute-cup"}
           />
 
           <Card
-            no={"003"}
-            name={"Call Of Duty"}
+            no={"002"}
+            name={"Call Of Duty: Black Ops"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={cod}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-csgo-ghost-cup"}
+          />
+          <Card
+            no={"003"}
+            name={"Call Of Duty : Mobile"}
+            flip={flipb}
+            bg={"nex"}
+            cardback={"nex"}
+            button={true}
+            poster={codm}
+            link={"https://forms.gle/zrSKvp2sbjwGxFUw7"}
           />
           <Card
             no={"004"}
-            name={"Fifa"}
+            name={"FIFA"}
             flip={flipb}
             bg={"nex"}
             cardback={"nex"}
             button={true}
             poster={fifa}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/fifa-mits-tournament"}
           />
           <Card
             no={"005"}
@@ -177,7 +178,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={rocket}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/mits-rocket-leaque"}
           />
           <Card
             no={"006"}
@@ -187,7 +188,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={mine1}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/minecraft-bedwars"}
           />
           <Card
             no={"007"}
@@ -197,7 +198,7 @@ export default function Events() {
             cardback={"nex"}
             button={true}
             poster={mine2}
-            link={"https://www.yepdesk.com/shuffle"}
+            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
         </motion.div>
       </div>

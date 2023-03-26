@@ -248,20 +248,6 @@ export default function Events() {
               className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-evenly "
             >
               <Card
-                no={"001"}
-                name={"Ascension Cup"}
-                flip={flipb}
-                date={"20-03"}
-                location={"Online"}
-                link={"https://www.yepdesk.com/the-ascension-cup"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
-                button={true}
-                desc={
-                  "Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"
-                }
-              />
-              <Card
                 no={"002"}
                 name={"Evolve"}
                 flip={flipb}
