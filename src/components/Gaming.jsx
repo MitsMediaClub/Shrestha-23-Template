@@ -172,6 +172,16 @@ export default function Events() {
           />
           <Card
             no={"005"}
+            name={"PES"}
+            flip={flipb}
+            bg={"nex"}
+            cardback={"nex"}
+            button={true}
+            poster={fifa}
+            link={"https://www.yepdesk.com/efootball-pes-mobile"}
+          />
+          <Card
+            no={"005"}
             name={"Rocket League"}
             flip={flipb}
             bg={"nex"}
