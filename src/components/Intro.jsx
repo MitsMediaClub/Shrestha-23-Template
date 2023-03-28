@@ -130,7 +130,7 @@ export default function Intro() {
               <Link to="/nexus">
                 <div className="h-full flex flex-col items-center">
                   <img src={img2} alt={"Games"} className=" w-36 scale-[1.9]" />
-                  <h1 className="text-white text-lg freedom">Games</h1>
+                  <h1 className="text-white text-lg freedom">Nexus</h1>
                 </div>
               </Link>
               <Link to="/rules">

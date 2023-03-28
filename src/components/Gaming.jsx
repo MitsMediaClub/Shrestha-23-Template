@@ -18,17 +18,18 @@ export default function Events() {
           <h1 className="text-7xl text-white drummer sm:text-3xl">GAMING</h1>
           <h1 className="text-7xl text-white drummer sm:text-3xl">LOUNGE</h1>
         </div>
-        <div className="w-1/2 flex items-center flex-col gap-5 pl-56 sm:hidden">
-          <img
-            src={startcard}
-            alt="a card with Shreshta's logo on it"
-            className="w-60"
-          />
-          <div className="w-80 ">
-            <h1 className="transext2t text-2xl text-blue quicksand font-medium text-center">
-              Click The Cards <br /> To Register
-            </h1>
-          </div>
+        <div className="w-1/2 flex gap-5 mx-20 sm:flex-col justify-between sm:w-auto pt-5 ">
+          <h1 className="text-blue quicksand text-xl  sm:text-sm">
+            NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the
+            Techno-Cultural Fest Hosted by Muthoot Institute of Technology and
+            Science at Kochi on the dates of March 31 and April 1. This Lounge
+            is considered to be one of the biggest gaming lounges in Kerala up
+            to date and will go down in history as the best gamer meet ever. The
+            Main concept of NEXUS is to provide a FREE platform for gamers to
+            meet and greet, and explore the different games and adventures that
+            they could not experience alone. So, Come explore the different
+            dimensions of gaming with us.
+          </h1>
         </div>
       </div>
       <div className="w-full pt-20 sm:hidden">

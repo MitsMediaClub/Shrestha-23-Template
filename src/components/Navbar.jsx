@@ -13,12 +13,12 @@ export default function Navbar() {
   return (
     <>
       <div className="flex gap-10 justify-between font-base items-center py-2 border-b-0.5 border-white/50 mx-20 sm:hidden px-5 z-10">
-        <Link to="/">
+        <Link to="/nexus">
           <motion.h1
             whileHover={{ scale: 1.1 }}
             className="text-white/90 drummer text-xl"
           >
-            Home
+            Nexus
           </motion.h1>
         </Link>
         <Link to="/elcamino">
@@ -112,9 +112,7 @@ export default function Navbar() {
               Support
             </motion.h1>
           </Link>
-          <Link to={"/"}>
-            <img src={logo} alt="Tech Logo" className="h-44 w-44 hidden" />
-          </Link>
+
           <Link to="/about">
             <motion.h1
               initial={{ x: "-100vw" }}
@@ -135,6 +133,19 @@ export default function Navbar() {
               onClick={() => setShow(!show)}
             >
               Home
+            </motion.h1>
+          </Link>
+          <Link to="/nexus">
+            <motion.h1
+              onClick={() => {
+                setShow(!show);
+              }}
+              initial={{ x: "-100vw" }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+              className="text-white drummer text-3xl uppercase"
+            >
+              Nexus
             </motion.h1>
           </Link>
         </motion.div>

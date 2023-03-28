@@ -31,29 +31,6 @@ const ELCamino = () => {
           className=" h-[300px] mt-5 sm:w-full rounded-3xl "
         />
       </div>
-      <h1 className="p-3 border-b-2 w-1/2 text-3xl text-white drummer mb-5 ml-20 sm:mx-0 sm:w-screen">
-        Nexus Gaming Lounge
-      </h1>
-      <div className="flex gap-5 mx-20 sm:flex-col sm:mx-5 justify-between">
-        <img
-          src={gaming}
-          alt=""
-          className=" h-[300px] sm:w-full rounded-3xl "
-        />
-        <div className="w-1/2 sm:w-full">
-          <h1 className="text-blue quicksand text-xl">
-            NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the
-            Techno-Cultural Fest Hosted by Muthoot Institute of Technology and
-            Science at Kochi on the dates of March 31 and April 1. This Lounge
-            is considered to be one of the biggest gaming lounges in Kerala up
-            to date and will go down in history as the best gamer meet ever. The
-            Main concept of NEXUS is to provide a FREE platform for gamers to
-            meet and greet, and explore the different games and adventures that
-            they could not experience alone. So, Come explore the different
-            dimensions of gaming with us.
-          </h1>
-        </div>
-      </div>
       <Footer />
     </div>
   );
