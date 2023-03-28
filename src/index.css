@@ -97,13 +97,82 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
 }
 
-.nex {
-  background-image: url(./assets/Gaming/NEXUS_GAME.webp);
+.cardf1 {
+  background-image: url(./assets/Gaming/Cards_Front/bed.webp);
   background-repeat: no-repeat;
 }
 
+.cardf2 {
+  background-image: url(./assets/Gaming/Cards_Front/brawl.webp);
+  background-repeat: no-repeat;
+}
+
+.cardf3 {
+  background-image: url(./assets/Gaming/Cards_Front/cod.webp);
+  background-repeat: no-repeat;
+}
+
+.cardf4 {
+  background-image: url(./assets/Gaming/Cards_Front/create.webp);
+  background-repeat: no-repeat;
+}
+
+.cardf5 {
+  background-image: url(./assets/Gaming/Cards_Front/csgo.webp);
+  background-repeat: no-repeat;
+}
+
+.cardf6 {
+  background-image: url(./assets/Gaming/Cards_Front/pes.webp);
+  background-repeat: no-repeat;
+}
+.cardf7 {
+  background-image: url(./assets/Gaming/Cards_Front/rocket.webp);
+  background-repeat: no-repeat;
+}
+.cardf8 {
+  background-image: url(./assets/Gaming/Cards_Front/codm.webp);
+  background-repeat: no-repeat;
+}
+.cardb1 {
+  background-image: url(./assets/Gaming/Cards_Back/bed.webp);
+  background-repeat: no-repeat;
+}
+
+.cardb2 {
+  background-image: url(./assets/Gaming/Cards_Back/brawl.webp);
+  background-repeat: no-repeat;
+}
+
+.cardb3 {
+  background-image: url(./assets/Gaming/Cards_Back/cod.webp);
+  background-repeat: no-repeat;
+}
+
+.cardb4 {
+  background-image: url(./assets/Gaming/Cards_Back/create.webp);
+  background-repeat: no-repeat;
+}
+
+.cardb5 {
+  background-image: url(./assets/Gaming/Cards_Back/csgo.webp);
+  background-repeat: no-repeat;
+}
+
+.cardb6 {
+  background-image: url(./assets/Gaming/Cards_Back/pes.webp);
+  background-repeat: no-repeat;
+}
+.cardb7 {
+  background-image: url(./assets/Gaming/Cards_Back/rocket.webp);
+  background-repeat: no-repeat;
+}
+.cardb8 {
+  background-image: url(./assets/Gaming/Cards_Back/codm.webp);
+  background-repeat: no-repeat;
+}
 .cardback1 {
-  background-image: url(./assets/Events/Tech/techBack.webp);
+  background-image: url(./assets/Events/Cards_Front/Tech/techBack.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }

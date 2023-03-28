@@ -30,7 +30,7 @@ export default function Navbar() {
           </motion.h1>
         </Link>
         <div class="h-16 border-r-0.5 border-white/50 rotate-12"></div>
-        <Link to="/">     
+        <Link to="/">
           <img src={sreta} alt="Tech Logo" className="h-20 w-20" />
         </Link>
         <div class="h-16 border-l-0.5 border-white/50 rotate-12"></div>
@@ -70,7 +70,6 @@ export default function Navbar() {
         >
           <div
             className=" z-50 fixed top-5 left-5 w-max"
-            ref={iconRef}
             onClick={() => setShow(!show)}
           >
             <SortRoundedIcon className="text-white" />

@@ -55,11 +55,6 @@ class GameCard extends React.Component {
             <h1 className="location quicksand text-white/80  text-sm">
               {this.props.location}
             </h1>
-            <img
-              className="rounded-xl absolute top-12 h-44 w-44"
-              src={this.props.poster || ""}
-              alt=""
-            />
           </div>
         </motion.div>
 

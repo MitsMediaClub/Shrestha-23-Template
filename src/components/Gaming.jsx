@@ -4,14 +4,6 @@ import Card from "./GameCard";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { motion } from "framer-motion";
 import { useLayoutEffect } from "react";
-import valo from "../assets/Gaming/Valorant.webp";
-import csgo from "../assets/Gaming/CSGO.webp";
-import rocket from "../assets/Gaming/RocketLeague.webp";
-import fifa from "../assets/Gaming/Fifa.webp";
-import mine1 from "../assets/Gaming/Minecraft.webp";
-import mine2 from "../assets/Gaming/MinecraftCreate.webp";
-import cod from "../assets/Gaming/COD.webp";
-import codm from "../assets/Gaming/codm.webp";
 
 export default function Events() {
   // Scroll to top if path changes
@@ -33,8 +25,8 @@ export default function Events() {
             className="w-60"
           />
           <div className="w-80 ">
-            <h1 className="transext2t text-3xl text-blue quicksand font-medium">
-              CLICK THE CARDS <br /> TO REGISTER
+            <h1 className="transext2t text-2xl text-blue quicksand font-medium text-center">
+              Click The Cards <br /> To Register
             </h1>
           </div>
         </div>
@@ -51,10 +43,9 @@ export default function Events() {
             no={"001"}
             name={"CSGO"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf5"}
+            cardback={"cardb5"}
             button={true}
-            poster={csgo}
             link={"https://www.yepdesk.com/mits-csgo-tribute-cup"}
           />
 
@@ -62,60 +53,54 @@ export default function Events() {
             no={"002"}
             name={"Call Of Duty: Black Ops"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf3"}
+            cardback={"cardb3"}
             button={true}
-            poster={cod}
             link={"https://www.yepdesk.com/mits-csgo-ghost-cup"}
           />
           <Card
             no={"003"}
             name={"Call Of Duty : Mobile"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf8"}
+            cardback={"cardf8"}
             button={true}
-            poster={codm}
             link={"https://forms.gle/zrSKvp2sbjwGxFUw7"}
           />
           <Card
             no={"004"}
             name={"FIFA"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf6"}
+            cardback={"cardb6"}
             button={true}
-            poster={fifa}
             link={"https://www.yepdesk.com/fifa-mits-tournament"}
           />
           <Card
             no={"005"}
             name={"Rocket League"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf7"}
+            cardback={"cardb7"}
             button={true}
-            poster={rocket}
             link={"https://www.yepdesk.com/mits-rocket-leaque"}
           />
           <Card
             no={"006"}
             name={"Minecraft Bedwars"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf1"}
+            cardback={"cardb1"}
             button={true}
-            poster={mine1}
             link={"https://www.yepdesk.com/minecraft-bedwars"}
           />
           <Card
             no={"007"}
             name={"Minecraft Create"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf4"}
+            cardback={"cardb4"}
             button={true}
-            poster={mine2}
             link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
         </motion.div>
@@ -138,7 +123,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={csgo}
             link={"https://www.yepdesk.com/mits-csgo-tribute-cup"}
           />
 
@@ -149,7 +133,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={cod}
             link={"https://www.yepdesk.com/mits-csgo-ghost-cup"}
           />
           <Card
@@ -159,7 +142,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={codm}
             link={"https://forms.gle/zrSKvp2sbjwGxFUw7"}
           />
           <Card
@@ -169,7 +151,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={fifa}
             link={"https://www.yepdesk.com/fifa-mits-tournament"}
           />
           <Card
@@ -179,7 +160,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={fifa}
             link={"https://www.yepdesk.com/efootball-pes-mobile"}
           />
           <Card
@@ -189,7 +169,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={rocket}
             link={"https://www.yepdesk.com/mits-rocket-leaque"}
           />
           <Card
@@ -199,7 +178,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={mine1}
             link={"https://www.yepdesk.com/minecraft-bedwars"}
           />
           <Card
@@ -209,7 +187,6 @@ export default function Events() {
             bg={"nex"}
             cardback={"nex"}
             button={true}
-            poster={mine2}
             link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
         </motion.div>
