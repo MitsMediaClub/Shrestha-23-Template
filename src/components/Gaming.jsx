@@ -104,6 +104,15 @@ export default function Events() {
             button={true}
             link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
+          <Card
+            no={"008"}
+            name={"Brawlhalla"}
+            flip={flipb}
+            bg={"cardf2"}
+            cardback={"cardb2"}
+            button={true}
+            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
+          />
         </motion.div>
       </div>
 
@@ -178,6 +187,15 @@ export default function Events() {
             flip={flipb}
             bg={"cardf4"}
             cardback={"cardb4"}
+            button={true}
+            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
+          />
+          <Card
+            no={"008"}
+            name={"Brawlhalla"}
+            flip={flipb}
+            bg={"cardf2"}
+            cardback={"cardb2"}
             button={true}
             link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
