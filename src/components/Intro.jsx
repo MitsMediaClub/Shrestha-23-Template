@@ -117,31 +117,31 @@ export default function Intro() {
             </div>
 
             <div className="flex gap-2 justify-between items-end sm:hidden">
-            <Link to="/rules">
-              <div className="h-full flex flex-col items-center">
-                <img
-                  src={img1}
-                  alt={"Workshops"}
-                  className=" w-32 scale-[1.4]"
-                />
-                <h1 className="text-white text-lg freedom">Workshops </h1>
-              </div>
+              <Link to="/rules">
+                <div className="h-full flex flex-col items-center">
+                  <img
+                    src={img1}
+                    alt={"Workshops"}
+                    className=" w-32 scale-[1.4]"
+                  />
+                  <h1 className="text-white text-lg freedom">Workshops </h1>
+                </div>
+              </Link>
+              <Link to="/nexus">
+                <div className="h-full flex flex-col items-center">
+                  <img src={img2} alt={"Games"} className=" w-36 scale-[1.9]" />
+                  <h1 className="text-white text-lg freedom">Games</h1>
+                </div>
               </Link>
               <Link to="/rules">
-              <div className="h-full flex flex-col items-center">
-                <img src={img2} alt={"Games"} className=" w-36 scale-[1.9]" />
-                <h1 className="text-white text-lg freedom">Games</h1>
-              </div>
-              </Link>
-              <Link to="/rules">
-              <div className="h-full flex flex-col items-center">
-                <img
-                  src={img3}
-                  alt={"Lectures"}
-                  className=" w-32 scale-[1.2]"
-                />
-                <h1 className="text-white text-lg freedom">Lectures</h1>
-              </div>
+                <div className="h-full flex flex-col items-center">
+                  <img
+                    src={img3}
+                    alt={"Lectures"}
+                    className=" w-32 scale-[1.2]"
+                  />
+                  <h1 className="text-white text-lg freedom">Lectures</h1>
+                </div>
               </Link>
             </div>
           </div>
