@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="md:mr-16 md:w-1/2 z-50 pb-4 md:pb-16 flex flex-col gap-3 md:gap-10 items-center md:items-end">
           <div className="flex  gap-7 justify-center">
-            <Link to="https://www.instagram.com/shreshta.mits/">
+            <Link to="https://instagram.com/shreshtamits?igshid=YmMyMTA2M2Y=">
               <img
                 src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png"
                 className="w-12 h-12"
