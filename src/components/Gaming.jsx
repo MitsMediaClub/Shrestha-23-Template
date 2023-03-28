@@ -120,8 +120,8 @@ export default function Events() {
             no={"001"}
             name={"CSGO"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf5"}
+            cardback={"cardb5"}
             button={true}
             link={"https://www.yepdesk.com/mits-csgo-tribute-cup"}
           />
@@ -130,8 +130,8 @@ export default function Events() {
             no={"002"}
             name={"Call Of Duty: Black Ops"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf3"}
+            cardback={"cardb3"}
             button={true}
             link={"https://www.yepdesk.com/mits-csgo-ghost-cup"}
           />
@@ -139,8 +139,8 @@ export default function Events() {
             no={"003"}
             name={"Call Of Duty : Mobile"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf8"}
+            cardback={"cardf8"}
             button={true}
             link={"https://forms.gle/zrSKvp2sbjwGxFUw7"}
           />
@@ -148,26 +148,17 @@ export default function Events() {
             no={"004"}
             name={"FIFA"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf6"}
+            cardback={"cardb6"}
             button={true}
             link={"https://www.yepdesk.com/fifa-mits-tournament"}
           />
           <Card
             no={"005"}
-            name={"PES"}
-            flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
-            button={true}
-            link={"https://www.yepdesk.com/efootball-pes-mobile"}
-          />
-          <Card
-            no={"005"}
             name={"Rocket League"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf7"}
+            cardback={"cardb7"}
             button={true}
             link={"https://www.yepdesk.com/mits-rocket-leaque"}
           />
@@ -175,8 +166,8 @@ export default function Events() {
             no={"006"}
             name={"Minecraft Bedwars"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf1"}
+            cardback={"cardb1"}
             button={true}
             link={"https://www.yepdesk.com/minecraft-bedwars"}
           />
@@ -184,8 +175,8 @@ export default function Events() {
             no={"007"}
             name={"Minecraft Create"}
             flip={flipb}
-            bg={"nex"}
-            cardback={"nex"}
+            bg={"cardf4"}
+            cardback={"cardb4"}
             button={true}
             link={"https://www.yepdesk.com/minecraft-creative-showdown"}
           />
