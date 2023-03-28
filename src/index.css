@@ -97,6 +97,11 @@ body::-webkit-scrollbar {
   background-repeat: no-repeat;
 }
 
+.cardback1 {
+  background-image: url(./assets/Events/Tech/techBack.webp);
+  background-repeat: no-repeat;
+}
+
 .cardf1 {
   background-image: url(./assets/Gaming/Cards_Front/bed.webp);
   background-repeat: no-repeat;
@@ -169,11 +174,6 @@ body::-webkit-scrollbar {
 }
 .cardb8 {
   background-image: url(./assets/Gaming/Cards_Back/codm.webp);
-  background-repeat: no-repeat;
-}
-.cardback1 {
-  background-image: url(./assets/Events/Cards_Front/Tech/techBack.webp);
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
