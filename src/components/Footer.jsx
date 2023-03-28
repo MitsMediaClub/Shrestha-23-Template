@@ -1,6 +1,8 @@
 import logo from "../assets/Footer/logo-only.png";
 import astro from "../assets/Footer/astro.svg";
 import circle from "../assets/Footer/Bcircle.svg";
+import insta from "../assets/Footer/Instagram.png";
+import yt from "../assets/Footer/youtube.png";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
@@ -20,14 +22,14 @@ export default function Footer() {
           <div className="flex  gap-7 justify-center">
             <Link to="https://instagram.com/shreshtamits?igshid=YmMyMTA2M2Y=">
               <img
-                src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png"
-                className="w-12 h-12"
+                src={insta}
+                className="w-6 h-6 md:w-8 md:h-8"
               />
             </Link>
             <Link to="https://www.youtube.com/@SHRESHTAMITS">
               <img
-                src="https://img.icons8.com/ios-filled/50/null/youtube-play.png"
-                className="w-12 h-12"
+                src={yt}
+                className="w-6 h-6 md:w-8 md:h-8 scale-[1.3]"
               />
             </Link>
           </div>
