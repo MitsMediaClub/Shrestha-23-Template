@@ -113,7 +113,7 @@ export default function Events() {
             bg={"cardf2"}
             cardback={"cardb2"}
             button={true}
-            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
+            link={"https://www.yepdesk.com/brawlhalla"}
           />
         </motion.div>
       </div>
@@ -199,7 +199,7 @@ export default function Events() {
             bg={"cardf2"}
             cardback={"cardb2"}
             button={true}
-            link={"https://www.yepdesk.com/minecraft-creative-showdown"}
+            link={"https://www.yepdesk.com/brawlhalla"}
           />
         </motion.div>
       </div>
