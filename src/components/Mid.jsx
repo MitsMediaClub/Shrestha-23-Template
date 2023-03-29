@@ -13,6 +13,8 @@ import img3 from "../assets/mid-img-3.webp";
 import gaming from "../assets/Mid/GamingLounge.webp";
 import sunburn from "../assets/Mid/SunBurn.webp";
 import bandwars from "../assets/Mid/BandWars.webp";
+import arseno from "../assets/Mid/Arseno.png";
+import zeb from "../assets/Mid/Zebcard.png";
 import coffee from "../assets/Mid/MasalaCoffee.webp";
 import drop from "../assets/Mid/drop.svg";
 import { useState } from "react";
@@ -147,6 +149,8 @@ export default function Mid() {
           <img src={mango} alt="" className="" />
           <img src={benq} alt="" className="" />
           <img src={cmx} alt="" className="" />
+          <img src={arseno} alt="" className="" />
+          <img src={zeb} alt="" className="" />
           {/* <img src={esc} alt="" className="h-44 w-44" /> */}
         </div>
       </div>
