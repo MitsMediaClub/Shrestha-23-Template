@@ -144,7 +144,7 @@ export default function Mid() {
             the future, they are the future.
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-12 md:gap-20 justify-evenly mt-16 md:mx-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-12 md:gap-20 justify-evenly mt-16 md:mx-16">
           <img src={media} alt="" className="" />
           <img src={mango} alt="" className="" />
           <img src={benq} alt="" className="" />
