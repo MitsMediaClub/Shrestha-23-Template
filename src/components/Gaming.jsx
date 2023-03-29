@@ -4,6 +4,7 @@ import Card from "./GameCard";
 import flipb from "../assets/Events/FlipBlack.svg";
 import { motion } from "framer-motion";
 import { useLayoutEffect } from "react";
+import nexus from "../assets/Gaming/nexus.webp";
 
 export default function Events() {
   // Scroll to top if path changes
@@ -18,7 +19,8 @@ export default function Events() {
           <h1 className="text-7xl text-white drummer sm:text-3xl">GAMING</h1>
           <h1 className="text-7xl text-white drummer sm:text-3xl">LOUNGE</h1>
         </div>
-        <div className="w-1/2 flex gap-5 mx-20 sm:flex-col justify-between sm:w-auto pt-5 ">
+        <div className="w-1/2 flex gap-5 mx-20 sm:flex-col justify-between sm:w-auto pt-5 flex-col">
+          <img src={nexus} alt="" />
           <h1 className="text-blue quicksand text-xl  sm:text-sm">
             NEXUS Gaming Lounge is the flagship event of SHRESHTA 23 the
             Techno-Cultural Fest Hosted by Muthoot Institute of Technology and
