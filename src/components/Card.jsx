@@ -34,7 +34,7 @@ class Card extends React.Component {
           className={`h-[515px] w-[265px] relative ${this.props.bg} bg-contain flex items-center`}
           onClick={this.handleClick}
         >
-          <h1 className="no absolute left-4 top-2 drummer text-white/80 font-bold">
+          <h1 className="no absolute left-6 top-2 drummer text-white/80 font-bold">
             {this.props.no}
           </h1>
           {/* absolute bottom-24 left-6 */}
