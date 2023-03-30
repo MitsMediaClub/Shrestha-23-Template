@@ -106,8 +106,8 @@ export default function Events() {
                 time={"9AM - 10AM"}
                 date={"31-03"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf6"}
+                cardback={"ccardb6"}
                 button={true}
                 desc={
                   "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
@@ -121,8 +121,8 @@ export default function Events() {
                 time={"10AM - 11AM"}
                 date={"31-03"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf8"}
+                cardback={"ccardb8"}
                 button={true}
                 desc={
                   "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
@@ -136,8 +136,8 @@ export default function Events() {
                 time={"11AM - 12AM"}
                 date={"31-03"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf2"}
+                cardback={"ccardb2"}
                 button={true}
                 desc={
                   "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
@@ -151,8 +151,8 @@ export default function Events() {
                 time={"1PM - 5PM"}
                 date={"31-03"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf1"}
+                cardback={"ccardb1"}
                 button={true}
                 desc={
                   "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
@@ -166,8 +166,8 @@ export default function Events() {
                 time={"9AM - 10AM"}
                 date={"01-04"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf7"}
+                cardback={"ccardb7"}
                 button={true}
                 desc={
                   "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
@@ -181,8 +181,8 @@ export default function Events() {
                 time={"10AM - 12PM"}
                 date={"01-04"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardb4"}
+                cardback={"ccardb4"}
                 button={true}
                 desc={
                   "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
@@ -196,8 +196,8 @@ export default function Events() {
                 time={"12PM - 1PM"}
                 date={"01-04"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf5"}
+                cardback={"ccardb5"}
                 button={true}
                 desc={
                   "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
@@ -211,8 +211,8 @@ export default function Events() {
                 time={"1PM - 3PM"}
                 date={"01-04"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf3"}
+                cardback={"ccardb3"}
                 button={true}
                 desc={
                   "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
@@ -226,8 +226,8 @@ export default function Events() {
                 time={"3PM - 5PM"}
                 date={"01-04"}
                 location={"Main Stage"}
-                bg={"cardback"}
-                cardback={"cardback"}
+                bg={"ccardf9"}
+                cardback={"ccardb9"}
                 button={true}
                 desc={
                   "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
@@ -248,20 +248,20 @@ export default function Events() {
               className="flex flex-wrap gap-10 mx-20  mt-10 mb-14 justify-evenly "
             >
               <Card
-                no={"002"}
+                no={"001"}
                 name={"Evolve"}
                 flip={flipb}
                 date={"28-03"}
                 location={"Visvesvaraya Hall"}
                 link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf7"}
+                cardback={"cccardb7"}
                 desc={
                   "Colloquium on the scope, challenges and impacts of electric vehicles"
                 }
               />
               <Card
-                no={"003"}
+                no={"002"}
                 name={"RC Plane Workshop"}
                 flip={flipb}
                 date={"31-03"}
@@ -269,8 +269,8 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
                 }
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf11"}
+                cardback={"cccardb11"}
                 button={true}
                 desc={
                   "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
@@ -278,91 +278,91 @@ export default function Events() {
               />
 
               <Card
-                no={"004"}
+                no={"003"}
                 name={"Creatrix"}
                 flip={flipb}
                 date={"31-03"}
                 location={"Cad Lab, Project Lab, M 113"}
                 link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf3"}
+                cardback={"cccardb3"}
                 button={true}
                 desc={
                   "Hello folks!!!🤗Are you idea hamsters?💡 If yes, CREATRIX brings before you a perfect chance  to accelerate📈 your creativity and showcase your skills in the field of Analysis, design and prototyping."
                 }
               />
               <Card
-                no={"005"}
+                no={"004"}
                 name={"Bridge X"}
                 flip={flipb}
                 date={"31-03"}
                 location={"Mech Cad Lab, Mech Project Lab"}
                 link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf2"}
+                cardback={"cccardb2"}
                 button={true}
                 desc={
                   "Get ready to unleash your inner engineer and compete against the best in our bridge building challenge - where creativity, design, and innovation collide to build the strongest and most spectacular bridges!"
                 }
               />
               <Card
-                no={"006"}
+                no={"005"}
                 name={"Gladiator"}
                 flip={flipb}
                 date={"31-03"}
                 location={"Lawn in front of Ramanujan Block"}
                 link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf12"}
+                cardback={"cccardb12"}
                 button={true}
                 desc={
                   "And the crowd goes wild for the day as we have the roars of engines soar past the track as the mud splashes and the rocks fly with the guest of wind that bears excitement. Ready to test your ride, Come on in fellow enthusiasts!!"
                 }
               />
               <Card
-                no={"007"}
+                no={"006"}
                 name={"Arma- geddon"}
                 flip={flipb}
                 date={"01-04"}
                 location={"Room Numbers 510,507,613,604"}
                 link={"https://www.yepdesk.com/armageddon1"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf1"}
+                cardback={"cccardb1"}
                 button={true}
                 desc={
                   "The count down has begun. Embark on a riveting quest to save mankind from extinction. A battle of wits and mettle. Only the worthy survive. Do you have what it takes?"
                 }
               />
               <Card
-                no={"008"}
+                no={"007"}
                 name={"Pitch Perfect"}
                 flip={flipb}
                 date={"01-04"}
                 location={"Albert Einstein Hall"}
                 link={"https://forms.gle/M46ATF54q6cFLNck6"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf10"}
+                cardback={"cccardb10"}
                 button={true}
                 desc={
                   "Unleash your innovation: Pitch your technological idea to change the world! Welcome to the battlefield of innovative and creative ideas that leverage technology to solve real-world problems. Let's make a positive impact together!"
                 }
               />
               <Card
-                no={"009"}
+                no={"008"}
                 name={"Tracador"}
                 flip={flipb}
                 date={"01-04"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf13"}
+                cardback={"cccardb13"}
                 button={true}
                 desc={
                   "Are you ready to take on the ultimate tech challenge? Join us for the Line Follower RC Car competition 🏎️and witness your creation flawlessly track its course🏁. With a chance to win big from our Prize Pool of 10k 💸💰, this is the thrill ride you don't want to miss!⚡"
                 }
               />
               <Card
-                no={"010"}
+                no={"009"}
                 name={"Novellio"}
                 flip={flipb}
                 date={"01-04"}
@@ -370,36 +370,36 @@ export default function Events() {
                 link={
                   "https://www.yepdesk.com/project-expo6/private/769jjahdiu"
                 }
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf9"}
+                cardback={"cccardb9"}
                 button={true}
                 desc={
                   "Step into the world of Novellio, where innovation meets elegance. Discover the most recent innovations and ground-breaking concepts as our gifted teams present their creative initiatives. Join us for an event that will astound and impress you while being uplifting and instructive."
                 }
               />
               <Card
-                no={"011"}
+                no={"010"}
                 name={"Eneriya"}
                 flip={flipb}
                 date={"31/3/23 to 1/4/23"}
                 location={"Computer Depatment classrooms"}
                 link={"https://linktr.ee/eneryia"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf5"}
+                cardback={"cccardb5"}
                 button={true}
                 desc={
                   "Join us to find solutions to combat climate change by building solutions for Climate Action and Energy Sustainability. ⚡ ENERYIA ⚡ Hackathon 2023 presents you an opportunity to find innovative 💡 solutions and to win  a 💫 prize pool worth 1Lakh 💫and more."
                 }
               />
               <Card
-                no={"012"}
+                no={"011"}
                 name={"End Game"}
                 flip={flipb}
                 date={"31-03"}
                 location={"M207"}
                 link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf4"}
+                cardback={"cccardb4"}
                 button={true}
                 desc={
                   'A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called "End Game" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms.'
@@ -407,42 +407,42 @@ export default function Events() {
               />
 
               <Card
-                no={"013"}
+                no={"012"}
                 name={"Trans- cendus"}
                 flip={flipb}
                 date={"31/01"}
                 location={"M206"}
                 link={"https://www.yepdesk.com/transcendus"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf14"}
+                cardback={"cccardb14"}
                 button={true}
                 desc={
                   "Are you ready to flex your skills and take on a challenge like no other? Enter our inter-disciplinary competition and put your abilities to the test. With diverse teams and unique challenges, it's time to prove you have what it takes to be the ultimate champion!"
                 }
               />
               <Card
-                no={"014"}
+                no={"013"}
                 name={"EV Workshop"}
                 flip={flipb}
                 date={"31-03"}
                 location={"MP and MC Lab"}
                 link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf6"}
+                cardback={"cccardb6"}
                 button={true}
                 desc={
                   "Rev up your engines and join me for an electrifying workshop on sustainable transportation! Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV ."
                 }
               />
               <Card
-                no={"015"}
+                no={"014"}
                 name={"Mystery Mayhem"}
                 flip={flipb}
                 date={"01-04"}
                 location={"Micheal Faraday Hall"}
                 link={"https://www.yepdesk.com/mystery-mayhem"}
-                bg={"cardback1"}
-                cardback={"cardback1"}
+                bg={"cccardf8"}
+                cardback={"cccardf8"}
                 button={true}
                 desc={
                   "Step into the shoes of a detective and solve the ultimate whodunit! Join our murder investigation competition and put your sleuthing skills to the test. With clues to unravel and suspects to interrogate, can you crack the case and emerge victorious?"
@@ -502,8 +502,8 @@ export default function Events() {
               time={"9AM - 10AM"}
               date={"31-03"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf6"}
+              cardback={"ccardb6"}
               button={true}
               desc={
                 "Genres, classics and style, combined with the hues of adaptunes, sync with SHUFFLE at SHRESTHA'23, solid and classy."
@@ -517,8 +517,8 @@ export default function Events() {
               time={"10AM - 11AM"}
               date={"31-03"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf8"}
+              cardback={"ccardb8"}
               button={true}
               desc={
                 "Mirror the moves in an exciting showcase of extraordinary co-ordination and synchronisation in STEP N SYNCHRO at SHRESTHA'23, majestic and captivating."
@@ -532,8 +532,8 @@ export default function Events() {
               time={"11AM - 12AM"}
               date={"31-03"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf2"}
+              cardback={"ccardb2"}
               button={true}
               desc={
                 "Get ready to immerse yourself in the melodies of soft music with a perfect blend of voices at SWARA-RAAGA at SHRESTHA'23"
@@ -547,8 +547,8 @@ export default function Events() {
               time={"1PM - 5PM"}
               date={"31-03"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf1"}
+              cardback={"ccardb1"}
               button={true}
               desc={
                 "Beats and Rhythms running over passionate voices, making everyone groove to the fiery face off at BANDWARS of SHRESHTA'23, enchanting and electrifying."
@@ -562,8 +562,8 @@ export default function Events() {
               time={"9AM - 10AM"}
               date={"01-04"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf7"}
+              cardback={"ccardb7"}
               button={true}
               desc={
                 "Beam with the most creative spin on the FUNLIMITED event at SHRESTHA'23, buckle up to witness some epic meltdowns and strong stand-up comedy exhibit."
@@ -577,8 +577,8 @@ export default function Events() {
               time={"10AM - 12PM"}
               date={"01-04"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardb4"}
+              cardback={"ccardb4"}
               button={true}
               desc={
                 "Expressions delivered through extreme sensitivity and clarity, the calm of MIME at SHRESTHA'23."
@@ -592,8 +592,8 @@ export default function Events() {
               time={"12PM - 1PM"}
               date={"01-04"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf5"}
+              cardback={"ccardb5"}
               button={true}
               desc={
                 "To witness the finest set-pieces of our favourite movies, dialogues and screenplays, roll with us at LIGHTS! CAMERA! ACTION! at SHRESHTA'23, feature and moving."
@@ -607,8 +607,8 @@ export default function Events() {
               time={"1PM - 3PM"}
               date={"01-04"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf3"}
+              cardback={"ccardb3"}
               button={true}
               desc={
                 "Elevating the glories of dream work, team work and foot work ,watch out for the biggest picture in the house of SHRESHTA'23's NAACHO NAACHO."
@@ -622,8 +622,8 @@ export default function Events() {
               time={"3PM - 5PM"}
               date={"01-04"}
               location={"Main Stage"}
-              bg={"cardback"}
-              cardback={"cardback"}
+              bg={"ccardf9"}
+              cardback={"ccardb9"}
               button={true}
               desc={
                 "Ace the best of your fashion in theme, putting the chic and ombre look in the light, painted in the runway, get ramp ready at THEME SHOW of SHRESTHA'23, fancy and fabulous."
@@ -642,33 +642,19 @@ export default function Events() {
           >
             <Card
               no={"001"}
-              name={"Ascension Cup"}
-              flip={flipb}
-              date={"20-03"}
-              location={"Online"}
-              link={"https://www.yepdesk.com/the-ascension-cup"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
-              button={true}
-              desc={
-                "Get ready to step into the fast-paced and adrenaline-fueled VALORANT ASCENSION CUP With a PRIZE POOL of 25K and other goodies Matches are streamed by your favorite Valorant streamers!!"
-              }
-            />
-            <Card
-              no={"002"}
               name={"Evolve"}
               flip={flipb}
               date={"28-03"}
               location={"Visvesvaraya Hall"}
               link={"https://www.yepdesk.com/evolve1/private/3bisjatgg2"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf7"}
+              cardback={"cccardb7"}
               desc={
                 "Colloquium on the scope, challenges and impacts of electric vehicles"
               }
             />
             <Card
-              no={"003"}
+              no={"002"}
               name={"RC Plane Workshop"}
               flip={flipb}
               date={"31-03"}
@@ -676,8 +662,8 @@ export default function Events() {
               link={
                 "https://www.yepdesk.com/aviation-workshop/private/v3mjgbg4li"
               }
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf11"}
+              cardback={"cccardb11"}
               button={true}
               desc={
                 "From Build to Flight: Learn How to Make Your Own RC Trainer Plane at our Workshop"
@@ -685,126 +671,126 @@ export default function Events() {
             />
 
             <Card
-              no={"004"}
+              no={"003"}
               name={"Creatrix"}
               flip={flipb}
               date={"31-03"}
               location={"Cad Lab, Project Lab, M 113"}
               link={"https://www.yepdesk.com/creatrix3/private/9kr793agn5"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf3"}
+              cardback={"cccardb3"}
               button={true}
               desc={
                 "Hello folks!!!🤗Are you idea hamsters?💡 If yes, CREATRIX brings before you a perfect chance  to accelerate📈 your creativity and showcase your skills in the field of Analysis, design and prototyping."
               }
             />
             <Card
-              no={"005"}
+              no={"004"}
               name={"Bridge X"}
               flip={flipb}
               date={"31-03"}
               location={"Mech Cad Lab, Mech Project Lab"}
               link={"https://www.yepdesk.com/bridge-x/private/r32562fqk7"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf2"}
+              cardback={"cccardb2"}
               button={true}
               desc={
                 "Get ready to unleash your inner engineer and compete against the best in our bridge building challenge - where creativity, design, and innovation collide to build the strongest and most spectacular bridges!"
               }
             />
             <Card
-              no={"006"}
+              no={"005"}
               name={"Gladiator"}
               flip={flipb}
               date={"31-03"}
               location={"Lawn in front of Ramanujan Block"}
               link={"https://www.yepdesk.com/gladiator/private/ftv0d5jf95"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf12"}
+              cardback={"cccardb12"}
               button={true}
               desc={
                 "And the crowd goes wild for the day as we have the roars of engines soar past the track as the mud splashes and the rocks fly with the guest of wind that bears excitement. Ready to test your ride, Come on in fellow enthusiasts!!"
               }
             />
             <Card
-              no={"007"}
+              no={"006"}
               name={"Arma- geddon"}
               flip={flipb}
               date={"01-04"}
               location={"Room Numbers 510,507,613,604"}
               link={"https://www.yepdesk.com/armageddon1"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf1"}
+              cardback={"cccardb1"}
               button={true}
               desc={
                 "The count down has begun. Embark on a riveting quest to save mankind from extinction. A battle of wits and mettle. Only the worthy survive. Do you have what it takes?"
               }
             />
             <Card
-              no={"008"}
+              no={"007"}
               name={"Pitch Perfect"}
               flip={flipb}
               date={"01-04"}
               location={"Albert Einstein Hall"}
               link={"https://forms.gle/M46ATF54q6cFLNck6"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf10"}
+              cardback={"cccardb10"}
               button={true}
               desc={
                 "Unleash your innovation: Pitch your technological idea to change the world! Welcome to the battlefield of innovative and creative ideas that leverage technology to solve real-world problems. Let's make a positive impact together!"
               }
             />
             <Card
-              no={"009"}
+              no={"008"}
               name={"Tracador"}
               flip={flipb}
               date={"01-04"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/tracador/private/nfrgsqlaci"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf13"}
+              cardback={"cccardb13"}
               button={true}
               desc={
                 "Are you ready to take on the ultimate tech challenge? Join us for the Line Follower RC Car competition 🏎️and witness your creation flawlessly track its course🏁. With a chance to win big from our Prize Pool of 10k 💸💰, this is the thrill ride you don't want to miss!⚡"
               }
             />
             <Card
-              no={"010"}
+              no={"009"}
               name={"Novellio"}
               flip={flipb}
               date={"01-04"}
               location={"Vishweshwaraya Hall"}
               link={"https://www.yepdesk.com/project-expo6/private/769jjahdiu"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf9"}
+              cardback={"cccardb9"}
               button={true}
               desc={
                 "Step into the world of Novellio, where innovation meets elegance. Discover the most recent innovations and ground-breaking concepts as our gifted teams present their creative initiatives. Join us for an event that will astound and impress you while being uplifting and instructive."
               }
             />
             <Card
-              no={"011"}
+              no={"010"}
               name={"Eneriya"}
               flip={flipb}
               date={"31/3/23 to 1/4/23"}
               location={"Computer Depatment classrooms"}
               link={"https://linktr.ee/eneryia"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf5"}
+              cardback={"cccardb5"}
               button={true}
               desc={
                 "Join us to find solutions to combat climate change by building solutions for Climate Action and Energy Sustainability. ⚡ ENERYIA ⚡ Hackathon 2023 presents you an opportunity to find innovative 💡 solutions and to win  a 💫 prize pool worth 1Lakh 💫and more."
               }
             />
             <Card
-              no={"012"}
+              no={"011"}
               name={"End Game"}
               flip={flipb}
               date={"31-03"}
               location={"M207"}
               link={"https://www.yepdesk.com/end-game/private/t4rtmg9aj2"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf4"}
+              cardback={"cccardb4"}
               button={true}
               desc={
                 'A group of three players is imprisoned in a series of interconnected rooms for an interactive puzzle game called "End Game" and must work through a series of challenges to discover a way out. To advance to the next level of the game, you must figure out the hidden codes in the rooms.'
@@ -812,42 +798,42 @@ export default function Events() {
             />
 
             <Card
-              no={"013"}
+              no={"012"}
               name={"Trans- cendus"}
               flip={flipb}
               date={"31/01"}
               location={"M206"}
               link={"https://www.yepdesk.com/transcendus"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf14"}
+              cardback={"cccardb14"}
               button={true}
               desc={
                 "Are you ready to flex your skills and take on a challenge like no other? Enter our inter-disciplinary competition and put your abilities to the test. With diverse teams and unique challenges, it's time to prove you have what it takes to be the ultimate champion!"
               }
             />
             <Card
-              no={"014"}
+              no={"013"}
               name={"EV Workshop"}
               flip={flipb}
               date={"31-03"}
               location={"MP and MC Lab"}
               link={"https://www.yepdesk.com/ev-worshop/private/oad0lo2e52"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf6"}
+              cardback={"cccardb6"}
               button={true}
               desc={
                 "Rev up your engines and join me for an electrifying workshop on sustainable transportation! Learn it from the makers of our in-house race team where we share insights on EV Tech, from motor selection to crucial simulations that can help you build your next EV ."
               }
             />
             <Card
-              no={"015"}
+              no={"014"}
               name={"Mystery Mayhem"}
               flip={flipb}
               date={"01-04"}
               location={"Micheal Faraday Hall"}
               link={"https://www.yepdesk.com/mystery-mayhem"}
-              bg={"cardback1"}
-              cardback={"cardback1"}
+              bg={"cccardf8"}
+              cardback={"cccardf8"}
               button={true}
               desc={
                 "Step into the shoes of a detective and solve the ultimate whodunit! Join our murder investigation competition and put your sleuthing skills to the test. With clues to unravel and suspects to interrogate, can you crack the case and emerge victorious?"
