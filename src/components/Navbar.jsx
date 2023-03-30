@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      {show1 && (<div className={`z-10 py-2 w-full text-xs justify-between px-6 md:px-10 text-black items-center bg-blue flex`}>
+      {show1 && (<div className={`z-10 py-2 w-full text-xs md:text-xl font-medium justify-between px-7 md:px-10 text-black items-center bg-blue flex`}>
         <span>Proshow entry is limited to mitsians and participants of techno-cultural events.</span>
         <img src={cross} alt="Close" className=" h-3 w-3 cursor-pointer" onClick={() => {
                 sessionStorage.setItem("banner_closed", 1);
