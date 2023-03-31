@@ -439,7 +439,7 @@ export default function Events() {
                 name={"Mystery Mayhem"}
                 flip={flipb}
                 date={"01-04"}
-                location={"Micheal Faraday Hall"}
+                location={"EC Department"}
                 link={"https://www.yepdesk.com/mystery-mayhem"}
                 bg={"cccardf8"}
                 cardback={"cccardf8"}
@@ -830,7 +830,7 @@ export default function Events() {
               name={"Mystery Mayhem"}
               flip={flipb}
               date={"01-04"}
-              location={"Micheal Faraday Hall"}
+              location={"EC Department"}
               link={"https://www.yepdesk.com/mystery-mayhem"}
               bg={"cccardf8"}
               cardback={"cccardf8"}
