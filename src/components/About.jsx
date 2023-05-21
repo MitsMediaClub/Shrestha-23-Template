@@ -9,7 +9,7 @@ export default function Schedule({ props }) {
           Meet our team of <span className="text-[#14CAF4]">creators</span> and{" "}
           <span className="text-[#14CAF4]">designers</span>.
         </h1>
-        <div className="flex justify-center items-start w-full pt-16 gap-10">
+        <div className="flex justify-center items-start w-full pt-16 gap-10 sm:flex-col sm:pb-5">
           <div
             onMouseEnter={() => {
               const card = document.getElementById("Adrin");
