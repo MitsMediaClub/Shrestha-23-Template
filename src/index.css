@@ -92,6 +92,16 @@ body::-webkit-scrollbar {
   scrollbar-width: none; /* Firefox */
 }
 
+/*Blur Effect*/
+
+.bE {
+  backdrop-filter: blur(20px);
+}
+
+.wBE {
+  backdrop-filter: blur(5px);
+}
+
 .cardback {
   background-image: url(./assets/Events/Cultural/CardBack.webp);
   background-repeat: no-repeat;
@@ -417,4 +427,4 @@ body::-webkit-scrollbar {
   100% {
     width: 100%;
   }
-} ;
+}
