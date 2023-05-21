@@ -36,7 +36,7 @@ export default function Events() {
           />
           <div className="w-80 ">
             <h1 className="transext2t text-lg text-blue quicksand font-medium">
-              Shreshta is a cultural techical event whose main purpose is to
+              Shreshta is a cultural technical event whose main purpose is to
               introduce the future to you.
             </h1>
           </div>
@@ -50,7 +50,7 @@ export default function Events() {
           />
           <div className="w-56">
             <h1 className="transtext1 text-lg text-blue quicksand font-bold">
-              Shreshta is a cultural techical event whose main purpose is to
+              Shreshta is a cultural technical event whose main purpose is to
               introduce the future to you.
             </h1>
           </div>
@@ -89,6 +89,7 @@ export default function Events() {
           >
             Technical
           </button>
+
         </div>
         <AnimatePresence>
           {culture && (

@@ -38,7 +38,7 @@ function App() {
         <Route
           path="/about"
           element={
-            <div className="h-screen flex flex-col bg-blue-400  px-20 overflow-y-auto pb-12 radial sm:px-0 sm:pb-5">
+            <div className="h-screen flex flex-col bg-blue-400 overflow-y-auto pb-12 radial sm:px-0 sm:pb-5">
               <Navbar />
               <div className="flex items-center">
                 <About />
