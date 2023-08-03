@@ -29,8 +29,8 @@ export default function Schedule({ props }) {
               className=" w-[200px] h-[200px]"
             />
             <div>
-              <h1 className="text-white drummer text-xl">ADRIN</h1>
-              <h1 className="text-white drummer text-xl">JOSE</h1>
+              <h1 className="text-white drummer text-xl">XXXX</h1>
+              <h1 className="text-white drummer text-xl">XXXX</h1>
             </div>
             <h1 className="text-white quicksand text-sm">
               FULL STACK DEVELOPER
@@ -73,8 +73,8 @@ export default function Schedule({ props }) {
               alt="ADVAITH NARAYANAN"
               className=" w-[200px] h-[200px]"
             />
-            <h1 className="text-white drummer text-xl">ADVAITH NARAYANAN</h1>
-            <h1 className="text-white quicksand text-sm">DEVOPS ENGINEER</h1>
+            <h1 className="text-white drummer text-xl">XXXX</h1>
+            <h1 className="text-white quicksand text-sm">XXXX</h1>
             <div
               id="Advaith"
               className="wBE absolute bottom-[83px] left-0 w-full h-12 transition-opacity ease-in-out duration-700 opacity-0 hover:opacity-100 flex justify-center items-center gap-5"
@@ -113,8 +113,8 @@ export default function Schedule({ props }) {
               alt="ANANDA KRISHNAN M"
               className=" w-[200px] h-[200px]"
             />
-            <h1 className="text-white drummer text-xl">ANANDA KRISHNAN</h1>
-            <h1 className="text-white quicksand text-sm">UI/UX DESIGNER</h1>
+            <h1 className="text-white drummer text-xl">XXXX</h1>
+            <h1 className="text-white quicksand text-sm">XXXX</h1>
             <div
               id="Anandu"
               className="wBE absolute bottom-[83px] left-0 w-full h-12 transition-opacity ease-in-out duration-700 opacity-0 hover:opacity-100 flex justify-center items-center gap-5"
@@ -154,10 +154,10 @@ export default function Schedule({ props }) {
               className=" w-[200px] h-[200px]"
             />
             <div>
-              <h1 className="text-white drummer text-xl">JOSHUA</h1>
-              <h1 className="text-white drummer text-xl">VARGHESE</h1>
+              <h1 className="text-white drummer text-xl">XXXX</h1>
+              <h1 className="text-white drummer text-xl">XXXX</h1>
             </div>
-            <h1 className="text-white quicksand text-sm">UI/UX ENGINEER</h1>
+            <h1 className="text-white quicksand text-sm">XXXX</h1>
             <div
               id="Joshua"
               className="wBE absolute bottom-[83px] left-0 w-full h-12 transition-opacity ease-in-out duration-700 opacity-0 hover:opacity-100 flex justify-center items-center gap-5"

@@ -13,10 +13,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              S Abhijith
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              8301972674
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -26,10 +26,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Ambady S
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              9656387648
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -39,10 +39,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Ebin John
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              9072333014
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -52,10 +52,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Antony Maliakkal
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              7558014901
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -65,10 +65,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Madhav Manoj
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              9400466616
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -78,10 +78,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Advaith Narayanan
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              9400354625
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">
@@ -91,10 +91,10 @@ const Support = () => {
         <div className="flex justify-between mb-10 sm:flex-col sm:gap-5">
           <div className="flex flex-col ">
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              Thalha Jamsheed
+            XXXX
             </h1>
             <h1 className="text-white quicksand text-3xl  font-semibold ">
-              8078439893
+            XXXX
             </h1>
           </div>
           <h1 className="text-white quicksand text-3xl mb-10 font-semibold w-1/2">

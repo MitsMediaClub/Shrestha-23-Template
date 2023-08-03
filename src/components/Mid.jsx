@@ -72,7 +72,7 @@ export default function Mid() {
         <div className="flex flex-col gap-4 w-full md:w-2/6 items-center text-base mt-8 md:mt-0 md:text-2xl font-medium justify-center">
           <h1 className="quicksand">
             <span className="text-blue">
-              Join Amrutha Suresh in inaugrating the upcoming techno-cultural
+              Join XXXX in inaugrating the upcoming techno-cultural
               fest, celebrating the colours of youth, innovation and
               inspiration!
             </span>{" "}
@@ -84,7 +84,7 @@ export default function Mid() {
               <span className="font-bold text-blue ">+ </span>About Her
             </h1>
             <h1 className="quicksand">
-              Amrutha Suresh is a singer,composer, songwriter and
+            XXXX is a singer,composer, songwriter and
               radio-jockey.With her immense popularity and massive fan following
               she rose to fame through a number of chart buster hits.
             </h1>
